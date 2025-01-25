@@ -1,7 +1,7 @@
 Chroma==0.2.0
 langchain-chroma==0.2.0
 langgraph==0.2.62
-langchain-openai>=0.3
+langchain-openai==0.3.0
 langchain-together==0.3.0
 langchain-huggingface==0.1.2
 langchain-community==0.3.14

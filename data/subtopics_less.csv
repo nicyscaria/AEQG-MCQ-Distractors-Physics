@@ -1,0 +1,1189 @@
+subtopic_id,topic_id,unit_id,subject_id,subtopic_name,description,prerequisites,mathematical_formulation,misconceptions,engineering_applications,cross_cutting_topics,analogies,ncert_alignment,scert_alignment
+OS_PH_HS_02_01_01,OS_PH_HS_02_01,OS_PH_HS_02,OS_PH_HS,Reference Frame,"The location of an object at any particular time is its position. More precisely, we need to specify its position relative to a convenient reference frame. Earth is often used as a reference frame, and we often describe the position of an object as it relates to stationary objects in that reference frame. For example, a rocket launch would be described in terms of the position of the rocket with respect to Earth as a whole, while a professor’s position could be described in terms of where she is in relation to the nearby white board. In other cases, we use reference frames that are not stationary but are in motion relative to Earth. To describe the position of a person in an airplane, for example, we use the airplane, not Earth, as the reference frame.","{
+  ""internal"": [""Position"", ""Motion"", ""Coordinate Systems""],
+  ""external"": {
+    ""mathematics"": [""Coordinate Geometry"", ""Trigonometry""]
+  }
+}",,"[
+    ""There exists an absolute reference frame in the universe."",
+    ""All reference frames must be stationary."",
+    ""Motion can only be described relative to Earth."",
+    ""Different reference frames give different physical laws."",
+    ""The choice of reference frame doesn't affect measurements.""
+]","[
+    ""Design of navigation systems for vehicles and aircraft."",
+    ""Development of satellite positioning systems (GPS)."",
+    ""Creation of inertial guidance systems."",
+    ""Implementation of robotics control systems."",
+    ""Design of motion tracking systems in virtual reality.""
+]","[
+    ""Applications in astronomy for planetary motion."",
+    ""Role in relativistic physics and space-time."",
+    ""Connection to computer graphics and animation."",
+    ""Impact on transportation system design."",
+    ""Use in geographic information systems (GIS).""
+]","[
+    ""Describing a passenger walking in a moving train from different perspectives."",
+    ""Looking at a building from different street corners to understand relative position."",
+    ""Playing catch in a moving car versus on stationary ground."",
+    ""Watching rain fall straight down versus from a moving car window."",
+    ""Observing stars from Earth versus from a space station.""
+]","[
+        ""NCERT_SC_09_07_00""
+    ]",
+OS_PH_HS_02_01_02,OS_PH_HS_02_01,OS_PH_HS_02,OS_PH_HS,Motion,Motion refers to the change in position of an object with respect to a reference point over time. It is a fundamental concept in physics that underpins our understanding of various natural phenomena and the principles governing the movement of objects in different frames of reference.,"{
+        ""internal"": [""Reference Frame"", ""Vector Mathematics""],
+        ""external"": {
+            ""mathematics"": [""Basic Algebra"" , ""Geometry""]
+        }
+    }",,"[
+        ""Motion is absolute"",
+        ""No force means no motion"",
+        ""Heavier objects always move slower"",
+        ""Acceleration only means speeding up"",
+        ""All motion is observable"",
+        ""Rest is the absence of motion"",
+        ""Constant speed = Constant velocity""
+    ]","[
+        ""Motion sensors (accelerometers, gyroscopes) in robotics and automotive systems"",
+        ""Navigation systems for autonomous vehicles"",
+        ""Motion control in robotics for precise movement and positioning"",
+        ""Design of amusement park rides based on principles of motion and acceleration"",
+        ""Aircraft and spacecraft propulsion, governed by principles of motion""
+    ]","
+[
+       ""Frame of reference and understanding motion from different perspectives"",
+       ""Relation between velocity, acceleration, and time in different contexts"",
+       ""Understanding motion in non-inertial reference frames (e.g., rotating systems)"",
+       ""Analyzing real-world motion with friction and air resistance"",
+       ""Motion in mechanical systems and its effect on energy transfer""
+   ]","[
+       ""Walking up stairs vs. using a ramp to reach the same height (motion in different reference frames)"",
+       ""A car's acceleration compared to a skateboard's acceleration."",
+       ""The motion of a ball thrown in the air (upward motion and downward motion)"",
+       ""A bike's motion on a flat surface vs. uphill or downhill (change in velocity)"",
+       ""A person walking vs. running (different speeds but similar motion principles)
+   ]","[
+        ""NCERT_SC_09_07_01_01"",
+        ""NCERT_SC_09_07_01_02""
+    ]",
+OS_PH_HS_02_01_03,OS_PH_HS_02_01,OS_PH_HS_02,OS_PH_HS,Distance,"Distance is a scalar quantity that refers to the total length of the path traveled by an object as it moves from one point to another. It measures the actual movement, regardless of the direction. Distance only focuses on the magnitude of the travel. It is always positive and does not account for the path taken or whether the motion is in a straight line or along a curve.
+","{
+        ""internal"": [""Motion"", ""Position and Displacement""],
+        ""external"": {
+            ""mathematics"": [""Basic Algebra"" , ""Geometry"" ]
+        }
+    }
+
+",,"
+[
+        ""Distance and displacement are the same"",
+        ""Distance can be negative"",
+        ""The shortest path is always the distance"",
+        ""Speed and distance are interchangeable"",
+        ""Distance measures both magnitude and direction""
+    ]","
+[
+        ""Design of transportation networks to minimize distance and optimize routes."",
+        ""Measuring the total path traveled by robots in automated manufacturing systems"",
+        ""Tracking the movement of goods in logistics systems"",
+        ""Total path planning in drones and autonomous vehicles"",
+        ""Estimation of wear and tear in machinery parts based on total distance traveled""
+    ]","[
+       ""Relationship between distance, speed, and time in kinematics"",
+       ""Understanding path lengths in calculus and geometry"",
+       ""Applications in cartography and geographic information systems (GIS)"",
+       ""Estimation of distances in astrophysics (e.g., stellar distances)"",
+       ""Energy consumption in systems related to path length (e.g., vehicles, conveyor belts)""
+   ]","
+[
+       ""Measuring the thread unspooled from a bobbin to represent distance traveled along a sewing path"",
+       ""Counting the steps on a pedometer to understand the total distance walked"",
+       ""Unraveling a ball of string along a maze to visualize total distance covered"",
+       ""A car odometer recording the total length of travel regardless of the direction"",
+       ""The total length of a roller coaster track that a car travels along""
+   ]","[
+        ""NCERT_SC_09_07_01_01"",
+        ""NCERT_SC_09_07_01_02""
+    ]",
+OS_PH_HS_02_01_04,OS_PH_HS_02_01,OS_PH_HS_02,OS_PH_HS,Displacement,"Displacement is a vector quantity that represents the shortest distance between the initial and final positions of an object, along with the direction of movement. Unlike distance, which considers the total path traveled, displacement only measures the change in position in a straight line. Displacement can be positive, negative, or zero depending on the direction of motion relative to a chosen reference frame.
+
+Displacement is a critical concept in understanding motion, as it not only considers the magnitude but also provides directional information, making it a foundation for analyzing vector quantities in physics.","{
+    ""internal"": [""Motion"", ""Vector Mathematics""],
+    ""external"": {
+        ""mathematics"": [""Basic Algebra"", ""Geometry""]
+    }
+}
+","{
+""displacement"": {
+""equation"": ""${\\Delta d} = {d_f} - {d_0}$"",
+""variables"": {
+""\\Delta d"": ""Displacement (meters)"",
+""d_f"": ""Final position (meters)"",
+""d_0"": ""Original position (meters)""
+    }
+  }
+}","[
+    ""Displacement and distance are the same"",
+    ""Displacement cannot be negative"",
+    ""Displacement always equals the total distance"",
+    ""Displacement is only applicable to straight-line motion"",
+    ""Zero displacement means no motion occurred""
+]","[
+    ""Analysis of object movement in robotics for precise positioning and control"",
+    ""Path optimization in logistics systems to minimize displacement while considering constraints"",
+    ""Navigation systems that calculate shortest routes based on displacement"",
+    ""Design of sensors to measure position changes in industrial automation"",
+    ""Study of projectile motion for trajectory analysis in sports and defense systems""
+]","[
+    ""Relationship between displacement, velocity, and acceleration in kinematics"",
+    ""Concept of displacement in polar and Cartesian coordinate systems"",
+    ""Displacement in wave motion and oscillatory systems"",
+    ""Understanding relative displacement in mechanical systems (e.g., linkages)"",
+    ""Applications of displacement in seismology and geophysics""
+]","[
+    ""A straight line drawn between two points on a map to represent the shortest distance"",
+    ""The crow flying directly between two buildings as opposed to walking along the roads"",
+    ""A swimmer crossing a river, measuring only the net displacement from one bank to another"",
+    ""An arrow pointing from the starting line to the finish line in a race"",
+    ""A vector drawn to show the change in position of a drone flying from its base to a destination""
+]","[
+        ""NCERT_SC_09_07_01_01"",
+        ""NCERT_SC_09_07_01_02""
+    ]",
+OS_PH_HS_02_02_01,OS_PH_HS_02_02,OS_PH_HS_02,OS_PH_HS,Average Speed,"Speed is the rate at which an object changes its location. Like distance, speed is a scalar because it has a magnitude but not a direction. Because speed is a rate, it depends on the time interval of motion.The change in time, delta t, of motion as the difference between the ending time and the beginning time
+
+The SI unit of time is the seconds, and the SI unit of speed is meters per second, but sometimes kilometers per hour.
+When we describe an object's speed, we describe the average over a time period. Average speed is the distance traveled divided by the time during which the motion occurs.
+","{
+    ""internal"": [""Motion"", ""Distance"", ""Reference Frame"", ""Time""],
+    ""external"": {
+        ""mathematics"": [""Basic Algebra"", ""Geometry"", ""Graphical interpretation""]
+    }
+}","{
+""Average speed"":{
+""equation"": ""$v_{avg} = d/t$"",
+""variables"": {
+""v_{avg}"": ""Average speed(meters/second)"",
+""t"": ""time (seconds)"",
+""d"": ""distance (meters)""
+    }
+  }
+}","[
+    ""Speed and velocity are the same"",
+    ""Speed can be negative"",
+    ""An object with zero speed is not moving"",
+    ""The faster an object moves, the more speed it has"",
+    ""Speed is only defined for straight-line motion"",
+    ""Objects at rest have zero speed.""
+]","[
+    ""Vehicle speed monitoring systems for ensuring safety and compliance with traffic regulations."",
+    ""Design of autonomous vehicles to optimize speed control for efficient travel in various road conditions"",
+    ""Robotic systems in automated manufacturing processes where speed is essential for productivity"",
+    ""Design of high-speed trains and aircraft, optimizing speed for both efficiency and safety"",
+    ""Analysis of conveyor belts and material handling systems to ensure efficient speed in logistics""
+]","[
+    ""Relationship between speed and acceleration in kinematics"",
+    ""Speed in the context of wave motion and sound propagation"",
+    ""Speed in electrical circuits, such as the speed of signal transmission through cables"",
+    ""Understanding the effect of air resistance on the speed of moving objects"",
+    ""Applications of speed in telecommunications and data transfer rates""
+]","[
+    ""The rate at which a car travels along a highway, where the speed describes how far the car travels over time"",
+    ""A runner in a race, where their speed is how quickly they cover the track distance in a given time"",
+    ""A conveyor belt moving goods, where speed refers to the rate at which items move along the belt"",
+    ""A sprinter crossing a distance, with their speed representing how fast they move from start to finish"",
+    ""Water flowing through a pipe, where speed describes how fast the water moves from one point to another""
+]","[
+        ""NCERT_SC_09_07_02""
+    ]",
+OS_PH_HS_02_02_02,OS_PH_HS_02_02,OS_PH_HS_02,OS_PH_HS,Instantaneous Speed,"The speed of a vehicle at a specific instant in time is its instantaneous speed. A car's speedometer describes its instantaneous speed. 
+The SI unit of time is the seconds, and the SI unit of speed is meters per second, but sometimes kilometers per hour.","{
+    ""internal"": [""Motion"", ""Distance"", ""Reference Frame"", ""Time""],
+    ""external"": {
+        ""mathematics"": [""Basic Algebra"", ""Geometry"", ""Graphical interpretation""]
+    }
+}",,"[
+    ""Instantaneous speed is the same as average speed."",
+    ""Speedometer readings are always perfectly accurate."",
+    ""Instantaneous speed cannot be zero during motion."",
+    ""Speed must be constant over small time intervals."",
+    ""Speed and velocity are the same thing.""
+]","[
+    ""Design of speedometers and speed monitoring devices."",
+    ""Development of vehicle cruise control systems."",
+    ""Creation of speed cameras and radar systems."",
+    ""Implementation of real-time GPS tracking."",
+    ""Design of automated speed control in industrial machinery.""
+]","[
+    ""Applications in sports science for performance analysis."",
+    ""Role in traffic management and road safety."",
+    ""Connection to fluid dynamics and flow measurement."",
+    ""Impact on transportation system efficiency."",
+    ""Use in weather systems for wind speed measurement.""
+]","[
+    ""Speedometer needle position at any moment, like taking a snapshot of motion."",
+    ""Running pace at a specific point in a race, not the average race time."",
+    ""Reading temperature at one moment versus over a day."",
+    ""Water flow rate at a specific point in a river versus average flow."",
+    ""Heart rate at a specific moment versus average daily rate.""
+]","[
+        ""NCERT_SC_09_07_02""
+    ]",
+OS_PH_HS_02_02_03,OS_PH_HS_02_02,OS_PH_HS_02,OS_PH_HS,Average Velocity,"Velocity describes the speed and direction of an object. As with speed, it is useful to describe either the average velocity over a time period or the velocity at a specific moment. Average velocity is displacement divided by the time over which the displacement occurs.
+
+The SI unit of velocity is meters per second (m/s).","{
+    ""internal"": [""Motion"", ""Displacement"", ""Reference Frame"", ""Time"", ""Vector Mathematics""],
+    ""external"": {
+        ""mathematics"": [""Basic Algebra"", ""Geometry"", ""Graphical interpretation""]
+    }
+}
+","{
+  ""Average velocity"": {
+    ""equation"": ""$v_{avg} = \\Delta d / \\Delta t = (d_f - d_0) / (t_f - t_0)$"",
+    ""variables"": {
+      ""\\Delta d"": ""Displacement (meters)"",
+      ""\\Delta t"": ""Time (seconds)"",
+      ""d_0"": ""Original position (meters)"",
+      ""d_f"": ""Final position (meters)"",
+      ""t_0"": ""Original time (seconds)"",
+      ""t_f"": ""Final time (seconds)""
+    }
+  }
+}","[
+    ""Velocity and speed are the same"",
+    ""Velocity can never be negative"",
+    ""An object with zero velocity is not moving"",
+    ""Velocity is only applicable to straight-line motion"",
+    ""Instantaneous velocity equals average velocity"",
+    ""Objects can change direction while maintaining constant velocity""
+]","
+[
+    ""Vehicle navigation systems to calculate and control the direction and speed of vehicles"",
+    ""Velocity control for precision in tasks like assembly or surgery"",
+    ""Projectile motion in defense and sports "",
+    ""Calculating the speed and trajectory of aircraft and spacecraft."",
+    "" Analysis of the velocity of moving vehicles or materials in transportation systems"",
+]","
+[
+    ""Relationship between velocity and acceleration in kinematics"",
+    ""Understanding relative velocity in moving reference frames"",
+    ""Velocity in wave motion"",
+    ""Applications of velocity in fluid dynamics"",
+    ""Velocity in navigation systems""
+]","
+[
+    ""A car traveling down a road, the velocity represents both how fast the car is moving and in which direction"",
+    ""A runner in a race, their velocity is the direction and rate at which they move around the track"",
+    ""A boat moving across a river, the velocity represents both the speed of the boat and its direction relative to the riverbank"",
+    ""An airplane in flight, the airplane’s velocity is the speed and direction it moves relative to the ground"",
+    ""A drone flying from a starting point to a destination, the velocity tells us how fast the drone is flying and in which direction""
+]","[
+        ""NCERT_SC_09_07_02_01""
+    ]",
+OS_PH_HS_02_02_04,OS_PH_HS_02_02,OS_PH_HS_02,OS_PH_HS,Instantaneous Velocity,"If we consider infinitesimally small intervals, we can define instantaneous velocity, which is the velocity at a specific instant in time. Instantaneous velocity and average velocity are the same if the velocity is constant.","{
+    ""internal"": [""Motion"", ""Displacement"", ""Reference Frame"", ""Time"", ""Vector Mathematics""],
+    ""external"": {
+        ""mathematics"": [""Basic Algebra"", ""Geometry"", ""Graphical interpretation""]
+    }
+}","{
+  ""Instantaneous velocity"": {
+    ""equation"": ""$v = \\frac{d}{t}$"",
+    ""variables"": {
+      ""v"": ""Instantaneous velocity (meters/second)"",
+      ""d"": ""Position as a function of time (meters)"",
+      ""t"": ""Time (seconds)""
+    }
+  }
+}","[
+    ""Instantaneous velocity is always equal to instantaneous speed."",
+    ""Instantaneous velocity must remain constant over short time intervals."",
+    ""Direction doesn't matter for instantaneous velocity."",
+    ""Instantaneous velocity cannot be zero during motion."",
+    ""Average velocity and instantaneous velocity are always different.""
+]","[
+    ""Design of vehicle navigation systems."",
+    ""Development of autonomous vehicle control systems."",
+    ""Creation of missile guidance systems."",
+    ""Implementation of robotic motion control."",
+    ""Design of drone stabilization systems.""
+]","[
+    ""Applications in projectile motion analysis."",
+    ""Role in planetary orbital mechanics."",
+    ""Connection to fluid dynamics and particle motion."",
+    ""Impact on sports biomechanics."",
+    ""Use in weather prediction for wind velocity.""
+]","[
+    ""Car's velocity vector at a curve versus straight road."",
+    ""Compass needle showing direction at any moment."",
+    ""Airplane heading and speed at a specific point in flight."",
+    ""River water flowing at a bend versus straight section."",
+    ""Baseball's motion at the instant it leaves the pitcher's hand.""
+]","[
+        ""NCERT_SC_09_07_02_01""
+    ]",
+OS_PH_HS_02_03_01,OS_PH_HS_02_03,OS_PH_HS_02,OS_PH_HS,Position vs Time Graph,"When two physical quantities are plotted against each other, the horizontal axis is usually considered the independent variable, and the vertical axis is the dependent variable. In physics, time is usually the independent variable. Other quantities, such as displacement, are said to depend upon it. A graph of position versus time, therefore, would have position on the vertical axis (dependent variable) and time on the horizontal axis (independent variable). The slope in a position versus time graph of a straight line is the average velocity.
+
+If the graph of position versus time is a curve rather than a straight line. The slope at any point on a position-versus-time graph is the instantaneous velocity at that point. It is found by drawing a straight line tangent to the curve at the point of interest and taking the slope of this straight line. The average velocity is the net displacement divided by the time traveled.","{
+    ""internal"": [""Motion"", ""Position and Displacement"", ""Time""],
+    ""external"": {
+        ""mathematics"": [""Graphical Representation"", ""Slope of a Line"", ""Basic Algebra""]
+    }
+}","{
+   ""average_velocity"": {
+     ""equation"": ""$v_{avg} = \\frac{\\Delta d}{\\Delta t}$"",
+     ""variables"": {
+       ""v_{avg}"": ""average velocity (meters/second)"",
+       ""\\Delta d"": ""change in position (meters)"",
+       ""\\Delta t"": ""change in time (seconds)""
+     }
+   },
+   ""uniform_motion_equation"": {
+     ""equation"": ""$d = d_0 + v \\cdot t$"",
+     ""variables"": {
+       ""d"": ""final position (meters)"",
+       ""d_0"": ""original position (meters)"",
+       ""v"": ""velocity (meters/second)"",
+       ""t"": ""time taken (seconds)""
+     }
+   },
+   ""slope_intercept_form"": {
+     ""equation"": ""$y = m \\cdot x + c$"",
+     ""variables"": {
+       ""y"": ""dependent variable"",
+       ""m"": ""slope of line"",
+       ""x"": ""independent variable"",
+       ""c"": ""constant for offset""
+     }
+   }
+ }
+    ","[
+    ""The slope of a position vs time graph always represents acceleration."",
+    ""Flat horizontal lines on a position vs time graph indicate motion."",
+    ""A straight-line graph means the object is stationary."",
+    ""The graph cannot have a negative slope."",
+    ""Curved lines mean the object is stationary at some point."",
+    ""A graph with a downward slope always means the object is slowing down."",
+    ""The steeper the line, the faster the object accelerates."",
+    ""A negative slope means the object cannot move backward.""
+]","[
+    ""Analyzing motion profiles of vehicles for performance testing."",
+    ""Designing systems for autonomous vehicles to interpret motion graphs for navigation."",
+    ""Monitoring machinery components where position vs time data reflects operational performance."",
+    ""Simulation of traffic flows where position vs time graphs provide key insights into congestion."",
+    ""Tracking movement patterns in robotics to optimize trajectory design.""
+]","[
+    ""Relationship between velocity and acceleration using graphical representations."",
+    ""Applications in astrophysics for plotting trajectories of celestial objects."",
+    ""Understanding oscillatory motion in physics using sinusoidal position vs time graphs."",
+    ""Integration of position vs time data with real-time sensors in IoT systems."",
+    ""Analysis of biomechanical movements in sports and medical applications.""
+]","[
+    ""A train moving along a track, where the graph tracks its position over time."",
+    ""A person walking down a straight path, with pauses and changes in speed visible on the graph."",
+    ""A pendulum swinging back and forth, producing a sinusoidal position vs time graph."",
+    ""An elevator moving between floors, showing linear segments for constant velocity and flat sections when stationary."",
+    ""A cyclist’s journey, with uphill, downhill, and flat terrain reflected in the graph’s slope.""
+]","[
+        ""NCERT_SC_09_07_04_01""
+    ]",
+OS_PH_HS_02_04_01,OS_PH_HS_02_04,OS_PH_HS_02,OS_PH_HS,Velocity vs Time Graph,"When two physical quantities are plotted against each other, the horizontal axis is usually considered the independent variable, and the vertical axis is the dependent variable. In physics, time is usually the independent variable. Other quantities, such as velocity, are said to depend upon it. A graph of velocity versus time, therefore, would have velocity on the vertical axis (dependent variable) and time on the horizontal axis (independent variable). The slope of the velocity time graphs gives the acceleration and the area under a velocity curve represents the displacement. The velocity curve also tells us whether the car is speeding up. Curved graphs of velocity vs. time occur when something is speeding up, often from rest.","{
+    ""internal"": [""Motion"", ""Velocity"", ""Time""],
+    ""external"": {
+        ""mathematics"": [""Graphical Representation"", ""Area under the Curve"", ""Slope of a Line""]
+    }
+}","{
+""velocity_time"": {
+""equation"": ""$v = v_0 + a \cdot t$"",
+""variables"": {
+""v"": ""final velocity (meters/second)"",
+""v_0"": ""initial velocity (meters/second)"",
+""a"": ""acceleration (meters/second^2)"",
+""t"": ""time (seconds)""
+}
+},
+""displacement"": {
+""equation"": ""$d = v \cdot t$"",
+""variables"": {
+""d"": ""displacement (meters)"",
+""v"": ""velocity (meters/second)"",
+""t"": ""time (seconds)""
+}
+}
+}","[
+    ""The slope of a velocity vs time graph always represents velocity."",
+    ""Flat horizontal lines on a velocity vs time graph indicate the object is stationary."",
+    ""Negative velocity implies the object is slowing down."",
+    ""The graph cannot have a negative slope or negative values."",
+    ""Curved velocity vs time graphs cannot represent uniform motion."",
+    ""A flat line near zero on a velocity graph means the object is not moving."",
+    ""A negative slope on a velocity vs time graph means the object is moving in reverse.""
+]","[
+    ""Designing braking systems for vehicles by analyzing deceleration profiles."",
+    ""Simulation of trajectories in aerospace engineering using velocity profiles."",
+    ""Optimizing robotic motion for smooth transitions between velocities."",
+    ""Monitoring performance in sports biomechanics using velocity data over time."",
+    ""Studying the efficiency of conveyor belts or automated transport systems by tracking velocity profiles.""
+]","[
+    ""Relationship between velocity, acceleration, and displacement through calculus."",
+    ""Understanding oscillatory motion where velocity vs time graphs alternate between positive and negative regions."",
+    ""Applications in traffic flow analysis to optimize speed transitions in urban planning."",
+    ""Studying velocity vs time behavior in fluid dynamics for flow optimization."",
+    ""Real-time monitoring and prediction systems in IoT based on velocity data.""
+]","[
+    ""A car speeding up and slowing down, where the graph shows segments of positive slope (acceleration) and negative slope (deceleration)."",
+    ""A ball thrown vertically upward, with a velocity graph transitioning from positive (upward motion) to negative (downward motion)."",
+    ""A cyclist moving at a steady speed, represented by a flat horizontal line on the graph."",
+    ""An amusement park ride accelerating, cruising, and decelerating, forming sections of varying slope."",
+    ""A sprinter in a race, with initial acceleration followed by steady speed and eventual deceleration.""
+]","[
+        ""NCERT_SC_09_07_04_02""
+    ]",
+OS_PH_HS_03_01_01,OS_PH_HS_03_01,OS_PH_HS_03,OS_PH_HS,Average Acceleration,"Average Acceleration is the change in velocity divided by a period of time during which the change occurs. The SI units of velocity are meters/second and the SI units for time are seconds, so the SI units for average acceleration are meters / second(squared). Velocity and acceleration are both vector quantities
+
+Although acceleration points in the same direction as the change in velocity, it is not always in the direction of the velocity itself. When an object slows down, its acceleration is opposite to the direction of its velocity. In everyday language, this is called deceleration; but in physics, it is acceleration—whose direction happens to be opposite that of the velocity.
+
+","{
+    ""internal"": [""Velocity"", ""Time"", ""Motion""],
+    ""external"": {
+        ""mathematics"": [""Basic Algebra""]
+    }
+}","{
+""Average acceleration"": {
+""equation"": ""$a_{avg} = \\frac{v_f - v_i}{t_f - t_i}$"",
+""variables"": {
+""a_{avg}"": ""average acceleration (meters/second^2)"",
+""v_f"": ""final velocity (meters/second)"",
+""v_i"": ""initial velocity (meters/second)"",
+""t_f"": ""final time (seconds)"",
+""t_i"": ""initial time (seconds)""
+       }
+    }
+}
+
+","[
+    ""Acceleration always means speeding up."",
+    ""Deceleration is a different concept from acceleration."",
+    ""Acceleration must always point in the same direction as velocity."",
+    ""Acceleration is always constant during motion."",
+    ""If velocity is zero, acceleration must also be zero."",
+    ""Negative acceleration means the object is moving in reverse."",
+    ""Objects with positive velocity cannot have negative acceleration."",
+    ""An object cannot accelerate if its speed remains constant."",
+    ""Acceleration cannot occur without a force acting on the object."",
+    ""Acceleration is greater for heavier objects if the same force is applied.""
+]","[
+    ""Design of seat belts and airbags to minimize injury by controlling acceleration during collisions."",
+    ""Analysis of forces acting on rockets during liftoff to ensure structural integrity."",
+    ""Studying braking systems for vehicles, focusing on deceleration patterns."",
+    ""Design of roller coasters for safe and thrilling experiences, ensuring tolerable accelerations."",
+    ""Control of drones and robotic arms, which rely on precise acceleration and deceleration for movement.""
+]","[
+    ""Applications in biomechanics, such as analyzing forces on joints during motion."",
+    ""Understanding acceleration in circular motion and its role in centripetal force."",
+    ""Real-world applications of calculus in finding instantaneous rates of change."",
+    ""Design of systems in vibration analysis and oscillatory motion."",
+    ""Applications in astrophysics, such as studying gravitational acceleration in planetary orbits.""
+]","[
+    ""A car moving at increasing speed, where acceleration is positive, versus slowing down, where it is negative (deceleration)."",
+    ""Dropping a ball from a height, with gravity causing constant acceleration."",
+    ""A runner accelerating from rest at the start of a race, like the initial push of a sprinter."",
+    ""A bicycle coasting downhill, where acceleration aligns with the slope of the hill."",
+    ""The push and pull of a swing, where the change in velocity represents alternating positive and negative accelerations.""
+]","[
+        ""NCERT_SC_09_07_03""
+    ]",
+OS_PH_HS_03_01_02,OS_PH_HS_03_01,OS_PH_HS_03,OS_PH_HS,Negative acceleration,"A component of the average acceleration can be positive, negative, or zero. A negative acceleration component is simply an acceleration in the negative direction along that axis. When the motion is in one dimension, we often simply refer to this as negative acceleration, and acceleration in the positive direction as positive acceleration. ","{
+    ""internal"": [""Velocity"", ""Time"", ""Motion""],
+    ""external"": {
+        ""mathematics"": [""Basic Algebra""]
+    }
+}",,"[
+    ""Negative acceleration always means slowing down."",
+    ""Negative acceleration is the same as deceleration in all cases."",
+    ""Objects with negative acceleration must be moving backward."",
+    ""Negative acceleration means decreasing speed in all reference frames."",
+    ""The sign of acceleration must match the sign of velocity.""
+]","[
+    ""Design of braking systems in vehicles."",
+    ""Development of elevator deceleration controls."",
+    ""Creation of spacecraft landing systems."",
+    ""Implementation of industrial machine safety stops."",
+    ""Design of roller coaster deceleration segments.""
+]","[
+    ""Applications in sports equipment design for impact absorption."",
+    ""Role in vehicle safety systems."",
+    ""Connection to particle physics and collision studies."",
+    ""Impact on biomechanics of running and jumping."",
+    ""Use in seismic analysis for earthquake studies.""
+]","[
+    ""Car braking on a highway, showing decreasing positive velocity."",
+    ""Ball thrown upward, experiencing negative acceleration due to gravity."",
+    ""Bike riding into a headwind, experiencing negative acceleration."",
+    ""Rocket during re-entry, using negative acceleration for controlled descent."",
+    ""Train approaching a station, using negative acceleration to stop.""
+]","[
+        ""NCERT_SC_09_07_03""
+    ]",
+OS_PH_HS_03_01_03,OS_PH_HS_03_01,OS_PH_HS_03,OS_PH_HS,Instantaneous Acceleration,"Instantaneous acceleration is acceleration at a specific instant in time. The magnitude of acceleration is often not constant over time. For example, runners in a race accelerate at a greater rate in the first second of a race than during the following seconds. We do not need to know all the instantaneous accelerations at all times to calculate average acceleration. acceleration. All we need to know is the change in velocity (i.e., the final velocity minus the initial velocity) and the change in time (i.e., the final time minus the initial time), for average acceleration.","{
+    ""internal"": [""Velocity"", ""Time"", ""Motion""],
+    ""external"": {
+        ""mathematics"": [""Basic Algebra""]
+    }
+}",,"[
+    ""Instantaneous acceleration must equal average acceleration."",
+    ""Acceleration is always constant during motion."",
+    ""Instantaneous acceleration can't be zero if an object is moving."",
+    ""Maximum speed means maximum acceleration."",
+    ""Instantaneous acceleration must have the same sign as velocity.""
+]","[
+    ""Design of vehicle acceleration sensors."",
+    ""Development of sports performance monitoring systems."",
+    ""Creation of seismic monitoring equipment."",
+    ""Implementation of aerospace flight controls."",
+    ""Design of industrial machinery motion control.""
+]","[
+    ""Applications in biomechanics for analyzing human motion."",
+    ""Role in earthquake detection and measurement."",
+    ""Connection to particle accelerator design."",
+    ""Impact on vehicle safety system design."",
+    ""Use in robotics for precise motion control.""
+]","[
+    ""Pressing the gas pedal at different rates, like varying acceleration in a race."",
+    ""Roller coaster at different points of the track experiencing different accelerations."",
+    ""Heart rate changing during exercise, like varying acceleration."",
+    ""Ball bouncing with different accelerations at different points."",
+    ""Rocket launch with changing acceleration as fuel burns.""
+]","[
+        ""NCERT_SC_09_07_03""
+    ]",
+OS_PH_HS_03_02_01,OS_PH_HS_03_02,OS_PH_HS_03,OS_PH_HS,Applying Kinematic Equations to the situations with constant acceleration/ uniform acceleration/ acceleration due to gravity or a free falling object,"Kinematic equations describe motion under constant acceleration and relate the quantities: displacement (x), initial velocity (v_i) , final velocity (v_f) , acceleration (a), and time (t). Constant acceleration is acceleration that does not change over time.
+
+A situation that gives constant acceleration is the acceleration of falling objects. When air resistance is not a factor, all objects near Earth’s surface fall with an acceleration of about 9.80 meters/second squared","{
+    ""internal"": [""Displacement"", ""Velocity"", ""Acceleration"", ""Time""],
+    ""external"": {
+        ""mathematics"": [""Algebra"", ""Quadratic Equations""]
+    }
+}","{
+  ""displacement_average_velocity"": {
+    ""equation"": ""$d = d_0 + \\bar{v}t$"",
+    ""variables"": {
+      ""d"": ""displacement (meters)"",
+      ""d_0"": ""initial displacement (meters)"",
+      ""\\bar{v}"": ""average velocity (meters/second)"",
+      ""t"": ""time (seconds)""
+    }
+  },
+  ""average_velocity_formula"": {
+    ""equation"": ""$\\bar{v} = (v_0 + v_f) / 2$"",
+    ""variables"": {
+      ""\\bar{v}"": ""average velocity (meters/second)"",
+      ""v_0"": ""initial velocity (meters/second)"",
+      ""v_f"": ""final velocity (meters/second)""
+    }
+  },
+  ""velocity_time_equation"": {
+    ""equation"": ""$v = v_0 + at$"",
+    ""variables"": {
+      ""v"": ""final velocity (meters/second)"",
+      ""v_0"": ""initial velocity (meters/second)"",
+      ""a"": ""acceleration (meters/second^2)"",
+      ""t"": ""time (seconds)""
+    }
+  },
+  ""displacement_time_equation"": {
+    ""equation"": ""$d = d_0 + v_0t + \\frac{1}{2}at^2$"",
+    ""variables"": {
+      ""d"": ""displacement (meters)"",
+      ""d_0"": ""initial displacement (meters)"",
+      ""v_0"": ""initial velocity (meters/second)"",
+      ""a"": ""acceleration (meters/second^2)"",
+      ""t"": ""time (seconds)""
+    }
+  },
+  ""velocity_displacement_equation"": {
+    ""equation"": ""$v^2 = v_0^2 + 2a(d - d_0)$"",
+    ""variables"": {
+      ""v"": ""final velocity (meters/second)"",
+      ""v_0"": ""initial velocity (meters/second)"",
+      ""a"": ""acceleration (meters/second^2)"",
+      ""d"": ""displacement (meters)"",
+      ""d_0"": ""initial displacement (meters)""
+    }
+  }
+}","[
+    ""Kinematic equations can be applied to all types of motion (including non-uniform acceleration)."",
+    ""Displacement is always positive in these equations."",
+    ""Time is always calculated directly from the equations."",
+    ""The equations account for forces acting on the body."",
+    ""Initial velocity is always zero unless explicitly stated.""
+]","[
+    ""Trajectory calculations in projectile motion for sports and military applications."",
+    ""Design of braking systems to calculate stopping distances."",
+    ""Analysis of vehicle acceleration and deceleration in crash simulations."",
+    ""Modeling the motion of elevators under constant acceleration."",
+    ""Predicting the behavior of objects in free fall in structural design and construction safety.""
+]","[
+    ""Applications in biomechanics for analyzing motion in human activities."",
+    ""Understanding motion in astrophysics, such as planetary orbits and space exploration."",
+    ""Relating kinematic equations to energy principles in physics (work-energy theorem)."",
+    ""Applications in computer animations for simulating realistic motion."",
+    ""Designing amusement park rides by calculating motion parameters.""
+]","[
+    ""A ball rolling down a slope with increasing speed due to constant acceleration."",
+    ""A car uniformly increasing its speed while merging onto a highway."",
+    ""A toy rocket launched vertically upward, slowing down as it reaches its peak."",
+    ""A sprinter accelerating uniformly from the start line in a race."",
+    ""Throwing an object straight up in the air, where motion follows a predictable path governed by kinematic equations.""
+]","[
+        ""NCERT_SC_09_07_05""
+    ]",
+OS_PH_HS_04_01_01,OS_PH_HS_04_01,OS_PH_HS_04,OS_PH_HS,Force,"Force is a vector quantity that represents a push or pull acting on an object, causing it to accelerate, change direction, or deform.","{
+        ""internal"": [""Motion"", ""Acceleration""],
+        ""external"": {
+            ""mathematics"": [""Basic Algebra"" , ""Vector Algebra""]
+        }
+    }",,"[
+    ""Force is needed to keep objects in motion."",
+    ""Force and energy are the same."",
+    ""Forces only act during contact."",
+    ""Objects with no net force acting on them must be stationary."",
+    ""Heavier objects experience greater acceleration under the same force."",
+    ""If forces are balanced, no motion can occur."",
+    ""Action and reaction forces cancel each other out.""
+]","[
+               ""Designing bridges, buildings, and dams."",
+        ""Machines like gears, levers, and pulleys utilize forces to perform tasks efficiently."",
+        ""Aircraft and rockets rely on forces like thrust, drag, lift, and gravity to achieve flight and maintain control."",
+        ""Forces are essential in designing braking systems, suspension, and engines""
+        
+    ]","[
+       ""Friction and wear:  for applications like improving lubrication in machines or designing durable materials."",
+       ""Force is directly related to energy transfer in systems, linking mechanics with thermodynamics and energy conservation."",
+       ""In control systems Force feedback is integral in real-time systems like automotive stability control or robotic arms."",
+       ""Stress and strain relationships help determine material behavior under applied forces for creating strong and resilient materials in material science""
+       ]","[
+       ""Tension in the rubber band demonstrates how force is applied along a flexible material."",
+       ""Force is needed to start, stop, or change the motion of a cart, similar to how force governs all motion in physics."",
+       ""The pressure causing water to flow is analogous to a force causing motion, with resistance akin to friction."",
+       ""Tug of war demonstrates balanced and unbalanced forces, where the winning team exerts a greater net force."",
+       ""When we hold a book against a wall the normal force prevents the book from falling, illustrating how forces act perpendicular to surfaces.""
+   ]","[
+        ""NCERT_SC_09_08_01_01""
+    ]",
+OS_PH_HS_04_01_02,OS_PH_HS_04_01,OS_PH_HS_04,OS_PH_HS,Dynamics,"Dynamics is the branch of mechanics concerned with the motion of bodies under the influence of forces. It explores the relationship between motion and the causes of motion, including external forces and torques. This study is foundational to understanding how objects interact in real-world systems.","{
+        ""internal"": [""Kinematics""],
+        ""external"": {
+            ""mathematics"": [""Basic calculus"" ]
+        }
+    }",,"[
+    ""Heavier objects fall faster than lighter ones in the absence of air resistance."",
+    ""Forces are required to maintain motion rather than to change motion."",
+    ""Objects in motion must eventually come to a stop without continued force.""
+  ]","[
+    ""Designing vehicles for efficient motion and stability"",
+    ""Structural analysis of moving components in machinery"",
+    ""Predicting the trajectories of spacecraft and satellites""
+  ]","[
+    ""Kinematics"",
+    ""Energy and work"",
+    ""Control systems and feedback in engineering""
+  ]","[
+    ""Like pushing a shopping cart where the motion depends on how hard you push and the friction on the wheels."",
+    ""Throwing a ball where its trajectory and speed depend on the force and angle of the throw.""
+  ]","[
+       ""NCERT_SC_09_08_01_01""
+    ]",
+OS_PH_HS_04_01_03,OS_PH_HS_04_01,OS_PH_HS_04,OS_PH_HS,Free Body diagram,"Free body diagram is used to represent all the forces acting on a single object or system. The object is represented as a point or simple shape, and all external forces are depicted as arrows pointing in the direction of the force. The length of the arrows represents the magnitude of the forces, and labels indicate their nature (e.g., gravitational force, normal force, tension, friction). FBDs help analyze the net force and predict the object's motion or equilibrium state.","{
+        ""internal"": [""Forces""],
+        ""external"": {
+            ""mathematics"": [""Basic geometry"" ]
+        }
+    }",,"[
+    ""The direction of forces like friction, tension, or normal force is often misunderstood or drawn inaccurately."",
+    ""Leaving out essential forces, such as friction, air resistance, or reaction forces, leading to incomplete analysis."",
+    ""Misinterpretation of force magnitudes."",
+    ""Newton's Third Law pairs (e.g., action and reaction forces) are sometimes incorrectly added to the same FBD"",
+    ""Gravitational force is sometimes drawn from the surface of the object"",
+    ""Forgetting to include force components when analyzing forces at an angle."",
+    ""Confusing internal forces (within the object) with external forces (acting on the object)."",
+    ""Incorrectly assuming the normal force always equals the gravitational force, even on inclined planes or accelerating surfaces.""
+]","[
+               ""Designing bridges, buildings, and dams."",
+        ""Machines like gears, levers, and pulleys utilize forces to perform tasks efficiently."",
+        ""Aircraft and rockets rely on forces like thrust, drag, lift, and gravity to achieve flight and maintain control."",
+        ""Forces are essential in designing braking systems, suspension, and engines""
+        
+    ]","[
+       ""FBDs are a fundamental tool for applying Newton's laws to solve problems in motion and equilibrium."",
+       ""FBDs help in determining load distributions and resulting stress and deformation in materials."",
+       ""Force conditions in numerical simulations.""
+   ]","[
+       ""Just as a recipe lists all the ingredients needed to make a dish, an FBD lists all forces acting on an object."",
+        ""Each force in the FBD is like a piece of a puzzle that must fit correctly to show the complete picture of motion or stability.""
+    
+   ]","[
+     ""NCERT_SC_09_08_01_02""
+    ]",
+OS_PH_HS_04_02_01,OS_PH_HS_04_02,OS_PH_HS_04,OS_PH_HS,Mass,"Mass is a scalar quantity that measures the amount of matter in an object. It is often regarded as a measure of an object's inertia, and it determines how much force is required to change the object's state of motion. Mass is constant for an object and is independent of its location in the universe. Its standard unit is the kilogram (kg).","{
+    ""internal"": [
+      ""Basic Understanding of Matter""
+    ],
+    ""external"": {
+      ""mathematics"": [
+        ""Basic Algebra"",
+        ""Unit Conversion (kilograms, grams)""
+      ]
+    }
+}",,"[
+    ""Mass and weight are the same."",
+    ""Mass changes with location."",
+    ""Mass indicates size or volume"",
+    ""Mass equals inertia"",
+    ""Mass disappears during freefall."",
+    ""Mass is a vector quantity.""
+]","[
+ ''In aerospace engineering for determining mass distribution for stability of the aircraft."",
+ ""Optimizing vehicle mass for fuel efficiency, performance, and safety in crash tests."",
+""Mass distribution of buildings for their stability in civil engineering is determined.""
+]","[
+       ""Newtonian Mechanics:Mass plays a central role in Newton's second law, linking force and acceleration."",
+       ""Centre of mass is used for analysing stability, motion and equilibrium."",
+       ""Mass contributes to the concept of density and buoyancy.""
+   ]","[
+       ""Like the amount of water in a jug, mass is the matter that makes up an object, independent of its shape or location."",
+       ""Mass is the participant that determines how much gravity pulls an object downward(W=mg , where m- mass and g- gravitational constant).""
+    
+   ]","[
+       
+        ""NCERT_SC_09_08_02_01""
+    ]",
+OS_PH_HS_04_02_02,OS_PH_HS_04_02,OS_PH_HS_04,OS_PH_HS,Inertia,"
+Inertia is the property of an object that resists changes to its state of motion or rest. It is not a physical quantity but a characteristic that depends on mass; objects with greater mass have greater inertia. For example, a heavier object (like a truck) is harder to stop or accelerate compared to a lighter object (like a bicycle) because of its greater inertia.","{
+        ""internal"": [""Forces"", ""Motion"", ""Mass""],
+        ""external"": {
+            ""mathematics"": [""Basic Algebra""]
+        }
+    }",,"[
+    ""Inertia is the same as weight."",
+    ""Only large objects have inertia."",
+    ""Inertia opposes force."",
+    ""An object at rest has no inertia."",
+    ""Inertia is a force that keeps objects moving.""
+  ]","[
+    ""Flywheels store rotational energy by utilizing inertia, allowing energy to be released gradually or maintained during power loss."",
+    ""Seat belts and airbags reduce the impact of inertia during sudden deceleration, protecting passengers from continuing forward motion."",
+    ""Pendulums rely on inertia for consistent oscillations, enabling accurate timekeeping in clocks."",
+    ""Inertia stabilizes spacecraft, allowing them to maintain their orientation without continuous fuel consumption."",
+    ""Inertia helps balance washing machines by resisting sudden shifts during spin cycles, preventing instability.""
+  ]","[
+    ""Rotational dynamics and torque (moment of inertia)."",
+    ""Energy conservation in mechanical systems, where inertia stores kinetic energy."",
+    ""Planetary motion and orbits depend on inertia and gravitational forces."",
+    ""Structural engineering designs rely on understanding inertia to mitigate building sway during earthquakes."",
+    ""Medical biomechanics analyzes how inertia affects body movement and injury prevention.""
+  ]","[
+    ""When a bus stops suddenly, passengers lurch forward because their inertia keeps them moving even when the bus decelerates."",
+    ""A book resists being moved because of its inertia, similar to how a large rock requires more effort to push."",
+    ""Shaking a bottle of water highlights inertia—when you stop, the water continues to move independently of the bottle."",
+    ""A bowling ball is harder to start or stop moving than a tennis ball because it has more mass and thus more inertia.""
+  ]","[
+       
+        ""NCERT_SC_09_08_02_02""
+    ]",
+OS_PH_HS_04_02_03,OS_PH_HS_04_02,OS_PH_HS_04,OS_PH_HS,Newton's First law of Motion,"Newton’s first law of motion states that an object will remain at rest or continue to move in a straight line at a constant velocity unless acted upon by an external force. This law emphasizes the concept of inertia, which is the tendency of an object to resist changes in its state of motion. It explains that motion does not require a force to continue but rather a force to change. This law is also called ""law of inertia"".","{
+        ""internal"": [""Motion"", ""Acceleration"",""Forces""],
+        ""external"": {
+            ""mathematics"": [""Basic Algebra"" , ""Vector Algebra""]
+        }
+    }","{
+    ""equation"": ""$\\vec{F_{net}} = 0"",
+    ""variables"": {
+        ""Fnet"": ""Algebraic sum of all the forces(Newton)""
+    }
+}","[
+        ""Inertia is a force."",
+        ""Rest is the natural state of objects."",
+        ""Heavier objects are harder to keep in motion."",
+        ""Only stationary objects obey Newton's First Law""
+     
+    ]","[
+ ''Scaffolding and suspended objects remain stationary unless an external force disrupts them, ensuring stability."",
+ ""Seat belts and airbags protect passengers by counteracting the effects of inertia during sudden deceleration."",
+""Design accounts for the tendency of drones or airplanes to maintain their current state of motion when external forces like wind act on them.""
+]","[
+       ""Dynamics of machines: Creation of gyroscopes."",
+       ""Energy conservation in mechanical systems."",
+       ""Understanding wind and ocean currents as examples of bodies in motion affected by external forces.""
+   ]","[
+       ""A book remains at rest until you push it. Similarly, once pushed, it keeps moving until friction or another force stops it."",
+       ""On a smooth surface, a ball rolls farther because there’s less friction. In the ideal case (no friction), it would keep rolling indefinitely.""
+    
+   ]","[
+       
+        ""NCERT_SC_09_08_02_03""
+    ]",
+OS_PH_HS_04_02_04,OS_PH_HS_04_02,OS_PH_HS_04,OS_PH_HS,Net force,"Net force is the vector sum of all forces acting on an object. It determines the object's acceleration according to Newton's Second Law. When the net force is zero, the object remains in equilibrium, either at rest or in uniform motion.A force acting on a system from outside its boundary, influencing its motion or deformation. A force that acts between components within a system, maintaining structural integrity or enabling interactions.","{
+        ""internal"": [""Motion"", ""Acceleration"",""Newton's Laws of Motion""],
+        ""external"": {
+            ""mathematics"": [""Basic Algebra"" , ""Vector Algebra""]
+        }
+    }","{
+    ""equation"": ""$\\vec{F_{net}} = m\\vec{a}$"",
+    ""variables"": {
+        ""Fnet"": ""Algebraic sum of all the forces(Newton)"",
+        ""m"": ""mass(kilograms)"",
+        ""a"": ""acceleration (meters per second square)""
+    }
+}","[
+    ""Believing net force is the same as individual forces acting on an object"",
+    ""Assuming zero net force means no forces are acting"",
+    ""Thinking heavier objects always experience greater net forces""
+  ]","[
+    ""Structural analysis to ensure buildings can withstand combined forces"",
+    ""Design of propulsion systems like rockets and cars for effective motion"",
+    ""Robotics for calculating torques and movement dynamics""
+  ]","[
+    ""Statics and dynamics in mechanical engineering"",
+    ""Control systems in robotics and automation"",
+    ""Material science for stress-strain analysis""
+  ]","[
+    ""Net force is like the total push or pull felt by a tug-of-war rope, considering all participants' efforts."",
+    ""It’s akin to the combined effect of multiple currents acting on a boat, determining its direction and speed."",
+    ""Think of it as the resultant of various winds pushing a kite in different directions.""
+  ]","[
+       
+        ""NCERT_SC_09_08_03_01""
+    ]",
+OS_PH_HS_04_02_05,OS_PH_HS_04_02,OS_PH_HS_04,OS_PH_HS,Normal force,The normal force is the perpendicular contact force exerted by a surface on an object resting on it. It prevents the object from accelerating through the surface due to gravity. The magnitude of the normal force depends on the weight of the object and any additional forces acting perpendicular to the surface.,"{
+        ""internal"": [""Motion"", ""Forces""],
+        ""external"": {
+            ""mathematics"": [""Basic Algebra"" , ""Vector Algebra""]
+        }
+    }",,"[
+      ""The normal force always equals the weight of the object (ignores inclined planes or additional forces)."",
+      ""The normal force is the same regardless of the object's orientation."",
+      ""The normal force only exists for horizontal surfaces.""
+    ]","[
+      ""Design of building foundations to handle structural loads"",
+      ""Vehicle suspension systems to balance forces on inclined roads"",
+      ""Robotics to calculate forces acting on robotic limbs during interactions with surfaces""
+    ]","[
+      ""Newton's Laws of Motion"",
+      ""Statics and equilibrium in mechanics"",
+      ""Frictional forces and their dependence on the normal force"",
+      ""Structural analysis in civil and mechanical engineering""
+    ]","[
+      ""Like a table pushing up to support a book, balancing its weight."",
+      ""Similar to a trampoline pushing back up when you jump on it."",
+      ""Like the resistance felt when leaning against a sturdy wall.""
+    ]","[
+       
+        ""NCERT_SC_09_08_03_01""
+    ]",
+OS_PH_HS_04_03_01,OS_PH_HS_04_03,OS_PH_HS_04,OS_PH_HS,Newton's second law of motion,"Newton's second law of motion states that the acceleration of an object is directly proportional to the net force acting on it, inversely proportional to its mass, and occurs in the direction of the net force. This law explains how the motion of an object changes when subjected to external forces.","{
+""internal"": [""Motion"", ""Acceleration"",""Forces""],
+""external"": {
+""mathematics"": [""Basic Algebra"" , ""Vector Algebra""]
+}
+}","
+{
+""equation"": ""$\\vec{F_{net}} = m\\vec{a}$"",
+""variables"": {
+""Fnet"": ""Algebraic sum of all the forces(Newton)"",
+""m"": ""mass(kilograms)"",
+""a"": ""acceleration (meters per second square)""
+}
+}","[
+""Force is always required to maintain motion."",
+""Force and acceleration are equivalent."",
+""All objects accelerate the same way regardless of their mass, even when the force is unequal."",
+""Light objects do not require force for acceleration."",
+""If an object is moving, the force is always in the same direction as its motion."",
+""An object experiencing force must accelerate immediately."",
+""Zero net force means an object cannot be moving.""
+]	","[
+''The relationship between engine force, vehicle mass, and acceleration is used in car design to optimize performance."",
+""The law is applied to determine the forces on aircraft during takeoff, flight, and landing."",
+""Used in the analysis of projectiles where force and acceleration affect trajectories (e.g., missiles, balls, etc.).""
+]","[
+""Involves proportionality, linear relationships, and differential equations for complex motion."",
+""Mechanical design, stress analysis, and machine dynamics rely on force-acceleration relationships..""
+]              ","[
+""A child on a swing accelerates faster if pushed lightly compared to an adult due to the difference in mass."",
+""Pulling a sled with weight on it requires more force to achieve the same acceleration as an empty sled."",
+""Cycling uphill requires more force to accelerate due to gravitational resistance (mass effect).""
+]","  [
+""NCERT_SC_09_08_03_01""
+]",
+OS_PH_HS_04_03_02,OS_PH_HS_04_03,OS_PH_HS_04,OS_PH_HS,Weight ,Weight is the gravitational force exerted on an object due to its mass.,"{
+        ""internal"": [""Motion"", ""Acceleration due to gravity"",""Forces""],
+        ""external"": {
+            ""mathematics"": [""Basic Algebra"" , ""Vector Algebra""]
+        }
+    }","{
+    ""equation"": ""$\\{W} = m\\{g}$"",
+    ""variables"": {
+        ""W"": ""Weight(Newton)"",
+        ""m"": ""mass(kilograms)"",
+        ""g"": ""acceleration due to gravity (meters per second square)""
+    }
+}","[
+        ""Weight is identical to mass."",
+        ""Weight is constant everywhere."",
+        ""Lighter objects are weightless."",
+        ""Air pressure determines object's weight.""
+     
+    ]","[
+ ''Calibrating scales to measure weight based on gravitational force."",
+ ""Understanding how weight changes in microgravity environments for space travel."",
+""Calculating weight distribution for ergonomic furniture, prosthetics, and footwear design."",
+""Weight is factored into sports equipment design (e.g., shot put, javelin) to optimize performance.""
+]","[
+       ""Buoyant forces"",
+       ""Weight variations on different celestial bodies."",
+       ""Studying the impact of weight in erosion and land movement.""
+          ]","[
+       ""Imagine carrying a backpack on Earth versus on the Moon, where it feels lighter due to lower gravity."",
+       ""Think of weight as gravity holding onto objects like a hand holding a ball.""
+       ]","[
+       
+        ""NCERT_SC_09_08_03_01""
+    ]",
+OS_PH_HS_04_03_03,OS_PH_HS_04_03,OS_PH_HS_04,OS_PH_HS,Free fall,"Free fall refers to the motion of an object under the influence of gravity alone, without any other forces acting on it","{
+        ""internal"": [""Motion"", ""Acceleration due to gravity"",""Forces""],
+        ""external"": {
+            ""mathematics"": [""Basic Algebra"" , ""Vector Algebra""]
+        }
+    }",,"[
+        ""Objects of Different Masses Fall at Different Rates."",
+        ""Free fall means no gravity is acting on the object."",
+        ""Air resistance doesn't affect falling objects.""
+     
+    ]","[
+ ''Using air resistance to slow free-falling objects.for example parachutes."",
+ ""Testing the principle of uniform acceleration in a vacuum."",
+""Orbiting satellites are in continuous free fall around Earth.,
+""Designing free-fall rides for thrill and safety.""
+]","[
+       ""Kinematics, gravity, and acceleration."",
+       ""Simulating free-fall conditions for drop tests of products."",
+       ""Orbital mechanics and planetary motion.""
+          ]","[
+       ""An apple falls freely due to gravity pulling it down."",
+       ""A skydiver initially experiences free fall until air resistance increases.""
+          ]","[
+       
+        ""NCERT_SC_09_08_03_01""
+    ]",
+OS_PH_HS_04_03_04,OS_PH_HS_04_03,OS_PH_HS_04,OS_PH_HS,Applying Newton's second law of motion,"Applying Newton's Second Law involves calculating the net force acting on an object to determine its acceleration based on its mass. This principle is essential for analyzing motion, solving problems in dynamics, and predicting how objects respond to forces in various scenarios.","{
+        ""internal"": [""Motion"", ""Acceleration"",""Forces""],
+        ""external"": {
+            ""mathematics"": [""Basic Algebra"" , ""Vector Algebra""]
+        }
+    }","{
+    ""equation"": ""$\\vec{F_{net}} = m\\vec{a}$"",
+    ""variables"": {
+        ""Fnet"": ""Algebraic sum of all the forces(Newton)"",
+        ""m"": ""mass(kilograms)"",
+        ""a"": ""acceleration (meters per second square)""
+    }
+}"," [
+    ""Forgetting that force and acceleration are vectors and have directions"",
+    ""Assuming the relationship holds in non-inertial frames without adjustments"",
+    ""Confusing net force with individual forces acting on the object""
+  ]","[
+    ""Designing and analyzing vehicle dynamics in the automotive industry"",
+    ""Calculating stress and strain in structural engineering"",
+    ""Developing control systems for robotics and automation""
+  ]","[
+    ""Kinematics and dynamics in physics"",
+    ""Material strength and deformation"",
+    ""Control theory and stability analysis""
+  ]","[
+    ""Like pushing a shopping cart: the harder you push (force), the faster it moves (acceleration)."",
+    ""Similar to applying pressure to a syringe: more force results in faster fluid ejection."",
+    ""Throwing a ball: heavier balls require more force for the same acceleration.""
+  ]","[ 
+        ""NCERT_SC_09_08_03_01"",
+        ""NCERT_PH_111_04_05_01""
+    ]",
+OS_PH_HS_04_04_01,OS_PH_HS_04_04,OS_PH_HS_04,OS_PH_HS,Newton's third law of motion,"Newton’s third law of motion states that whenever a first object exerts a force on a second object, the first object experiences a force equal in magnitude but opposite in direction to the force that it exerts. Forces always occur in pairs, the two forces act in opposite directions and on different objects that's why don't get cancelled.
+Example- When a rocket expels gas at high speed in one direction (action), an equal and opposite force (thrust) is exerted on the rocket, pushing it forward. 
+The thrust generated is:
+F_thrust = m × v_e
+m = Mass flow rate of expelled gas (kg/s)
+v_e = Exhaust velocity of the gas relative to the rocket (m/s)
+F_thrust = Thrust force (N)","{
+       ""internal"": [
+      ""Newton's First and Second Laws of Motion"",
+      ""Understanding of Force and Mass"",
+      ""Friction and Resistance""
+    ],
+        ""external"": {
+            ""mathematics"": [""Basic Algebra"" , ""Vector Algebra""]
+        }
+    }",,"[
+    ""Action and reaction forces cancel out, so no motion occurs."",
+    ""The third law applies only to moving objects."",
+    ""The reaction force happens after the action force."",
+    ""Reaction forces depend on an object’s mass."",
+    ""The larger object exerts a greater force in action-reaction pairs."",
+    ""Only physical contact can generate action-reaction forces.""
+  ]","[
+        ""Rocket engines expel gases backward, and the rocket moves forward."",
+        ""Swimmers push water backward, and the reaction force propels them forward."",
+        ""People push the ground backward with their feet; the ground pushes them forward."",
+        ""A boat’s oar pushes water backward, and the water pushes the boat forward.""
+     
+    ]","[
+        ""Muscle actions involve force pairs (e.g., pushing against the ground)."",
+        ""Designing propulsion systems."",
+        ""Planetary interactions and propulsion of space vehicles.""
+    ]","[
+    ""Blowing up a balloon and releasing it causes the air to escape backward, propelling the balloon forward."",
+    ""When a skateboarder pushes against a wall, the wall pushes them back with equal force."",
+    ""A person jumping off a small boat will push the boat backward as they move forward."",
+    ""Rowing a boat is like swimming—pushing water backward results in forward motion.""
+  ]","[
+        ""NCERT_SC_09_08_04_01""
+    ]",
+OS_PH_HS_04_04_02,OS_PH_HS_04_04,OS_PH_HS_04,OS_PH_HS,Thrust,"Thrust is a reaction force generated when a mass is expelled or pushed in one direction, causing an equal and opposite force to propel the object forward, as described by Newton's Third Law. It is commonly observed in propulsion systems like rockets, jets, and marine engines.","{
+       ""internal"": [
+     ""Newton's Second and Third Laws"",
+        ""Basic kinematics"",
+        ""Concept of momentum""
+    ],
+        ""external"": {
+            ""mathematics"": [""Basic Algebra"" , ""Vector Algebra""]
+        }
+    }",,"[
+      ""Thrust only acts in horizontal directions"",
+      ""Thrust can occur without a reaction force (violating Newton's Third Law)"",
+      ""Thrust is the same as lift or drag in fluid dynamics""
+    ]","[
+      ""Propulsion in rockets and jet engines"",
+      ""Marine propulsion systems"",
+      ""Aircraft flight dynamics"",
+      ""Hydraulic actuators in machinery"",
+      ""Thrust bearings in rotating machinery""
+    ]","[
+      ""Force and motion"",
+      ""Stress-strain relationships"",
+      ""Energy transfer in mechanical systems"",
+      ""Applications of Newton's laws"",
+      ""Equilibrium conditions in mechanics""
+    ]","[
+      ""Thrust is like a swimmer pushing against water to propel forward."",
+      ""A balloon releasing air creates thrust to move in the opposite direction.""
+    ]","[
+        ""NCERT_SC_09_08_04_01""
+    ]",
+OS_PH_HS_04_04_03,OS_PH_HS_04_04,OS_PH_HS_04,OS_PH_HS,Tension,"Tension is a pulling force transmitted along a flexible connector, such as a rope, string, or cable, when it is stretched by forces acting at either end. It always acts along the length of the connector, away from the object to which it is attached.
+
+
+
+
+
+","{
+       ""internal"": [
+     ""Newton's Laws of Motion"",
+        ""Free-body diagrams"",
+        ""Statics and dynamics of forces""
+    ],
+        ""external"": {
+            ""mathematics"": [""Basic Algebra"" , ""Vector Algebra""]
+        }
+    }",,"[
+      ""Tension always acts downward regardless of the situation"",
+      ""Tension does not change along the length of a rope or cable"",
+      ""Tension is independent of the angle at which the force is applied""
+    ]","[
+      ""Cable-supported bridges"",
+      ""Elevators and pulley systems"",
+      ""Structural analysis of beams and trusses"",
+      ""Tensioning in belts and chains"",
+      ""Tensile testing of materials""
+    ]","[
+      ""Force and motion"",
+      ""Stress-strain relationships"",
+      ""Energy transfer in mechanical systems"",
+      ""Applications of Newton's laws"",
+      ""Equilibrium conditions in mechanics""
+    ]","[
+      ""Tension in a rope is like stretching a rubber band; the more you pull, the greater the restoring force."",
+      ""Tension acts like the tightness in a guitar string when plucked.""
+    ]","[
+        ""NCERT_SC_09_08_04_01""
+    ]",
+OS_PH_HS_07_02_02,OS_PH_HS_07_02,OS_PH_HS_07,OS_PH_HS,Gravitational constant,"The gravitational constant is a proportionality factor used in Newton’s law of universal gravitation, describing the strength of the gravitational force between two masses.","{
+    ""internal"": [""Gravitational forces"", ""Mass"", ""Free body diagrams""],
+    ""external"": {
+        ""mathematics"": [""Basic Algebra"", ""Calculus"", ""Vector Algebra""]
+    }
+}","{
+  ""Universal Gravitational Constant"": {
+    ""equation"": ""$G = \\frac{F r^2}{m_1 m_2}$"",
+    ""variables"": {
+      ""G"": ""Universal Gravitational Constant ($N \\cdot m^2 / kg^2$, $6.67430 \\times 10^{-11}$)"",
+      ""F"": ""Gravitational force ($N$)"",
+      ""r"": ""Distance between centers of masses ($m$)"",
+      ""m_1"": ""Mass of first object ($kg$)"",
+      ""m_2"": ""Mass of second object ($kg$)""
+    }
+  }
+}","[
+    ""The gravitational constant changes depending on location in space."",
+    ""It represents the strength of gravity everywhere, including locally on Earth."",
+    ""It is a unitless value.""
+]","[
+    ""Calculating satellite and spacecraft trajectories."",
+    ""Modeling gravitational interactions in astrophysics and geophysics."",
+    ""Designing experimental setups to measure weak gravitational forces.""
+]","[
+    ""Physics for gravitational force calculations."",
+    ""Astrophysics for studying the interaction of celestial bodies."",
+    ""Engineering for designing experiments to verify universal constants.""
+]","[
+    ""A universal 'gravitational glue' binding all objects with mass."",
+    ""A constant factor in a mathematical recipe for gravitational interactions.""
+]","[
+      
+     ""NCERT_PH_111_07_03"",
+""NCERT_SC_09_09_01""
+    ]",
+OS_PH_HS_07_02_03,OS_PH_HS_07_02,OS_PH_HS_07,OS_PH_HS,Newton's Universal law of Gravitation,This law states that every mass attracts every other mass with a force directly proportional to the product of their masses and inversely proportional to the square of the distance between them.,"{
+    ""internal"": [""Forces"", ""Mass"", ""Gravitation""],
+    ""external"": {
+        ""mathematics"": [""Basic Algebra"", ""Calculus""]
+    }
+}","{
+  ""Gravitational Force Equation"": {
+    ""equation"": ""$F = G \\frac{m_1 m_2}{r^2}$"",
+    ""variables"": {
+      ""F"": ""Gravitational force ($N$)"",
+      ""G"": ""Universal Gravitational Constant ($N \\cdot m^2 / kg^2$, $6.67430 \\times 10^{-11}$)"",
+      ""m_1"": ""Mass of first object ($kg$)"",
+      ""m_2"": ""Mass of second object ($kg$)"",
+      ""r"": ""Distance between centers of masses ($m$)""
+    }
+  }
+}","[
+    ""Newton's law only applies to planets and celestial bodies."",
+    ""Gravitational force depends on an object's volume, not its mass."",
+    ""Gravity ceases to act at large distances.""
+]","[
+    ""Predicting planetary motion for space exploration."",
+    ""Designing stable orbits for artificial satellites."",
+    ""Modeling gravitational forces in civil and mechanical engineering projects.""
+]","[
+    ""Physics for understanding force and mass relationships."",
+    ""Astronomy for calculating the interaction between celestial bodies."",
+    ""Mathematics for applying inverse-square laws in real-world scenarios.""
+]","[
+    ""Two magnets attracting each other, though gravity works on mass, not magnetic fields."",
+    ""A stretched elastic band pulling two attached objects closer together.""
+]","[
+      
+     ""NCERT_PH_111_07_03""
+    ]",

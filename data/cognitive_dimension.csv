@@ -1,0 +1,7 @@
+cognitive_id,cognitive_dimension,description
+cg_01,remember,"Retrieve relevant knowledge from long-term memory, such as recalling facts, basic concepts, or definitions. Example: List the primary and secondary colors."
+cg_02,understand,"Construct meaning from instructional materials, including interpreting, summarizing, and explaining ideas. Example: Summarize the features of a new product."
+cg_03,apply,Use procedures or learned methods in a given situation to solve problems or carry out tasks. Example: Carry out a test or assemble components.
+cg_04,analyze,"Break down information into components, identify relationships or patterns, and understand structure and function. Example: Differentiate between high and low culture."
+cg_05,evaluate,Judge or determine the value of material or methods based on criteria or standards. Example: Judge the efficiency of sampling techniques.
+cg_06,create,"Generate new ideas, products, or structures by combining elements into a coherent or functional whole. Example: Design an efficient project workflow."

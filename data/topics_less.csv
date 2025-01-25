@@ -1,0 +1,253 @@
+topic_id,unit_id,subject_id,topic_name,description,objectives,ncert_alignment,ngss_alignment,scert_alignment
+OS_PH_HS_02_01,OS_PH_HS_02,OS_PH_HS,"Relative Motion, Distance, and Displacement","Relative motion refers to the concept of observing the motion of an object from different reference frames or perspectives. The motion of an object is not absolute but is always described in relation to a chosen reference frame. For example, a car moving in a straight line might appear to be stationary to someone inside the car, but to an observer on the side of the road, the car is in motion.
+
+Distance is a scalar quantity that refers to the total path length traveled by an object, regardless of direction. It is always positive and does not consider the displacement direction.
+
+Displacement is a vector quantity that refers to the straight-line distance between an object's initial and final positions, along with the direction of the path. Displacement accounts for both the magnitude and direction of motion.
+
+In relative motion, the relative velocity between two objects is determined by the velocity of one object as observed from another. The principles of relative motion, distance, and displacement are essential for analyzing various real-world scenarios, such as the motion of vehicles, projectiles, and objects in a moving reference frame.","[
+    {
+        ""objective"": ""Describe motion in different reference frames"",
+        ""dimensions"": {
+            ""cognitive"": [""cg_02"" , ""cg_04""],
+            ""knowledge"": [""kw_02"" , ""kw_03""]
+        }
+    },
+    {
+        ""objective"": ""Define distance and displacement, and distinguish between the two"",
+        ""dimensions"": {
+            ""cognitive"": [""cg_01"" , ""cg_02"" , ""cg_04""],
+            ""knowledge"": [""kw_01"" , ""kw_02""]
+        }
+    },
+    {
+        ""objective"": ""Solve problems involving distance and displacement"",
+        ""dimensions"": {
+            ""cognitive"": [""cg_02"" , ""cg_03"", ""cg_04""],
+            ""knowledge"": [""kw_02"" , ""kw_03""]
+        }
+    }
+]
+","[
+        ""NCERT_SC_09_07_01""
+    ]",,
+OS_PH_HS_02_02,OS_PH_HS_02,OS_PH_HS,Speed and Velocity,"Speed is a scalar quantity that refers to how fast an object is moving, regardless of the direction. It is the rate at which an object covers distance over time. Since speed does not have a direction, it is only concerned with the magnitude of motion.
+Velocity is a vector quantity, meaning it includes both the speed of an object and the direction in which it is moving. It describes the rate of change of an object's position in a specific direction. Unlike speed, velocity takes into account the direction of motion. An object can have a constant speed but a changing velocity if it changes direction, such as when moving in a circular path. Thus, velocity provides more detailed information about an object’s motion than speed.","[
+       {
+           ""objective"": ""Calculate the average speed of an object"",
+           ""dimensions"": {
+               ""cognitive"": [""cg_02"" , ""cg_03"" , ""cg_04""],
+               ""knowledge"": [""kw_02"" , ""kw_03""]
+           }
+       },
+       {
+           ""objective"": ""Relate displacement and average velocity"",
+           ""dimensions"": {
+               ""cognitive"": [""cg_02"" , ""cg_04""],
+               ""knowledge"": [""kw_01"" , ""kw_02""]
+           }
+       }
+   ]","[
+        ""NCERT_SC_09_07_02"", 
+        ""NCERT_PH_111_02_02""
+     ]",,
+OS_PH_HS_02_03,OS_PH_HS_02,OS_PH_HS,Position vs. Time Graphs,"When two physical quantities are plotted against each other, the horizontal axis is usually considered the independent variable, and the vertical axis is the dependent variable. In physics, time is usually the independent variable. Other quantities, such as displacement, are said to depend upon it. A graph of position versus time, therefore, would have position on the vertical axis (dependent variable) and time on the horizontal axis (independent variable). The slope in a position versus time graph, is the average velocity.","[
+       {
+           ""objective"": ""Explain the meaning of slope in position vs. time graphs"",
+           ""dimensions"": {
+               ""cognitive"": [""cg_02"" , ""cg_04""],
+               ""knowledge"": [""kw_01"" , ""kw_02""]
+           }
+       },
+       {
+           ""objective"": ""Solve problems using position vs. time graphs"",
+           ""dimensions"": {
+               ""cognitive"": [""cg_02"" , ""cg_03"" , ""cg_04""],
+               ""knowledge"": [""kw_02"" , ""kw_03""]
+           }
+       }
+   ]","[
+        ""NCERT_SC_09_07_04""
+    ]",,
+OS_PH_HS_02_04,OS_PH_HS_02,OS_PH_HS,Velocity vs. Time Graphs,"When two physical quantities are plotted against each other, the horizontal axis is usually considered the independent variable, and the vertical axis is the dependent variable. In physics, time is usually the independent variable. Other quantities, such as velocity, are said to depend upon it. A graph of velocity versus time, therefore, would have velocity on the vertical axis (dependent variable) and time on the horizontal axis (independent variable). The slope in a velocity versus time graph, is the acceleration.","[
+       {
+           ""objective"": ""Explain the meaning of slope and area in velocity vs. time graphs"",
+           ""dimensions"": {
+               ""cognitive"": [""cg_02"" , ""cg_04""],
+               ""knowledge"": [""kw_01"" , ""kw_02""]
+           }
+       },
+       {
+           ""objective"": ""Solve problems using velocity vs. time graphs"",
+           ""dimensions"": {
+               ""cognitive"": [""cg_02"" , ""cg_03"", ""cg_04""],
+               ""knowledge"": [""kw_02"" , ""kw_03""]
+           }
+       }
+   ]","[
+        ""NCERT_SC_09_07_04"",
+        ""NCERT_SC_09_07_05"",
+        ""NCERT_PH_111_02_03""
+    ]",,
+OS_PH_HS_03_01,OS_PH_HS_03,OS_PH_HS,Acceleration,"Acceleration is a vector quantity that describes the rate of change of an object's velocity over time. It indicates how quickly an object is speeding up or slowing down. Acceleration can occur in three ways: an increase in speed (positive acceleration), a decrease in speed (negative acceleration, or deceleration), or a change in direction while maintaining speed (e.g., circular motion).
+Acceleration is measured in units of meters per second squared. It plays a crucial role in understanding the dynamics of motion, especially when analyzing forces and the motion of objects under various conditions.","[
+       {
+           ""objective"": ""Explain the meaning of slope and area in velocity vs. time graphs"",
+           ""dimensions"": {
+               ""cognitive"": [""cg_02"" , ""cg_04""],
+               ""knowledge"": [""kw_01"" , ""kw_02""]
+           }
+       },
+       {
+           ""objective"": ""Solve problems using velocity vs. time graphs"",
+           ""dimensions"": {
+               ""cognitive"": [""cg_02"" , ""cg_03"" , ""cg_04""],
+               ""knowledge"": [""kw_02"" , ""kw_03""]
+           }
+       }
+   ]","[
+        ""NCERT_SC_09_07_04"",
+        ""NCERT_SC_09_07_05"",
+        ""NCERT_PH_111_02_03""
+    ]",,
+OS_PH_HS_03_02,OS_PH_HS_03,OS_PH_HS,Representing Acceleration with Equations and Graphs,"Acceleration is the rate of change of velocity over time. Graphically, acceleration is shown as the slope of a velocity-time graph or through an acceleration-time graph. These representations help visualize how an object's speed and direction change during motion. The kinematic equations show how time, displacement, velocity, and acceleration are related for objects in motion. In general, kinematic problems can be solved by identifying the kinematic equation that expresses the unknown in terms of the knowns.
+Displacement, velocity, and acceleration may be displayed graphically versus time. The kinematic equations in the section are valid only for constant acceleration.","[
+       {
+           ""objective"": ""Explain the kinematic equations related to acceleration and illustrate them with graphs"",
+           ""dimensions"": {
+               ""cognitive"": [""cg_02"" , ""cg_03"" , ""cg_04"", ""cg_06"" ],
+               ""knowledge"": [ ""kw_02"" , ""kw_03""]
+           }
+       },
+       {
+           ""objective"": ""Apply the kinematic equations and related graphs to problems involving acceleration"",
+           ""dimensions"": {
+               ""cognitive"": [""cg_02"" , ""cg_03"" , ""cg_04""],
+               ""knowledge"": [""kw_02"" , ""kw_03""]
+           }
+       }
+   ]","[
+        ""NCERT_SC_09_07_04"",
+        ""NCERT_SC_09_07_05"",
+        ""NCERT_PH_111_02_04""
+    ]",,
+OS_PH_HS_04_01,OS_PH_HS_04,OS_PH_HS,Force,"Force is a vector quantity that represents a push or pull on an object, capable of changing its motion or shape. It is defined by magnitude, direction, and point of application, with examples like gravitational force, friction, and tension.
+Dynamics is the study of how forces affect the motion of objects and systems. 
+External forces are any forces outside of a body that act on the body. A free-body diagram is a drawing of all external forces acting on a body.
+
+
+
+","[
+       {
+           ""objective"": ""Differentiate between force, net force, and dynamics"",
+           ""dimensions"": {
+               ""cognitive"": [""cg_02"", ""cg_04""],
+               ""knowledge"": [""kw_01"", ""kw_02""]
+           }
+       },
+       {
+           ""objective"": ""Draw a free-body diagram."",
+           ""dimensions"": {
+               ""cognitive"": [""cg_03"", ""cg_04""],
+               ""knowledge"": [""kw_02"", ""kw_03""]
+           }
+       }
+   ]","[
+        ""NCERT_SC_09_08_01"",
+        ""NCERT_PH_111_04_01"",        
+    ]",,
+OS_PH_HS_04_02,OS_PH_HS_04,OS_PH_HS,Newton's first law of Motion: Inertia,"Newton’s first law of motion states that an object will remain at rest or continue to move in a straight line at a constant velocity unless acted upon by an external force. This law emphasizes the concept of inertia, which is the tendency of an object to resist changes in its state of motion. It explains that motion does not require a force to continue but rather a force to change.
+
+Mass is the quantity of matter in a substance.
+Friction is a force that opposes motion and causes an object or system to slow down.","[
+       {
+           ""objective"": ""Describe Newton’s first law and friction."",
+           ""dimensions"": {
+               ""cognitive"": [""cg_01"", ""cg_02""],
+               ""knowledge"": [""kw_01"", ""kw_02""]
+           }
+       },
+       {
+           ""objective"": ""Discuss the relationship between mass and inertia."",
+           ""dimensions"": {
+               ""cognitive"": [""cg_01"", ""cg_02""],
+               ""knowledge"": [""kw_01"", ""kw_02""]
+           }
+       }
+   ]","[
+        ""NCERT_SC_09_08_02"",
+        ""NCERT_SC_09_08_03""
+    ]",,
+OS_PH_HS_04_03,OS_PH_HS_04,OS_PH_HS,Newton's second law of motion,"Acceleration is a change in velocity, meaning a change in speed, direction, or both.
+An external force acts on a system from outside the system, as opposed to internal forces, which act between components within the system.
+
+Newton's second law of motion states that the acceleration of an object is directly proportional to the net force acting on it, inversely proportional to its mass, and occurs in the direction of the net force. This law explains how the motion of an object changes when subjected to external forces.
+
+If the only force acting on an object is its weight, then the object is in freefall.","[
+       {
+           ""objective"": ""Describe Newton’s second law, both verbally and mathematically"",
+           ""dimensions"": {
+               ""cognitive"": [""cg_02"", ""cg_03""],
+               ""knowledge"": [""kw_01"", ""kw_02""]
+           }
+       },
+       {
+           ""objective"": ""Use Newton’s second law to solve problems"",
+           ""dimensions"": {
+               ""cognitive"": [""cg_03"", ""cg_04""],
+               ""knowledge"": [""kw_02"", ""kw_03""]
+           }
+       }
+   ]","[
+        ""NCERT_SC_09_08_04""
+        
+    ]",,
+OS_PH_HS_04_04,OS_PH_HS_04,OS_PH_HS,Newton's Third law of motion,"Newton’s third law of motion states that whenever a first object exerts a force on a second object, the first object experiences a force equal in magnitude but opposite in direction to the force that it exerts. Forces always occur in pairs, the two forces act in opposite directions and on different objects that's why don't get cancelled.
+
+When an object rests on a surface, the surface applies a force on the object that opposes the weight of the object. This force acts perpendicular to the surface and is called the normal force.
+The pulling force that acts along a stretched flexible connector, such as a rope or cable, is called tension. When a rope supports the weight of an object at rest, the tension in the rope is equal to the weight of the object.
+Thrust is a force that pushes an object forward in response to the backward ejection of mass by the object. Rockets and airplanes are pushed forward by thrust.
+
+Application of Newton's third law of motion
+Forces are classified based on their source, transmission, or effects, such as push, weight, and friction. Newton’s third law helps us understand additional forces like the normal force, tension, and thrust. The gravitational force (or weight) acts everywhere on Earth, but objects do not constantly fall toward Earth’s center due to the normal force. The normal force is an outward force exerted by a surface perpendicular to it, preventing objects from penetrating the surface. On a horizontal surface, if the object is at rest and not accelerating, the normal force equals the weight (W =mg) but acts in the opposite direction. Tension, derived from the Latin word for ""stretch,"" is the pulling force transmitted along a flexible connector like a string, rope, or chain. It acts parallel to the connector’s length and in opposite directions at its ends due to a series of action-reaction forces.","[
+       {
+           ""objective"": ""Describe Newton's third law of motion."",
+           ""dimensions"": {
+               ""cognitive"": [""cg_02"", ""cg_03""],
+               ""knowledge"": [""kw_01"", ""kw_02""]
+           }
+       },
+       {
+           ""objective"": ""Use Newton's third law to solve problems"",
+           ""dimensions"": {
+               ""cognitive"": [""cg_02"", ""cg_03""],
+               ""knowledge"": [ ""kw_02""]
+           }
+       }
+   ]","[
+        ""NCERT_SC_09_08_05""
+    ]",,
+OS_PH_HS_07_02,OS_PH_HS_07,OS_PH_HS,Newton's law of universal gravitation ,"Newton's Law of Universal Gravitation and Einstein's Theory of General Relativity, highlighting their roles in understanding the universe:
+Newton’s Law of Universal Gravitation:
+Newton’s law states that every mass in the universe attracts every other mass with a force directly proportional to the product of their masses and inversely proportional to the square of the distance between them. This force acts along the line joining the centers of the two masses. Newton's formulation introduced the idea of a gravitational constant and allowed precise calculations of planetary orbits and interactions within the solar system.
+Key Differences and Applications:
+Newton’s law is accurate for most everyday and classical physics scenarios, such as predicting planetary orbits and satellite motion. However, general relativity is necessary for extreme conditions involving large masses, high velocities, or strong gravitational fields, such as black holes, gravitational waves, and cosmology.
+While Newton’s law provides an excellent approximation for most scenarios, general relativity offers a more complete and profound understanding of gravity, especially in extreme cosmic contexts. Both theories remain crucial in physics and engineering, serving as foundational pillars of gravitational science.","[
+       {
+           ""objective"": ""Explain Newton's law of universal gravitation and compare it to Einstein’s theory of general relativity."", ""dimensions"": {
+               ""cognitive"": [""cg_02"", ""cg_04""],
+               ""knowledge"": [""kw_01"", ""kw_02""]
+           }
+       },
+  {
+           ""objective"": ""Perform calculations using Newton's law of universal gravitation."",
+           ""dimensions"": {
+               ""cognitive"": [""cg_03"", ""cg_04""],
+               ""knowledge"": [""kw_01"", ""kw_03""]
+           }
+       }
+   ]","[
+       
+        ""NCERT_PH_111_07_03"",
+        ""NCERT_SC_09_09_01""
+    ]",,

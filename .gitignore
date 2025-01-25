@@ -12,10 +12,14 @@ ipython_config.py
 
 # Environments
 .env
-auro-mcq-distractors/
+auro_mcq_distractors/
 
 # PyPI configuration file
 .pypirc
 
 # macOS system files
 .DS_Store
+
+# DB files
+*.sqlite3
+data/chroma_db_huggingface

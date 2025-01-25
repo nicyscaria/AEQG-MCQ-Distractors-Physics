@@ -1,0 +1,23 @@
+OS_PH_HS_01,OS_PH_HS,What is Physics?,"Introduction to the fundamental concepts, goals, and methods of physics as a science."
+OS_PH_HS_02,OS_PH_HS,Motion in One Dimension,"Study of objects moving along a straight line, including displacement, velocity, and acceleration."
+OS_PH_HS_03,OS_PH_HS,Acceleration,Examination of changes in velocity over time and the equations that describe uniformly accelerated motion.
+OS_PH_HS_04,OS_PH_HS,Forces and Newton's Laws of Motion,"Understanding forces, their effects, and Newton’s three laws that govern motion."
+OS_PH_HS_05,OS_PH_HS,Motion in two Directions,"Analysis of motion in a plane, including vectors, projectile motion, and relative motion."
+OS_PH_HS_06,OS_PH_HS,Circular and Rotational Motion,Exploration of objects moving in circular paths and the principles of rotational dynamics.
+OS_PH_HS_07,OS_PH_HS,Newton's Laws of Gravitation,"Study of gravitational forces, the laws governing planetary motion, and orbital mechanics."
+OS_PH_HS_08,OS_PH_HS,Momentum,"Introduction to the principles of momentum, impulse, and conservation laws in collisions."
+OS_PH_HS_09,OS_PH_HS,"Work, Energy, and Simple Machines","Explanation of work and energy concepts, power, and how machines make work easier."
+OS_PH_HS_10,OS_PH_HS,Special Relativity,"Insights into Einstein’s theory of relativity, including time dilation and length contraction."
+OS_PH_HS_11,OS_PH_HS,"Thermal Energy, Heat and Work","Study of heat transfer, thermal energy, and the relationship between heat and work."
+OS_PH_HS_12,OS_PH_HS,Thermodynamics,Understanding the laws of thermodynamics and their implications for energy and heat processes.
+OS_PH_HS_13,OS_PH_HS,Waves and Their Properties,"Examination of the nature of waves, their properties, and the relationship between frequency, wavelength, and speed."
+OS_PH_HS_14,OS_PH_HS,Sound,"Study of sound waves, their propagation, and phenomena such as Doppler effect and resonance."
+OS_PH_HS_15,OS_PH_HS,Light,"Introduction to the nature of light, its dual wave-particle nature, and basic optics."
+OS_PH_HS_16,OS_PH_HS,Mirrors and Lenses,Exploration of how mirrors and lenses form images through reflection and refraction.
+OS_PH_HS_17,OS_PH_HS,Diffraction and Interference,Study of wave phenomena like diffraction and interference in light and sound.
+OS_PH_HS_18,OS_PH_HS,Static Electricity,Understanding the buildup of electric charge and the principles of electrostatics.
+OS_PH_HS_19,OS_PH_HS,Electric Circuits,"Introduction to electric circuits, Ohm’s Law, and the behavior of series and parallel circuits."
+OS_PH_HS_20,OS_PH_HS,Magentism,"Examination of magnetic fields, their sources, and the interaction of magnets with currents."
+OS_PH_HS_21,OS_PH_HS,The Quantum Nature of Light,"Insights into light's quantum behavior, including photons and photoelectric effects."
+OS_PH_HS_22,OS_PH_HS,The Atom,"Study of atomic structure, electron configurations, and atomic models."
+OS_PH_HS_23,OS_PH_HS,Particle Physics,"Introduction to subatomic particles, their interactions, and fundamental forces in nature."

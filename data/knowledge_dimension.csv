@@ -1,0 +1,5 @@
+knowledge_id,knowledge_dimension,description
+kw_01,factual,"The basic elements or facts students must know to solve problems, including terminology and specific details. Example: Recall terms like ""force"" and ""energy"" in physics."
+kw_02,conceptual,"The interrelationships between elements, such as theories, principles, and models, that enable function within a domain. Example: Understanding Newton’s laws in physics."
+kw_03,procedural,"Knowing how to perform tasks, techniques, and methods, and when to apply them. Example: Calculate work using the formula W=F⋅d."
+kw_04,metacognitive,"Knowledge about one’s own cognition and how to regulate it, including self-awareness of learning strategies. Example: Evaluate the effectiveness of a study approach."

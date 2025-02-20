@@ -22,4 +22,3 @@ auro_mcq_distractors/
 
 # DB files
 *.sqlite3
-data/chroma_db_huggingface

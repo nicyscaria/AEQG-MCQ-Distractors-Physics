@@ -1,0 +1,26 @@
+formats:
+  generation: |
+    {{{{
+        "question": "",
+        "skill": "",
+        "options": {{"a": "", "b": "", "c": "", "d": ""}},
+        "correct": "",
+        "explanation": {{
+            "correct": "",
+            "a": "misconception/prerequisite tested",
+            "b": "", "c": "", "d": ""
+        }}
+    }}}}
+  
+  evaluation: |
+    {{{{
+        "valid": True/False,
+        "1": {{
+            "uniqueness": True/False,
+            "uniqueness_issues": " "
+        }},
+        "2": {{
+            "answer": True/False,
+            "answer_issues": " "
+        }}
+    }}}}

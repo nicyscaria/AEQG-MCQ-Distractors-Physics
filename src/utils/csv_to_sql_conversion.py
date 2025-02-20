@@ -21,7 +21,7 @@ connection_string = f"postgresql://{USER}:{PASSWORD}@{HOST}:{PORT}/{DATABASE}"
 engine = create_engine(connection_string)
 
 # csv_path = os.getenv('CSV_PATH')
-csv_path = "/Users/nicyscaria/PhD/Research/Auro/MCQ_Distractors/data/subtopics.csv"
+csv_path = "path_to_csv_file"
 
 def get_table_structure(table_name):
     with engine.connect() as conn:
@@ -43,6 +43,27 @@ def get_table_structure(table_name):
         for col, dtype in columns.items():
             print(f"  {col}: {dtype}")
         return columns
+    
+def check_row_lengths(df):
+    # Get length of each column's content for all rows
+    for col in df.columns:
+        # Convert each value to string and get its length
+        df[f'{col}_length'] = df[col].astype(str).apply(len)
+        
+        # Find rows where length > 2500
+        long_rows = df[df[f'{col}_length'] > 2500]
+        if not long_rows.empty:
+            print(f"\nColumn '{col}' has values exceeding 2500 characters in these rows:")
+            for idx, row in long_rows.iterrows():
+                print(f"Row {idx}: {row[f'{col}_length']} characters")
+                print(f"First 100 characters: {row[col][:100]}...")
+                print("-" * 80)
+    
+    # Remove the temporary length columns
+    length_cols = [col for col in df.columns if col.endswith('_length')]
+    df.drop(columns=length_cols, inplace=True)
+    
+    return df
 
 def process_csv_to_sql(csv_path):
     # Get table name from CSV filename
@@ -62,9 +83,25 @@ def process_csv_to_sql(csv_path):
         for col, dtype in table_columns.items():
             print(f"  {col}: {dtype}")
     
-    # Read CSV
-    df = pd.read_csv(csv_path)
+    # Try different encodings to read CSV
+    encodings_to_try = ['utf-8', 'latin1', 'iso-8859-1', 'cp1252']
+    df = None
+    
+    for encoding in encodings_to_try:
+        try:
+            df = pd.read_csv(csv_path, encoding=encoding)
+            print(f"\nSuccessfully read CSV with {encoding} encoding")
+            break
+        except UnicodeDecodeError:
+            continue
+    
+    if df is None:
+        raise ValueError("Could not read the CSV file with any of the attempted encodings")
+    
     print("\nCSV columns:", df.columns.tolist())
+    
+    # Find exceeding rows before any processing
+    df = check_row_lengths(df)
     
     # Only keep columns that exist in the table
     valid_columns = [col for col in df.columns if col in table_columns]

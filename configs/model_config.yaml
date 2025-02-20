@@ -1,0 +1,12 @@
+model: "meta-llama/Llama-3.3-70B-Instruct-Turbo"
+
+temperature:
+  generation_temperature: 0.75
+  evaluation_temperature: 0.0
+
+'vector_store': {
+    'db_dir': 'MCQ_Distractors/data/',
+    'store_name': 'chroma_db_huggingface',
+    'embedding_model': 'sentence-transformers/all-mpnet-base-v2',  # or your preferred model
+    'top_k': 3
+}

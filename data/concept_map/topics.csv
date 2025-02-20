@@ -1,0 +1,1749 @@
+topic_id,unit_id,subject_id,topic_name,description,objectives,ncert_alignment,ngss_alignment,scert_alignment
+OS_PH_HS_01_01,OS_PH_HS_01,OS_PH_HS,Physics: Definitions and Applications,"Physics is the most fundamental of all sciences, focusing on energy, matter, space, time, and their interactions. It seeks to understand the foundational principles that govern the universe, explaining phenomena ranging from the motion of everyday objects to the behavior of subatomic particles and the dynamics of celestial bodies.
+
+Modern physics has introduced groundbreaking theories that redefine our understanding of the universe. The theory of relativity, developed by Albert Einstein, demonstrates how time, space, and gravity are not absolute but vary based on the observer’s motion and gravitational context. This theory provides profound insights into the nature of the cosmos, including black holes and the expansion of the universe. Quantum mechanics, on the other hand, explores the behavior of particles at atomic and subatomic levels, where the rules of classical physics no longer apply. It reveals a world governed by probabilities, wave-particle duality, and fundamental uncertainties.
+
+Physics forms the basis for all other sciences, such as chemistry, biology, and geology. It explains how atoms interact to form molecules, enabling the study of chemistry, and how energy transfer powers biological processes. In geology, physics provides tools to understand Earth’s structure, seismic activity, and the properties of minerals. Essentially, physics describes the fundamental ways the universe functions, making it indispensable to all scientific exploration and technological advancement.","[
+{
+""objective"": ""Describe the definition, aims, and branches of physics"",
+""dimensions"": {
+""cognitive"": [""cg_02""],
+""knowledge"": [""kw_01"", ""kw_02""]
+}
+},
+{
+""objective"": ""Describe and distinguish classical physics from modern physics and describe the importance of relativity, quantum mechanics, and relativistic quantum mechanics in modern physics"",
+""dimensions"": {
+""cognitive"": [""cg_04""],
+""knowledge"": [""kw_02""]
+}
+},
+{
+""objective"": ""Describe how aspects of physics are used in other sciences (e.g., biology, chemistry, geology, etc.) as well as in everyday technology"",
+""dimensions"": {
+""cognitive"": [""cg_02""],
+""knowledge"": [""kw_02""]
+}
+}
+]",,,
+OS_PH_HS_01_02,OS_PH_HS_01,OS_PH_HS,The Scientific Methods,"Science aims to uncover and describe the underlying order and simplicity in the natural world. By studying patterns, phenomena, and relationships, science seeks to explain how the universe operates in a systematic and testable way. This pursuit of knowledge relies on well-defined processes and principles that guide scientific discovery and understanding.
+
+At the heart of science is the scientific process, which consists of four key steps: observation, hypothesis, experiment, and conclusion. The process begins with observation, where scientists notice patterns or trends in nature that prompt questions. Based on these observations, they formulate a hypothesis - an educated guess that offers a possible explanation. Experiments are then conducted to test the hypothesis, during which data is collected and analyzed. Finally, conclusions are drawn to determine whether the hypothesis is supported or rejected. This iterative process allows scientists to refine their understanding and build on existing knowledge.
+
+Scientific explanations often evolve into theories - comprehensive frameworks that explain natural phenomena based on a large body of experimental evidence. Unlike hypotheses, which are tentative and focused on specific observations, theories have undergone rigorous testing and validation across multiple contexts. For example, the theory of evolution and the theory of relativity provide broad, evidence-backed explanations for biological diversity and the nature of space-time, respectively.
+
+In contrast to theories, scientific laws are concise descriptions of universal truths in nature. They often take the form of mathematical equations or brief statements that summarize patterns consistently observed across the universe. For instance, Newton’s second law of motion succinctly describes the relationship between force, mass, and acceleration. Laws are universally applicable, providing a reliable foundation for understanding and predicting natural phenomena.
+
+Both theories and laws are subject to change as new discoveries emerge. The advancement of technology and observational tools often leads to refinements in our understanding, ensuring that science remains dynamic and self-correcting. By maintaining this open-minded approach, science continues to uncover the fundamental simplicity and order that governs the universe.","[
+{
+""objective"": ""Explain how the methods of science are used to make scientific discoveries"",
+""dimensions"": {
+""cognitive"": [""cg_02""],
+""knowledge"": [""kw_02""]
+}
+},
+{
+""objective"": ""Define a scientific model and describe examples of physical and mathematical models used in physics"",
+""dimensions"": {
+""cognitive"": [""cg_02""],
+""knowledge"": [""kw_01"", ""kw_02""]
+}
+},
+{
+""objective"": ""Compare and contrast hypothesis, theory, and law"",
+""dimensions"": {
+""cognitive"": [""cg_04""],
+""knowledge"": [""kw_02""]
+}
+}
+]",,,
+OS_PH_HS_01_03,OS_PH_HS_01,OS_PH_HS,The Language of Physics: Physical Quantities and Units,"Physical quantities describe measurable properties such as length, mass, time, and electric current. These quantities are expressed using the metric system, which relies on powers of 10 to ensure consistency and simplicity across different scales. The fundamental units used in physics are the meter for length, the kilogram for mass, the second for time, and the ampere for electric current.
+
+Unit conversions are a crucial part of working with measurements, allowing values to be expressed in different units through conversion factors. These factors are ratios that equate different units, such as converting hours to seconds or kilometers to meters. This system enables seamless calculations over a vast range of quantities.
+
+Accuracy, precision, and uncertainty are essential concepts in measurement. Accuracy reflects how close a measurement is to its true value, while precision indicates the consistency of repeated measurements. Uncertainty quantifies the range within which the actual value is expected to fall, providing a clearer context for measured data.
+
+Significant figures convey the precision of a measurement, ensuring clarity in calculations. When multiplying or dividing, the result is limited to the number of significant figures in the least precise value. In addition or subtraction, the result is rounded to match the least precise decimal place. The metric system’s use of prefixes such as milli- and kilo- simplifies working with large or small values by maintaining consistent relationships between units.
+
+These principles form the foundation for accurate and reliable scientific measurements, enabling clear communication and precise analysis across all fields of science.","[
+{
+""objective"": ""Associate physical quantities with their International System of Units (SI) and perform conversions among SI units using scientific notation"",
+""dimensions"": {
+""cognitive"": [""cg_03""],
+""knowledge"": [""kw_01"", ""kw_03""]
+}
+},
+{
+""objective"": ""Relate measurement uncertainty to significant figures and apply the rules for using significant figures in calculations"",
+""dimensions"": {
+""cognitive"": [""cg_04""],
+""knowledge"": [""kw_01"", ""kw_03""]
+}
+},
+{
+""objective"": ""Correctly create, label, and identify relationships in graphs using mathematical relationships (e.g., slope, y-intercept, inverse, quadratic and logarithmic)"",
+""dimensions"": {
+""cognitive"": [""cg_04""],
+""knowledge"": [""kw_02"", ""kw_03""]
+}
+}
+]","[
+""NCERT_SC_11_01_01"",
+""NCERT_SC_11_01_02"",
+""NCERT_SC_11_01_03"",
+""NCERT_SC_11_01_04"",
+""NCERT_SC_11_01_05"",
+""NCERT_SC_11_01_06""
+]",,
+OS_PH_HS_02_01,OS_PH_HS_02,OS_PH_HS,"Relative Motion, Distance, and Displacement","Relative motion refers to the concept of observing the motion of an object from different reference frames or perspectives. The motion of an object is not absolute but is always described in relation to a chosen reference frame. For example, a car moving in a straight line might appear to be stationary to someone inside the car, but to an observer on the side of the road, the car is in motion.
+
+Distance is a scalar quantity that refers to the total path length traveled by an object, regardless of direction. It is always positive and does not consider the displacement direction.
+
+Displacement is a vector quantity that refers to the straight-line distance between an object's initial and final positions, along with the direction of the path. Displacement accounts for both the magnitude and direction of motion.
+
+In relative motion, the relative velocity between two objects is determined by the velocity of one object as observed from another. The principles of relative motion, distance, and displacement are essential for analyzing various real-world scenarios, such as the motion of vehicles, projectiles, and objects in a moving reference frame.","[
+    {
+        ""objective"": ""Describe motion in different reference frames"",
+        ""dimensions"": {
+            ""cognitive"": [""cg_02"" , ""cg_04""],
+            ""knowledge"": [""kw_02"" , ""kw_03""]
+        }
+    },
+    {
+        ""objective"": ""Define distance and displacement, and distinguish between the two"",
+        ""dimensions"": {
+            ""cognitive"": [""cg_01"" , ""cg_02"" , ""cg_04""],
+            ""knowledge"": [""kw_01"" , ""kw_02""]
+        }
+    },
+    {
+        ""objective"": ""Solve problems involving distance and displacement"",
+        ""dimensions"": {
+            ""cognitive"": [""cg_02"" , ""cg_03"", ""cg_04""],
+            ""knowledge"": [""kw_02"" , ""kw_03""]
+        }
+    }
+]
+","[
+        ""NCERT_SC_09_07_01""
+    ]",,
+OS_PH_HS_02_02,OS_PH_HS_02,OS_PH_HS,Speed and Velocity,"Speed is a scalar quantity that refers to how fast an object is moving, regardless of the direction. It is the rate at which an object covers distance over time. Since speed does not have a direction, it is only concerned with the magnitude of motion.
+Velocity is a vector quantity, meaning it includes both the speed of an object and the direction in which it is moving. It describes the rate of change of an object's position in a specific direction. Unlike speed, velocity takes into account the direction of motion. An object can have a constant speed but a changing velocity if it changes direction, such as when moving in a circular path. Thus, velocity provides more detailed information about an object's motion than speed.","[
+       {
+           ""objective"": ""Calculate the average speed of an object"",
+           ""dimensions"": {
+               ""cognitive"": [""cg_02"" , ""cg_03"" , ""cg_04""],
+               ""knowledge"": [""kw_02"" , ""kw_03""]
+           }
+       },
+       {
+           ""objective"": ""Relate displacement and average velocity"",
+           ""dimensions"": {
+               ""cognitive"": [""cg_02"" , ""cg_04""],
+               ""knowledge"": [""kw_01"" , ""kw_02""]
+           }
+       }
+   ]","[
+        ""NCERT_SC_09_07_02"", 
+        ""NCERT_PH_11_02_02""
+     ]",,
+OS_PH_HS_02_03,OS_PH_HS_02,OS_PH_HS,Position vs. Time Graphs,"When two physical quantities are plotted against each other, the horizontal axis is usually considered the independent variable, and the vertical axis is the dependent variable. In physics, time is usually the independent variable. Other quantities, such as displacement, are said to depend upon it. A graph of position versus time, therefore, would have position on the vertical axis (dependent variable) and time on the horizontal axis (independent variable). The slope in a position versus time graph, is the average velocity.","[
+       {
+           ""objective"": ""Explain the meaning of slope in position vs. time graphs"",
+           ""dimensions"": {
+               ""cognitive"": [""cg_02"" , ""cg_04""],
+               ""knowledge"": [""kw_01"" , ""kw_02""]
+           }
+       },
+       {
+           ""objective"": ""Solve problems using position vs. time graphs"",
+           ""dimensions"": {
+               ""cognitive"": [""cg_02"" , ""cg_03"" , ""cg_04""],
+               ""knowledge"": [""kw_02"" , ""kw_03""]
+           }
+       }
+   ]","[
+        ""NCERT_SC_09_07_04""
+    ]",,
+OS_PH_HS_02_04,OS_PH_HS_02,OS_PH_HS,Velocity vs. Time Graphs,"When two physical quantities are plotted against each other, the horizontal axis is usually considered the independent variable, and the vertical axis is the dependent variable. In physics, time is usually the independent variable. Other quantities, such as velocity, are said to depend upon it. A graph of velocity versus time, therefore, would have velocity on the vertical axis (dependent variable) and time on the horizontal axis (independent variable). The slope in a velocity versus time graph, is the acceleration.","[
+       {
+           ""objective"": ""Explain the meaning of slope and area in velocity vs. time graphs"",
+           ""dimensions"": {
+               ""cognitive"": [""cg_02"" , ""cg_04""],
+               ""knowledge"": [""kw_01"" , ""kw_02""]
+           }
+       },
+       {
+           ""objective"": ""Solve problems using velocity vs. time graphs"",
+           ""dimensions"": {
+               ""cognitive"": [""cg_02"" , ""cg_03"", ""cg_04""],
+               ""knowledge"": [""kw_02"" , ""kw_03""]
+           }
+       }
+   ]","[
+        ""NCERT_SC_09_07_04"",
+        ""NCERT_SC_09_07_05"",
+        ""NCERT_PH_11_02_03""
+    ]",,
+OS_PH_HS_03_01,OS_PH_HS_03,OS_PH_HS,Acceleration,"Acceleration is a vector quantity that describes the rate of change of an object's velocity over time. It indicates how quickly an object is speeding up or slowing down. Acceleration can occur in three ways: an increase in speed (positive acceleration), a decrease in speed (negative acceleration, or deceleration), or a change in direction while maintaining speed (e.g., circular motion).
+Acceleration is measured in units of meters per second squared. It plays a crucial role in understanding the dynamics of motion, especially when analyzing forces and the motion of objects under various conditions.","[
+       {
+           ""objective"": ""Explain the meaning of slope and area in velocity vs. time graphs"",
+           ""dimensions"": {
+               ""cognitive"": [""cg_02"" , ""cg_04""],
+               ""knowledge"": [""kw_01"" , ""kw_02""]
+           }
+       },
+       {
+           ""objective"": ""Solve problems using velocity vs. time graphs"",
+           ""dimensions"": {
+               ""cognitive"": [""cg_02"" , ""cg_03"" , ""cg_04""],
+               ""knowledge"": [""kw_02"" , ""kw_03""]
+           }
+       }
+   ]","[
+        ""NCERT_SC_09_07_04"",
+        ""NCERT_SC_09_07_05"",
+        ""NCERT_PH_11_02_03""
+    ]",,
+OS_PH_HS_03_02,OS_PH_HS_03,OS_PH_HS,Representing Acceleration with Equations and Graphs,"Acceleration is the rate of change of velocity over time. Graphically, acceleration is shown as the slope of a velocity-time graph or through an acceleration-time graph. These representations help visualize how an object's speed and direction change during motion. The kinematic equations show how time, displacement, velocity, and acceleration are related for objects in motion. In general, kinematic problems can be solved by identifying the kinematic equation that expresses the unknown in terms of the knowns.
+Displacement, velocity, and acceleration may be displayed graphically versus time. The kinematic equations in the section are valid only for constant acceleration.","[
+       {
+           ""objective"": ""Explain the kinematic equations related to acceleration and illustrate them with graphs"",
+           ""dimensions"": {
+               ""cognitive"": [""cg_02"" , ""cg_03"" , ""cg_04"", ""cg_06"" ],
+               ""knowledge"": [ ""kw_02"" , ""kw_03""]
+           }
+       },
+       {
+           ""objective"": ""Apply the kinematic equations and related graphs to problems involving acceleration"",
+           ""dimensions"": {
+               ""cognitive"": [""cg_02"" , ""cg_03"" , ""cg_04""],
+               ""knowledge"": [""kw_02"" , ""kw_03""]
+           }
+       }
+   ]","[
+        ""NCERT_SC_09_07_04"",
+        ""NCERT_SC_09_07_05"",
+        ""NCERT_PH_11_02_04""
+    ]",,
+OS_PH_HS_04_01,OS_PH_HS_04,OS_PH_HS,Force,"Force is a vector quantity that represents a push or pull on an object, capable of changing its motion or shape. It is defined by magnitude, direction, and point of application, with examples like gravitational force, friction, and tension.
+Dynamics is the study of how forces affect the motion of objects and systems. 
+External forces are any forces outside of a body that act on the body. A free-body diagram is a drawing of all external forces acting on a body.
+
+
+
+","[
+       {
+           ""objective"": ""Differentiate between force, net force, and dynamics"",
+           ""dimensions"": {
+               ""cognitive"": [""cg_02"", ""cg_04""],
+               ""knowledge"": [""kw_01"", ""kw_02""]
+           }
+       },
+       {
+           ""objective"": ""Draw a free-body diagram."",
+           ""dimensions"": {
+               ""cognitive"": [""cg_03"", ""cg_04""],
+               ""knowledge"": [""kw_02"", ""kw_03""]
+           }
+       }
+   ]","[
+        ""NCERT_SC_09_08_01"",
+        ""NCERT_PH_11_04_01"",        
+    ]",,
+OS_PH_HS_04_02,OS_PH_HS_04,OS_PH_HS,Newton's first law of Motion: Inertia,"Newton's first law of motion states that an object will remain at rest or continue to move in a straight line at a constant velocity unless acted upon by an external force. This law emphasizes the concept of inertia, which is the tendency of an object to resist changes in its state of motion. It explains that motion does not require a force to continue but rather a force to change.
+
+Mass is the quantity of matter in a substance.
+Friction is a force that opposes motion and causes an object or system to slow down.","[
+       {
+           ""objective"": ""Describe Newton's first law and friction."",
+           ""dimensions"": {
+               ""cognitive"": [""cg_01"", ""cg_02""],
+               ""knowledge"": [""kw_01"", ""kw_02""]
+           }
+       },
+       {
+           ""objective"": ""Discuss the relationship between mass and inertia."",
+           ""dimensions"": {
+               ""cognitive"": [""cg_01"", ""cg_02""],
+               ""knowledge"": [""kw_01"", ""kw_02""]
+           }
+       }
+   ]","[
+        ""NCERT_SC_09_08_02"",
+        ""NCERT_SC_09_08_03""
+    ]",,
+OS_PH_HS_04_03,OS_PH_HS_04,OS_PH_HS,Newton's second law of motion,"Acceleration is a change in velocity, meaning a change in speed, direction, or both.
+An external force acts on a system from outside the system, as opposed to internal forces, which act between components within the system.
+
+Newton's second law of motion states that the acceleration of an object is directly proportional to the net force acting on it, inversely proportional to its mass, and occurs in the direction of the net force. This law explains how the motion of an object changes when subjected to external forces.
+
+If the only force acting on an object is its weight, then the object is in freefall.","[
+       {
+           ""objective"": ""Describe Newton's second law, both verbally and mathematically"",
+           ""dimensions"": {
+               ""cognitive"": [""cg_02"", ""cg_03""],
+               ""knowledge"": [""kw_01"", ""kw_02""]
+           }
+       },
+       {
+           ""objective"": ""Use Newton's second law to solve problems"",
+           ""dimensions"": {
+               ""cognitive"": [""cg_03"", ""cg_04""],
+               ""knowledge"": [""kw_02"", ""kw_03""]
+           }
+       }
+   ]","[
+        ""NCERT_SC_09_08_04""
+        
+    ]",,
+OS_PH_HS_04_04,OS_PH_HS_04,OS_PH_HS,Newton's Third law of motion,"Newton's third law of motion states that whenever a first object exerts a force on a second object, the first object experiences a force equal in magnitude but opposite in direction to the force that it exerts. Forces always occur in pairs, the two forces act in opposite directions and on different objects that's why don't get cancelled.
+
+When an object rests on a surface, the surface applies a force on the object that opposes the weight of the object. This force acts perpendicular to the surface and is called the normal force.
+The pulling force that acts along a stretched flexible connector, such as a rope or cable, is called tension. When a rope supports the weight of an object at rest, the tension in the rope is equal to the weight of the object.
+Thrust is a force that pushes an object forward in response to the backward ejection of mass by the object. Rockets and airplanes are pushed forward by thrust.
+
+Application of Newton's third law of motion
+Forces are classified based on their source, transmission, or effects, such as push, weight, and friction. Newton's third law helps us understand additional forces like the normal force, tension, and thrust. The gravitational force (or weight) acts everywhere on Earth, but objects do not constantly fall toward Earth's center due to the normal force. The normal force is an outward force exerted by a surface perpendicular to it, preventing objects from penetrating the surface. On a horizontal surface, if the object is at rest and not accelerating, the normal force equals the weight (W =mg) but acts in the opposite direction. Tension, derived from the Latin word for ""stretch,"" is the pulling force transmitted along a flexible connector like a string, rope, or chain. It acts parallel to the connector's length and in opposite directions at its ends due to a series of action-reaction forces.","[
+       {
+           ""objective"": ""Describe Newton's third law of motion."",
+           ""dimensions"": {
+               ""cognitive"": [""cg_02"", ""cg_03""],
+               ""knowledge"": [""kw_01"", ""kw_02""]
+           }
+       },
+       {
+           ""objective"": ""Use Newton's third law to solve problems"",
+           ""dimensions"": {
+               ""cognitive"": [""cg_02"", ""cg_03""],
+               ""knowledge"": [ ""kw_02""]
+           }
+       }
+   ]","[
+        ""NCERT_SC_09_08_05""
+    ]",,
+OS_PH_HS_05_01,OS_PH_HS_05,OS_PH_HS,Vector addition and subtraction: Graphical Methods,"A vector is a quantity with both magnitude and direction, such as displacement, velocity, acceleration, and force. In one-dimensional motion, direction is indicated with a positive or negative sign, while in two dimensions, vectors have horizontal and vertical components represented within a coordinate system. Vectors are graphically depicted as arrows proportional to their magnitude and pointing in their direction. The head-to-tail method is used to add vectors: place the tail of each subsequent vector at the head of the previous one, and the resultant vector connects the tail of the first to the head of the last. The magnitude of the resultant can be measured graphically or calculated using the Pythagorean theorem, and its direction is determined with a protractor or trigonometry. For example, a person walking nine blocks east and five blocks north has a resultant displacement that is the shortest straight-line distance between their start and end points, regardless of the order of travel. 
+
+Variables in physics problems, such as force or velocity, can be represented with vectors by making the length of the vector proportional to the magnitude of the force or velocity.
+Problems involving displacement, force, or velocity may be solved graphically by measuring the resultant vector’s magnitude with a ruler and measuring the direction with a protractor.","[
+{
+""objective"": ""Describe the graphical method of vector addition and subtraction"",
+""dimensions"": {
+""cognitive"": [""cg_02"", ""cg_04""],
+""knowledge"": [""kw_01"", ""kw_02""]
+}
+},
+{
+""objective"": ""Use the graphical method of vector addition and subtraction to solve problems."",
+""dimensions"": {
+""cognitive"": [""cg_02"", ""cg_03""],
+""knowledge"": [""kw_01"", ""kw_03""]
+}
+}
+]","[
+""NCERT_PH_11_03_04""
+
+]",,
+OS_PH_HS_05_02,OS_PH_HS_05,OS_PH_HS,Vector addition and subtraction: Analytical Methods,"Analytical methods for vector addition and subtraction involve resolving vectors into their components along mutually perpendicular axes, usually the x-axis and y-axis. For vector addition, the individual components of all vectors along each axis are summed to find the resultant vector's components. The magnitude of the resultant vector is calculated using the Pythagorean theorem, and its direction is determined using trigonometric functions like tan_1(opposite/adjacent). Subtraction of vectors is performed by adding the negative of the vector to be subtracted, where the negative of a vector is obtained by reversing its direction. Analytical methods are precise and allow for the computation of the resultant vector's magnitude and direction without requiring graphical techniques, making them highly useful in physics and engineering problems.","[
+{
+""objective"": ""Define componenets of vectors."",
+""dimensions"": {
+""cognitive"": [""cg_02"", ""cg_04""],
+""knowledge"": [""kw_01"", ""kw_02""]
+}
+},
+{
+""objective"": ""Describe the analytical method of vector addition and subtraction."",
+""dimensions"": {
+""cognitive"": [""cg_02"", ""cg_03""],
+""knowledge"": [""kw_01"", ""kw_03""]
+}
+},
+{ 
+""objective"": ""Use the analytical method of vector addition and subtraction to solve problems"", 
+""dimensions"": { 
+""cognitive"": [""cg_02"", ""cg_03""], 
+""knowledge"": [""kw_01"", ""kw_03""] 
+} 
+}
+]","[
+""NCERT_PH_11_03_05"",
+""NCERT_PH_11_03_06""
+]",,
+OS_PH_HS_05_03,OS_PH_HS_05,OS_PH_HS,Projectile motion,"Projectile motion refers to the motion of an object that is launched into the air, where after the initial force propelling it, the only force acting on the object is gravity, assuming air resistance is negligible. Such an object is called a projectile, and the path it follows is known as its trajectory. Air resistance, which is a frictional force, can slow the object down and significantly alter its trajectory. However, in basic physics, air resistance is typically ignored for simplicity, as this assumption often yields accurate results for many scenarios. 
+A key principle of projectile motion is that, in the absence of air resistance, horizontal and vertical motions are independent of one another, meaning they do not affect each other. For example, a cannonball in free fall (falling straight down) will descend at the same rate as one launched horizontally, despite the latter having motion along the horizontal axis. If the cannonball is launched with an initial vertical velocity, the vertical motion would differ, but the independence of the two motions still holds. To analyze projectile motion, we break it into two components: one along the horizontal axis and the other along the vertical axis, treating each separately.
+","[
+{
+""objective"": ""Describe Properties of projectile motion."",
+""dimensions"": {
+""cognitive"": [""cg_02"", ""cg_04""],
+""knowledge"": [""kw_01"", ""kw_02""]
+}
+},
+{
+""objective"": ""Mathematical formulation of projectile motion."" {
+""cognitive"": [""cg_02"", ""cg_03""],
+""knowledge"": [""kw_02"", ""kw_03""]
+}
+}
+}
+]","[
+""NCERT_PH_11_03_09""
+]",,
+OS_PH_HS_05_04,OS_PH_HS_05,OS_PH_HS,Inclined planes,"Working on inclined planes involves analyzing the forces acting on an object placed on a sloped surface. The object's weight can be broken down into two components: one acting along the incline, which causes the object to slide downward, and one acting perpendicular to the incline, which is balanced by the surface. The force along the incline depends on the angle of the slope and the object's weight, while the perpendicular force determines the contact force between the object and the plane. Friction may act along the incline to resist motion, depending on the surface texture and the force pressing the object against the plane. This concept is applied in designing ramps, roads, and mechanical systems to manage loads effectively.","[
+{
+""objective"": ""Differentiate between static friction and kinetic friction."",
+""dimensions"": {
+""cognitive"": [""cg_02"", ""cg_04""],
+""knowledge"": [""kw_01"", ""kw_02""]
+}
+},
+{
+""objective"": ""Defining inclined plane force components."" {
+""cognitive"": [""cg_02"", ""cg_04""],
+""knowledge"": [""kw_02"", ""kw_03""]
+}
+}
+}
+]","[
+""NCERT_SC_08_09_01"",
+""NCERT_SC_08_09_02"",
+""NCERT_SC_08_09_03"",
+""NCERT_SC_08_09_04"",
+""NCERT_SC_08_09_05"",
+""NCERT_SC_08_09_06"",
+""NCERT_PH_11_04_09""
+]",,
+OS_PH_HS_05_05,OS_PH_HS_05,OS_PH_HS,Simple Harmonic motion,"Hooke's law states that the restoring force exerted by an elastic material, such as a spring, is directly proportional to the displacement of the object from its equilibrium position, as long as the deformation is within the material's elastic limit. This means that the further the object is stretched or compressed, the greater the restoring force acting in the opposite direction. Hooke's law explains the behavior of springs, elastic bands, and other elastic systems.
+Simple Harmonic Motion is a type of periodic motion where an object oscillates about its equilibrium position under a restoring force that is directly proportional to its displacement and acts in the opposite direction. This motion is regular, repetitive, and sinusoidal in nature, with a constant amplitude, frequency, and period. Examples of SHM include the motion of a pendulum (for small angles) and the vibrations of a mass attached to a spring.
+Oscillations refer to any repetitive back-and-forth motion about an equilibrium position. They may or may not be regular in nature. Oscillations can occur in various systems, such as a swinging pendulum, a vibrating guitar string, or water waves. Oscillatory motion involves the transfer of energy between kinetic and potential forms, depending on the position of the system during the cycle.
+Periodic motion is any motion that repeats itself in a fixed time interval, called the period. It is a broader category of motion that includes oscillations and SHM. Examples of periodic motion include the rotation of the Earth, the orbit of planets, and the rhythmic movement of a clock's pendulum. All simple harmonic motion is periodic, but not all periodic motion is harmonic.
+Simple Harmonic Motion has wide-ranging applications in science and engineering. It is fundamental in the design of oscillatory systems like clocks, springs, and pendulums. It is also used to model wave behavior in acoustics, light, and water. SHM is critical in engineering systems such as suspension bridges, shock absorbers in vehicles, and seismic sensors. Additionally, it is essential in understanding molecular vibrations and resonance phenomena in physics and chemistry.","[
+{
+""objective"": ""Define Hooke's law and SHM."",
+""dimensions"": {
+""cognitive"": [""cg_02"", ""cg_04""],
+""knowledge"": [""kw_01"", ""kw_02""]
+}
+},
+{
+""objective"": ""Describe oscillations and Periodic motion."",
+""dimensions"": {
+""cognitive"": [""cg_02"", ""cg_03""],
+""knowledge"": [""kw_01"", ""kw_03""]
+}
+},
+{
+""objective"": ""Application of SHM"",
+""dimensions"": {
+""cognitive"": [""cg_02"", ""cg_03""],
+""knowledge"": [""kw_01"", ""kw_03""]
+}
+}
+]","[
+""NCERT_PH_11_13_01"",
+""NCERT_PH_11_13_02"",
+""NCERT_PH_11_13_03"",
+""NCERT_PH_11_13_04"",
+""NCERT_PH_11_13_05"",
+""NCERT_PH_11_13_06"",
+""NCERT_PH_11_13_07"",
+""NCERT_PH_11_13_08""
+]",,
+OS_PH_HS_06_01,OS_PH_HS_06,OS_PH_HS,Angle of Rotation and angular velocity,"The angle of rotation is a measure of the total amount of rotation undergone by an object, typically measured in radians. It is the angular equivalent of distance in linear motion and helps describe how far an object has rotated about a fixed axis. The angle of rotation can be positive or negative, depending on the direction of rotation (counterclockwise is usually considered positive).
+Angular velocity, on the other hand, represents the rate at which an object rotates or changes its angle of rotation over time. It describes how quickly an object is spinning and is also measured in radians per second. Angular velocity is a vector quantity, with its direction determined by the axis of rotation, following the right-hand rule. Together, these concepts form the foundation for understanding rotational motion and are key to analyzing systems involving spinning objects, such as wheels, planets, or turbines.","[
+{
+""objective"": ""Describe the angle of rotation and relate it to its linear counterpart"",
+""dimensions"": {
+""cognitive"": [""cg_02"",""cg_03"", ""cg_04""],
+""knowledge"": [""kw_02"", ""kw_03""]
+}
+},
+{
+""objective"": ""Describe angular velocity and relate it to its linear counterpart"",
+""dimensions"": {
+""cognitive"": [""cg_02"", ""cg_03""],
+""knowledge"": [""kw_01"", ""kw_03""]
+}
+},
+{
+""objective"": ""Solve problems involving angle of rotation and angular velocity"",
+""dimensions"": {
+""cognitive"": [""cg_02"", ""cg_03""],
+""knowledge"": [""kw_01"", ""kw_03""]
+}
+}
+]","[
+""NCERT_PH_11_06_06""
+]",,
+OS_PH_HS_06_02,OS_PH_HS_06,OS_PH_HS,Uniform circular motion,"In circular motion, centripetal acceleration refers to the acceleration directed toward the center of the circle along which an object moves. This acceleration is responsible for changing the direction of the object's velocity, keeping it in circular motion, even if its speed remains constant. The magnitude of centripetal acceleration a is given by the formula:
+a = (v* v)/r
+where v - object's linear speed, and r is the radius of the circular path.Unlike linear acceleration, which pertains to changes in the magnitude of velocity in straight-line motion, centripetal acceleration involves changes in the direction of velocity, maintaining the object's circular trajectory.
+Centripetal force is the net force causing the centripetal acceleration of an object in circular motion. It acts perpendicular to the object's linear velocity and points toward the center of the circle. The magnitude of centripetal force (Fc) can be expressed as: 
+F = ma 
+where m is the object's mass. This force is essential for maintaining circular motion and differs from linear force, which causes linear acceleration in straight-line motion. 
+
+
+","[
+{
+""objective"": ""Describe centripetal acceleration and relate it to linear acceleration."": {
+""cognitive"": [""cg_02"", ""cg_04""],
+""knowledge"": [""kw_02"", ""kw_03""]
+}
+},
+{
+""objective"": ""Describe centripetal force and relate it to linear force."",
+""dimensions"": {
+""cognitive"": [""cg_02"", ""cg_03""],
+""knowledge"": [""kw_01"", ""kw_03""]
+}
+},
+{
+""objective"": ""Solve problems involving centripetal acceleration and centripetal force."",
+""dimensions"": {
+""cognitive"": [""cg_02"", ""cg_03""],
+""knowledge"": [""kw_01"", ""kw_03""]
+}
+}
+]","[
+""NCERT_PH_11_06_01"",
+""NCERT_PH_11_06_08"" 
+]",,
+OS_PH_HS_06_03,OS_PH_HS_06,OS_PH_HS,Rotational motion,"Rotational Motion explains the principles of how objects move when they rotate around a fixed axis. It begins by drawing a comparison between linear motion and rotational motion. In rotational motion, key quantities include angular displacement, which measures how much an object has rotated; angular velocity, which measures the rate at which the rotation angle changes over time; and angular acceleration, which measures the rate at which angular velocity changes.
+
+These angular quantities are related to their counterparts in linear motion. For example, the linear distance covered by a point on a rotating object is equal to the product of the radius and the angular displacement. Similarly, the linear speed of a point on the rotating object is the product of the radius and the angular velocity, and the linear acceleration is the product of the radius and the angular acceleration.
+
+In this topic we get to see analogy between equations for rotational motion to that of the equations of motion for objects moving in a straight line. These equations help in solving problems where rotational motion involves constant angular acceleration. It emphasizes the use of radians to measure angles in rotational motion, which is essential for calculations.
+
+The section provides examples of how rotational motion concepts are applied in everyday situations, such as the movement of gears, wheels, and other mechanical systems. This helps connect the theoretical concepts to practical applications in engineering and natural phenomena.","[
+{
+""objective"": ""Describe rotational kinematic variables and equations and relate them to their linear counterparts"": {
+""cognitive"": [""cg_02"", ""cg_04""],
+""knowledge"": [""kw_01"", ""kw_02""]
+}
+},
+{
+""objective"": ""Describe torque and lever arm."",
+""dimensions"": {
+""cognitive"": [""cg_02"", ""cg_04""],
+""knowledge"": [""kw_01"", ""kw_02""]
+}
+},
+{
+""objective"": ""Solve problems involving torque and rotational kinematics"",
+""dimensions"": {
+""cognitive"": [""cg_02"", ""cg_03"", ""cg_04""],
+""knowledge"": [""kw_01"", ""kw_03""]
+}
+}
+]","[
+""NCERT_PH_11_06_10"",
+""NCERT_PH_11_06_11"" 
+]",,
+OS_PH_HS_07_01,OS_PH_HS_07,OS_PH_HS,Kepler's law of planetary motion,"Based on the motion of the planets about the sun, Kepler devised a set of three classical laws, called Kepler’s laws of planetary motion, given as
+First Law (Law of Ellipses):
+Each planet orbits the Sun in an elliptical path, with the Sun occupying one of the two foci of the ellipse. This explains that planetary orbits are not circular but stretched, varying the distance between the planet and the Sun.
+
+Second Law (Law of Equal Areas):
+A line connecting a planet to the Sun sweeps out equal areas in equal time intervals. This means that a planet moves faster in its orbit when it is closer to the Sun and slower when it is farther away, demonstrating the conservation of angular momentum.
+
+Third Law (Law of Harmonies):
+The square of a planet’s orbital period is proportional to the cube of the semi-major axis of its orbit. This law relates a planet’s distance from the Sun to the time it takes to complete one orbit, with the same proportionality constant applying to all planets in the solar system.","[
+{
+""objective"": ""Explain Kepler’s three laws of planetary motion."": {
+""cognitive"": [""cg_02"", ""cg_04""],
+""knowledge"": [""kw_01"", ""kw_02""]
+}
+},
+
+{
+""objective"": ""Apply Kepler’s laws to calculate characteristics of orbits."",
+""dimensions"": {
+""cognitive"": [""cg_02"", ""cg_03"", ""cg_04""],
+""knowledge"": [""kw_01"", ""kw_03""]
+}
+}
+]","[
+""NCERT_PH_11_07_01"" 
+]",,
+OS_PH_HS_07_02,OS_PH_HS_07,OS_PH_HS,Newton's law of universal gravitation,"Newton's Law of Universal Gravitation and Einstein's Theory of General Relativity, highlighting their roles in understanding the universe:
+Newton’s Law of Universal Gravitation:
+Newton’s law states that every mass in the universe attracts every other mass with a force directly proportional to the product of their masses and inversely proportional to the square of the distance between them. This force acts along the line joining the centers of the two masses. Newton's formulation introduced the idea of a gravitational constant and allowed precise calculations of planetary orbits and interactions within the solar system.
+Key Differences and Applications:
+Newton’s law is accurate for most everyday and classical physics scenarios, such as predicting planetary orbits and satellite motion. However, general relativity is necessary for extreme conditions involving large masses, high velocities, or strong gravitational fields, such as black holes, gravitational waves, and cosmology.
+While Newton’s law provides an excellent approximation for most scenarios, general relativity offers a more complete and profound understanding of gravity, especially in extreme cosmic contexts. Both theories remain crucial in physics and engineering, serving as foundational pillars of gravitational science.","[
+{
+""objective"": ""Explain Newton’s law of universal gravitation and compare it to Einstein’s theory of general relativity."": {
+""cognitive"": [""cg_02"", ""cg_04""],
+""knowledge"": [""kw_01"", ""kw_02""]
+}
+},
+{
+""objective"": ""Perform calculations using Newton’s law of universal gravitation."",
+""dimensions"": {
+""cognitive"": [""cg_03"", ""cg_04""],
+""knowledge"": [""kw_01"", ""kw_03""]
+}
+}
+]","[
+
+""NCERT_PH_11_07_03"",
+""NCERT_SC_09_09_01""
+]",,
+OS_PH_HS_07_03,OS_PH_HS_07,OS_PH_HS,Einstein's theory of relativity,"Einstein’s Theory of General Relativity:
+Einstein expanded the understanding of gravity by describing it as the curvature of spacetime caused by mass and energy. Massive objects, like planets and stars, create distortions in spacetime, and these distortions determine the motion of other objects. General relativity replaced the concept of a gravitational ""force"" with a geometric framework and successfully explained phenomena like the precession of Mercury's orbit and the bending of light by gravity.","[
+{
+""objective"": ""Explain Newton’s law of universal gravitation and compare it to Einstein’s theory of general relativity."": {
+""cognitive"": [""cg_02"", ""cg_04""],
+""knowledge"": [""kw_01"", ""kw_02""]
+}
+},
+{
+""objective"": ""Perform calculations using Newton’s law of universal gravitation."",
+""dimensions"": {
+""cognitive"": [""cg_03"", ""cg_04""],
+""knowledge"": [""kw_01"", ""kw_03""]
+}
+}
+]","[
+""NCERT_PH_11_07_03""
+]",,
+OS_PH_HS_08_01,OS_PH_HS_08,OS_PH_HS,"Linear momentum, Force and impulse","The concept of linear momentum is essential for understanding how objects move and interact under forces. Linear momentum is defined as the product of an object's mass and velocity and is a vector quantity, meaning it has both magnitude and direction. Newton's second law can be expressed in terms of momentum, linking the rate of change of momentum to the net external force acting on an object. This formulation highlights that forces cause changes in an object's momentum over time.
+
+Impulse, another important concept, is the change in momentum of an object resulting from a force applied over a specific time interval. It is equal to the product of the force and the duration of its application. Impulse is especially useful for analyzing situations where forces act briefly but significantly, such as collisions or impacts. The impulse-momentum theorem directly connects impulse with the change in momentum, making it a valuable tool for solving real-world problems involving motion and force.
+
+Understanding these principles provides a foundation for analyzing various phenomena in physics, such as collisions, the motion of vehicles, and the mechanics of sports. They also serve as a bridge to concepts of energy and conservation laws.","[
+{
+""objective"": ""Describe momentum, what can change momentum, impulse, and the impulse-momentum theorem."": {
+""cognitive"": [""cg_02"", ""cg_04""],
+""knowledge"": [""kw_01"", ""kw_02""]
+}
+},
+{
+""objective"": ""Describe Newton’s second law in terms of momentum"": {
+""cognitive"": [""cg_02"", ""cg_04""],
+""knowledge"": [""kw_01"", ""kw_02""]
+}
+},
+{
+""objective"": ""Solve problems using the impulse-momentum theorem."",
+""dimensions"": {
+""cognitive"": [""cg_02"", ""cg_03"", ""cg_04""],
+""knowledge"": [""kw_01"", ""kw_03""]
+}
+}
+]","[
+""NCERT_PH_11_04_07""
+]",,
+OS_PH_HS_08_02,OS_PH_HS_08,OS_PH_HS,Conservation of momentum,"The conservation of momentum is a fundamental principle in physics that states the total momentum of a system remains constant if no external forces act on it. This law applies universally, from simple systems like colliding objects to complex interactions in particle physics. Momentum conservation is rooted in Newton's laws and is a direct consequence of the symmetry of space.
+
+When two or more objects interact, such as during a collision or separation, the total momentum before the interaction equals the total momentum afterward, provided there are no external forces. This principle allows us to predict the outcomes of interactions, such as velocities after a collision, even in complex scenarios.
+
+Momentum conservation can be applied to both elastic and inelastic collisions. In elastic collisions, both momentum and kinetic energy are conserved, while in inelastic collisions, only momentum is conserved, with some kinetic energy transformed into other forms like heat or deformation energy.","[
+{
+""objective"": ""Describe the law of conservation of momentum verbally and mathematically."": {
+""cognitive"": [""cg_02"", ""cg_03"", ""cg_04""],
+""knowledge"": [""kw_01"", ""kw_02"", ""kw_03""]
+}
+}
+]","[
+""NCERT_PH_11_04_07"",
+""NCERT_SC_08_04_01""
+]",,
+OS_PH_HS_08_03,OS_PH_HS_08,OS_PH_HS,Elastic and Inelastic collisions,"Collisions can be broadly categorized as elastic or inelastic, depending on the conservation of kinetic energy during the interaction. In both types of collisions, momentum is always conserved, but the behavior of kinetic energy distinguishes them.
+
+In an elastic collision, both momentum and kinetic energy are conserved. This type of collision is idealized and often occurs in systems like billiard balls, gas molecules, or objects in space, where there is minimal energy loss due to factors like heat or deformation. Elastic collisions can be analyzed using equations for the conservation of momentum and kinetic energy to determine the velocities of objects after the collision.
+
+In an inelastic collision, momentum is conserved, but kinetic energy is not. A portion of the initial kinetic energy is transformed into other forms of energy, such as heat, sound, or deformation. Perfectly inelastic collisions are a specific case where the colliding objects stick together after the impact, moving as a single unit.
+
+Understanding the differences between elastic and inelastic collisions helps in analyzing real-world scenarios like car crashes, sports impacts, and material testing. These principles also provide foundational knowledge for studying energy transformations and interactions at both macroscopic and microscopic levels.","[
+{
+""objective"": ""Distinguish between elastic and inelastic collisions."",
+""dimensions"": {
+""cognitive"": [""cg_02"", ""cg_04""],
+""knowledge"": [""kw_01"", ""kw_03""]
+}
+}
+]","[
+""NCERT_PH_11_04_07""
+]",,
+OS_PH_HS_09_01,OS_PH_HS_09,OS_PH_HS,"Work, Power, and the Work–Energy Theorem","Work and Energy
+
+Work and energy are closely related concepts. Work is done when a force is applied to an object, causing it to move in the direction of the force. Energy, defined as the ability to do work, changes as work is performed on or by an object. This relationship allows energy to be transferred or transformed. Mechanical energy, the primary focus of this section, includes two forms: kinetic energy (energy of motion) and potential energy (stored energy). For instance, lifting an object increases its potential energy, while a moving object possesses kinetic energy.
+
+Power and Energy Transfer
+
+Power describes the rate at which work is done or energy is transferred. It quantifies how quickly energy is used or transformed in a process. Measured in watts (W), power is a critical factor in practical scenarios, such as calculating energy consumption in electrical devices or determining the efficiency of mechanical systems. The amount of power depends on the time over which the work is performed - a shorter time results in greater power for the same amount of work.
+
+The Work-Energy Theorem
+
+The work-energy theorem establishes a direct link between the work done on an object and its energy change. Specifically, the net work done equals the change in the object’s kinetic energy. This principle provides a quantitative way to understand energy transformations, such as how applying force increases an object’s speed or how gravity converts potential energy into kinetic energy as an object falls.
+
+Historical Contributions
+
+The scientific contributions of James Joule and James Watt underscore the importance of work, power, and energy. Joule’s research demonstrated the relationship between work and energy, establishing the joule as the unit of measurement. Watt’s advancements in steam engine technology highlighted the practical applications of power, enabling significant industrial progress. Together, their work laid the foundation for understanding energy’s role in both physical and technological systems.","[
+{
+""objective"": ""Describe and apply the work-energy theorem"",
+""dimensions"": {
+""cognitive"": [""cg_02"", ""cg_03""],
+""knowledge"": [""kw_02"", ""kw_03""]
+}
+},
+{
+""objective"": ""Describe and calculate work and power"",
+""dimensions"": {
+""cognitive"": [""cg_02"", ""cg_03""],
+""knowledge"": [""kw_02"", ""kw_03""]
+}
+}
+]","[
+""NCERT_SC_09_10_01"",
+""NCERT_SC_09_10_02"",
+""NCERT_SC_09_10_03""
+]",,
+OS_PH_HS_09_02,OS_PH_HS_09,OS_PH_HS,Mechanical Energy and Conservation of Energy,"Mechanical Energy: Potential and Kinetic Energy
+
+Mechanical energy can exist as either potential energy (PE) or kinetic energy (KE). Potential energy represents stored energy due to an object’s position or configuration, such as a roller coaster car at the top of a hill. Kinetic energy is the energy of motion, which increases as an object moves. These two forms of energy are closely connected, as they can transform from one into the other during physical processes.
+
+Energy Transformations
+
+Energy transformation occurs when one form of energy changes into another. For example, lifting an object increases its potential energy, while letting it fall converts this stored energy into kinetic energy. The total amount of work done to raise an object equals the increase in its gravitational potential energy, assuming no energy is lost to friction. Similarly, as a roller coaster descends, its potential energy is converted to kinetic energy, and as it ascends, the kinetic energy transforms back into potential energy.
+
+Conservation of Mechanical Energy
+
+The law of conservation of energy states that in a closed system, the total mechanical energy remains constant, provided no energy is lost to friction or air resistance. This means the sum of potential energy and kinetic energy at one point equals the sum at another point. This principle applies to many systems, such as a roller coaster, where energy transitions between kinetic and potential forms while maintaining a constant total.
+
+Real-World Considerations
+
+In real-life scenarios, factors such as friction and air resistance lead to energy losses, often as heat. These losses reduce the total mechanical energy available for transformations, introducing some inaccuracy to calculations. However, assuming a frictionless system simplifies analyses and is often valid for dense objects or controlled conditions.","[
+{
+""objective"": ""Explain the law of conservation of energy in terms of kinetic and potential energy"",
+""dimensions"": {
+""cognitive"": [""cg_02"", ""cg_03""],
+""knowledge"": [""kw_02"", ""kw_03""]
+}
+},
+{
+""objective"": ""Perform calculations related to kinetic and potential energy and apply the law of conservation of energy"",
+""dimensions"": {
+""cognitive"": [""cg_03""],
+""knowledge"": [""kw_02"", ""kw_03""]
+}
+}
+]","[
+""NCERT_SC_09_10_02""
+]",,
+OS_PH_HS_09_03,OS_PH_HS_09,OS_PH_HS,Simple Machines,"What Are Simple Machines?
+
+Simple machines make work easier by changing the amount of force needed to move an object. However, they do not reduce the total amount of work required because energy is conserved. These machines allow a smaller force to be applied over a longer distance to achieve the same result.
+
+Types of Simple Machines
+
+1. Levers: A bar that pivots on a fixed point called a fulcrum. By adjusting the lengths of the lever arms, a small force can lift a heavy load. Examples include pry bars, seesaws, and hammers.
+2. Wheel and Axle: A circular device where turning the larger wheel reduces the force needed to move a load attached to the smaller axle. Examples include cranks, gears, and rolling mechanisms.
+3. Inclined Planes: A sloped surface that reduces the effort needed to lift an object by increasing the distance over which the force is applied. Ramps are a common example.
+4. Wedges: Two inclined planes joined together, used to split or cut objects. Examples include knives and axe heads.
+5. Screws: An inclined plane wrapped around a cylinder. Screws are used in fasteners and lifting devices.
+6. Pulleys: A system of wheels and ropes that changes the direction of the applied force. Adding more pulleys reduces the effort needed to lift heavy objects. Examples include flagpoles and cranes.
+
+Mechanical Advantage
+
+Simple machines make tasks easier by multiplying the effort force. This is called mechanical advantage. In an ideal world, machines would operate perfectly, but in reality, friction reduces their efficiency.
+
+Efficiency and Energy Loss
+
+Efficiency measures how well a machine converts input work into useful output work. Real machines lose some energy to friction and heat, so they are never 100% efficient. Reducing friction with lubrication can improve performance.
+
+Complex Machines
+
+When multiple simple machines are combined, they form complex machines. Examples include bicycles, which use levers, wheels, pulleys, and screws, or wire cutters that combine levers and wedges.","[
+{
+""objective"": ""Describe simple and complex machines"",
+""dimensions"": {
+""cognitive"": [""cg_02""],
+""knowledge"": [""kw_02""]
+}
+},
+{
+""objective"": ""Calculate mechanical advantage and efficiency of simple and complex machines"",
+""dimensions"": {
+""cognitive"": [""cg_03""],
+""knowledge"": [""kw_02"", ""kw_03""]
+}
+}
+]","[
+""NCERT_SC_11_05_07""
+]",,
+OS_PH_HS_11_01,OS_PH_HS_11,OS_PH_HS,Temperature and thermal energy,"Temperature is a measure of the average kinetic energy of particles in a substance, determining how ""hot"" or ""cold"" an object feels. It is a scalar quantity and does not directly measure the total energy of the system. In contrast, thermal energy represents the total kinetic energy of all particles in an object, making it dependent on both the motion of particles and the number of particles present.
+
+At the microscopic level, particles in any material are in constant motion. The faster they move, the higher their kinetic energy and, consequently, the temperature. When two objects with different temperatures come into contact, energy transfers from the hotter object to the cooler one. This process continues until both objects reach the same temperature, a state known as thermal equilibrium.
+
+The distinction between temperature and thermal energy is critical, as they govern energy flow and system behavior in thermodynamic processes. Understanding these concepts lays the foundation for studying heat transfer, phase changes, and the laws of thermodynamics.
+
+
+
+
+
+
+","[
+{
+""objective"": ""Explain that temperature is a measure of internal kinetic energy."": {
+""cognitive"": [""cg_02"", ""cg_04""],
+""knowledge"": [""kw_01"", ""kw_02""]
+}
+},
+{
+""objective"": ""Interconvert temperatures between Celsius, Kelvin, and Fahrenheit scales."",
+""dimensions"": {
+""cognitive"": [""cg_02"", ""cg_03"", ""cg_04""],
+""knowledge"": [""kw_01"", ""kw_03""]
+}
+}
+]","[
+
+""NCERT_PH_11_10_01"",
+""NCERT_PH_11_10_02"",
+""NCERT_PH_11_10_03""
+]",,
+OS_PH_HS_11_02,OS_PH_HS_11,OS_PH_HS,"Heat, specific heat and heat transfer","Heat is defined as the transfer of thermal energy from one object to another due to a temperature difference. It flows from hotter to cooler objects and continues until thermal equilibrium is reached. Unlike thermal energy, heat is not a property of an object but rather an energy transfer process.
+Specific heat capacity (c) is the amount of heat required to change the temperature of one kilogram of a substance by one degree Celsius. The formula for heat transfer is Q = mc_T, where Q is the heat added or removed, m is the mass, and _T is the temperature change. Different substances have unique specific heat values, influencing how they respond to heating or cooling.
+Heat transfer occurs through three primary mechanisms:
+Conduction: Direct transfer of heat through collisions of particles within a material or between materials in contact.
+Convection: Transfer of heat by the bulk movement of a fluid, driven by temperature-induced density differences.
+Radiation: Transfer of energy through electromagnetic waves, requiring no medium (e.g., sunlight reaching Earth).
+","[
+{
+""objective"": ""Explain heat, heat capacity, and specific heat."": {
+""cognitive"": [""cg_02"", ""cg_04""],
+""knowledge"": [""kw_01"", ""kw_02""]
+}
+},
+{
+""objective"": ""Distinguish between conduction, convection, and radiation"": {
+""cognitive"": [""cg_02"", ""cg_04""],
+""knowledge"": [""kw_01"", ""kw_02""]
+}
+},
+{
+""objective"": ""Solve problems involving specific heat and heat transfer."",
+""dimensions"": {
+""cognitive"": [""cg_02"", ""cg_03"", ""cg_04""],
+""knowledge"": [""kw_01"", ""kw_03""]
+}
+}
+]","[
+""NCERT_PH_11_10_09"",
+""NCERT_PH_11_10_06"",
+""NCERT_PH_11_10_07"",
+""NCERT_PH_11_11_06""
+]",,
+OS_PH_HS_11_03,OS_PH_HS_11,OS_PH_HS,Phase change and latent heat,"Latent heat is the energy required to change the phase of a substance without altering its temperature.Phase changes, such as melting, freezing, and boiling, occur at constant temperatures and involve the transformation of a substance between solid, liquid, and gas states.
+Latent heat is the energy required for a phase change without changing the temperature. The two main types are:
+1.Latent heat of fusion, for solid-liquid transitions.
+2.Latent heat of vaporization, for liquid-gas transitions.
+The heat involved in phase changes is calculated using the formula: heat equals mass times latent heat. This energy is used to overcome intermolecular forces, which explains why temperature remains constant during these transformations.","[
+{
+""objective"": ""Explain changes in heat during changes of state, and describe latent heats of fusion and vaporization."": {
+""cognitive"": [""cg_02"", ""cg_04""],
+""knowledge"": [""kw_01"", ""kw_02""]
+}
+},
+{
+""objective"": ""Solve problems involving thermal energy changes when heating and cooling substances with phase changes."",
+""dimensions"": {
+""cognitive"": [""cg_02"", ""cg_03"", ""cg_04""],
+""knowledge"": [""kw_01"", ""kw_03""]
+}
+}
+]","[
+""NCERT_PH_11_10_08""
+]",,
+OS_PH_HS_12_01,OS_PH_HS_12,OS_PH_HS,Zeroth law of thermodynamics: Themal equilibrium,"Thermal equilibrium occurs when two systems in thermal contact no longer exchange heat, meaning they are at the same temperature.
+The Zeroth Law states: If two systems are each in thermal equilibrium with a third system, they are in thermal equilibrium with each other.This law establishes the foundation for the concept of temperature and its measurement.
+The Zeroth Law allows the use of thermometers to measure temperature by achieving thermal equilibrium between the thermometer and the system being measured.This principle is fundamental to thermodynamics, as it defines temperature as a measurable quantity and lays the groundwork for understanding heat transfer and energy flow.","[
+{
+""objective"": ""Explain the zeroth law of thermodynamics."": {
+""cognitive"": [""cg_02"", ""cg_04""],
+""knowledge"": [""kw_01"", ""kw_02""]
+}
+}
+]","[
+""NCERT_PH_11_11_02"",
+""NCERT_PH_11_11_03""
+]",,
+OS_PH_HS_12_02,OS_PH_HS_12,OS_PH_HS,First law of thermodynamics: Thermal energy and work,"The First Law states that the change in a system's internal energy is equal to the heat added to the system minus the work done by the system. In other words, the energy entering or leaving a system is either used to change its internal energy or to perform work. This law essentially expresses the conservation of energy principle, asserting that energy can neither be created nor destroyed, only transferred or transformed.
+
+Internal energy refers to the total energy contained within a system, including the energy associated with the motion of particles and their interactions. Heat is the energy transferred between objects due to a temperature difference, while work is the energy transfer resulting from forces, such as the expansion or compression of a gas.
+
+The First Law is crucial for understanding how energy flows within a system. For example, in an isothermal process (where the temperature remains constant), the heat added to the system equals the work done by the system. In an adiabatic process (where no heat is exchanged), the change in internal energy is equal to the work done on or by the system.
+
+Overall, the First Law of Thermodynamics provides a framework for analyzing energy transformations in various processes, such as in heat engines and refrigerators, helping to predict how energy moves and changes in different systems.
+
+
+
+
+
+","[
+{
+""objective"": ""Describe how pressure, volume, and temperature relate to one another and to work, based on the ideal gas law."": 
+{
+""cognitive"": [""cg_02"", ""cg_04""],
+""knowledge"": [""kw_01"", ""kw_02""]
+}
+},
+{
+""objective"": Describe pressure–volume work."": 
+{
+""cognitive"": [""cg_02"", ""cg_04""],
+""knowledge"": [""kw_01"", ""kw_02""]
+}
+},
+{
+""objective"": ""Describe the first law of thermodynamics verbally and mathematically."": {
+""cognitive"": [""cg_02"", ""cg_04""],
+""knowledge"": [""kw_01"", ""kw_02""]
+}
+},
+{
+""objective"": ""Solve problems involving the first law of thermodynamics."",
+""dimensions"": {
+""cognitive"": [""cg_02"", ""cg_03"", ""cg_04""],
+""knowledge"": [""kw_01"", ""kw_03""]
+}
+}
+]","[
+""NCERT_PH_11_11_04"",
+""NCERT_PH_11_11_05"",
+""NCERT_PH_11_11_07"" 
+]",,
+OS_PH_HS_12_03,OS_PH_HS_12,OS_PH_HS,Second Law of thermodynamics: Entropy,"The Second Law of Thermodynamics states that in any energy transfer or transformation, the total entropy of an isolated system either increases or remains constant. Entropy is a measure of the system's disorder or randomness, reflecting the number of ways a system's particles can be arranged. A process that increases entropy is considered natural and spontaneous, while processes that decrease entropy are not naturally occurring without external input.
+
+The Second Law highlights the inherent inefficiency of energy transformations. In practical systems, some energy is always lost as heat, making it unavailable to do useful work. This principle explains why perpetual motion machines are impossible and why energy systems tend to move towards states of equilibrium and maximum entropy.
+
+One significant application of the Second Law is in understanding heat engines, where it governs the limitations on converting heat into work. It also applies to natural processes, such as the mixing of substances or the transfer of heat from hotter to cooler objects.
+
+The concept of entropy provides a quantitative tool for analyzing these processes and their direction. By recognizing the inevitability of entropy increase, the Second Law helps explain the behavior of thermodynamic systems and the irreversibility of many natural phenomena.
+
+
+
+
+
+","[
+{
+""objective"": ""Describe entropy."": {
+""cognitive"": [""cg_02"", ""cg_04""],
+""knowledge"": [""kw_01"", ""kw_02""]
+}
+},
+{
+""objective"": ""Describe the second law of thermodynamics."": {
+""cognitive"": [""cg_02"", ""cg_04""],
+""knowledge"": [""kw_01"", ""kw_02""]
+}
+},
+{
+""objective"": ""Solve problems involving the second law of thermodynamics."",
+""dimensions"": {
+""cognitive"": [""cg_02"", ""cg_03"", ""cg_04""],
+""knowledge"": [""kw_01"", ""kw_03""]
+}
+}
+]","[
+""NCERT_PH_11_11_09"",
+""NCERT_PH_11_11_11"" 
+]",,
+OS_PH_HS_12_04,OS_PH_HS_12,OS_PH_HS,"Applications of thermodynamics: Heat engines, Heat pumps and refrigerators","Heat Engines:
+Heat engines convert thermal energy into mechanical work by operating between a high-temperature heat source and a low-temperature heat sink. Energy is absorbed as heat from the source, part of it is converted into work, and the rest is rejected to the sink. The efficiency of a heat engine depends on the temperature difference between the source and sink, with higher differences leading to greater efficiency. Real engines, however, are less efficient than ideal engines due to energy losses and irreversibilities.
+
+Heat Pumps and Refrigerators:
+Heat pumps and refrigerators transfer heat in the opposite direction of its natural flow, from colder regions to warmer ones. Heat pumps are used for heating spaces by extracting heat from the environment, while refrigerators cool spaces by removing heat. Both devices require external work, typically provided by electricity.
+
+Efficiency and Coefficients of Performance:
+For heat engines, efficiency is defined as the ratio of work output to heat input. In contrast, heat pumps and refrigerators are evaluated using the coefficient of performance (COP), which measures the amount of heat transferred per unit of work input. A higher COP indicates better performance.
+
+These applications demonstrate the practical use of thermodynamic laws in engineering, focusing on maximizing energy efficiency and minimizing energy losses. They are essential in everyday technologies, including transportation, heating, and cooling systems.
+
+
+
+
+
+","[
+{
+""objective"": ""Explain how heat engines, heat pumps, and refrigerators work in terms of the laws of thermodynamics."": {
+""cognitive"": [""cg_02"", ""cg_04""],
+""knowledge"": [""kw_01"", ""kw_02""]
+}
+},
+{
+""objective"": ""Describe thermal efficiency."": {
+""cognitive"": [""cg_02"", ""cg_04""],
+""knowledge"": [""kw_01"", ""kw_02""]
+}
+},
+{
+""objective"": ""Solve problems involving thermal efficiency."",
+""dimensions"": {
+""cognitive"": [""cg_02"", ""cg_03"", ""cg_04""],
+""knowledge"": [""kw_01"", ""kw_03""]
+}
+}
+]","[
+""NCERT_PH_11_11_11"" 
+]",,
+OS_PH_HS_13_01,OS_PH_HS_13,OS_PH_HS,Types of Waves,"A wave is a disturbance that propagates from the point where it was created, transferring energy without transferring mass. Common examples include sound, light, and ocean waves. Mechanical waves, such as sound and water waves, require a medium (solid, liquid, or gas) to travel through. The speed of mechanical waves depends on the properties of the medium. Unlike mechanical waves, light is not a mechanical wave and can travel through a vacuum.
+
+Key Features of Mechanical Waves
+
+1. Pulse Waves and Periodic Waves:
+
+- A pulse wave is a sudden disturbance that generates one or a few waves, like a pebble dropped in water or thunder.
+- A periodic wave repeats its oscillations in cycles, such as those created in a wave pool. These waves are often linked to simple harmonic motion.
+2. Categories of Mechanical Waves:
+
+- Transverse Waves: The disturbance is perpendicular to the direction of wave propagation. For example, a wave on a guitar string or a toy spring moved up and down.
+- Longitudinal Waves: The disturbance is parallel to the direction of wave propagation. Sound waves and certain earthquake waves are examples.
+
+3. Combined Waves:
+- Some waves, like water waves or earthquake waves, combine transverse and longitudinal motions, resulting in more complex behavior.","[
+{
+""objective"": ""Define mechanical waves and medium, and relate the two"",
+""dimensions"": {
+""cognitive"": [""cg_02""],
+""knowledge"": [""kw_02""]
+}
+},
+{
+""objective"": ""Distinguish a pulse wave from a periodic wave"",
+""dimensions"": {
+""cognitive"": [""cg_04""],
+""knowledge"": [""kw_02""]
+}
+},
+{
+""objective"": ""Distinguish a longitudinal wave from a transverse wave and give examples of such waves"",
+""dimensions"": {
+""cognitive"": [""cg_04""],
+""knowledge"": [""kw_02""]
+}
+}
+]","[
+""NCERT_SC_11_14_01"",
+""NCERT_SC_11_14_02""
+]",,
+OS_PH_HS_13_02,OS_PH_HS_13,OS_PH_HS,"Wave Properties: Speed, Amplitude, Frequency, and Period","Wave properties define the characteristics of wave motion and how energy is transmitted. 
+
+The speed of a wave refers to how fast the disturbance moves through a medium. It is determined by the nature of the medium itself, such as its density or elasticity, and remains constant for a given material. 
+
+The amplitude of a wave measures the maximum displacement from its equilibrium position. It indicates the wave’s energy, with larger amplitudes representing higher energy levels.
+
+Frequency describes how many complete wave cycles pass a specific point in one second. It is typically measured in hertz and relates to the wave’s pitch or tone in the case of sound. The period of a wave, on the other hand, is the time it takes for one complete cycle to occur. It is inversely related to frequency; as frequency increases, the period decreases.
+
+The wavelength represents the distance between two consecutive points on a wave that are in the same phase, such as crest to crest or trough to trough. Together, wavelength and frequency determine how waves propagate through space or a medium. These interconnected properties, including the wave’s speed, amplitude, frequency, period, and wavelength, describe the behavior and energy of waves across various phenomena, from sound to light and water waves.","[
+{
+""objective"": ""Define amplitude, frequency, period, wavelength, and velocity of a wave"",
+""dimensions"": {
+""cognitive"": [""cg_01""],
+""knowledge"": [""kw_01""]
+}
+},
+{
+""objective"": ""Relate wave frequency, period, wavelength, and velocity"",
+""dimensions"": {
+""cognitive"": [""cg_02""],
+""knowledge"": [""kw_02""]
+}
+},
+{
+""objective"": ""Solve problems involving wave properties"",
+""dimensions"": {
+""cognitive"": [""cg_03""],
+""knowledge"": [""kw_03""]
+}
+}
+]","[
+""NCERT_SC_11_14_03"",
+""NCERT_SC_11_14_04""
+]",,
+OS_PH_HS_13_03,OS_PH_HS_13,OS_PH_HS,Wave Interaction: Superposition and Interference,"Waves in nature often appear complex due to the phenomenon of superposition, where two or more waves combine as they meet at the same place and time. In this process, the disturbances of individual waves add together to form a resultant wave. Depending on how the waves align, this can result in constructive interference, where the amplitudes of the waves combine to produce a larger wave, or destructive interference, where the waves cancel each other out, resulting in reduced or zero amplitude.
+
+When waves of different amplitudes or wavelengths combine, the resultant wave becomes even more complex, displaying both constructive and destructive interference across its length. This phenomenon is commonly observed in everyday situations, such as varying sound intensities in a room or the fluctuating roar of jet engines.
+
+Standing waves are a special case of wave interaction, formed when two identical waves traveling in opposite directions superimpose. This creates oscillations at fixed points, with nodes (points of no motion) and antinodes (points of maximum amplitude). Standing waves are common in musical instruments, where reflections from fixed ends of strings create specific vibration patterns. They can also occur in natural phenomena, such as earthquake waves reflecting within Earth’s crust.
+
+Waves can also reflect upon encountering a barrier. If the end of the medium is fixed, the wave inverts, flipping its direction while maintaining its shape. In contrast, reflection at a free end does not cause inversion. When a wave transitions from one medium to another, it undergoes refraction, bending its path and changing its speed and wavelength due to differences in the medium’s properties. This bending is evident when water waves move from deeper to shallower regions, slowing down and decreasing in wavelength.
+
+These interactions - superposition, interference, standing waves, reflection, and refraction - are fundamental to understanding wave behavior across various media and applications, from sound to light and water waves.","[
+{
+""objective"": ""Describe superposition of waves"",
+""dimensions"": {
+""cognitive"": [""cg_02""],
+""knowledge"": [""kw_02""]
+}
+},
+{
+""objective"": ""Describe interference of waves and distinguish between constructive and destructive interference of waves"",
+""dimensions"": {
+""cognitive"": [""cg_04""],
+""knowledge"": [""kw_02""]
+}
+},
+{
+""objective"": ""Describe the characteristics of standing waves"",
+""dimensions"": {
+""cognitive"": [""cg_02""],
+""knowledge"": [""kw_02""]
+}
+},
+{
+""objective"": ""Distinguish reflection from refraction of waves"",
+""dimensions"": {
+""cognitive"": [""cg_04""],
+""knowledge"": [""kw_02""]
+}
+}
+]","[
+""NCERT_SC_11_14_05"",
+""NCERT_SC_11_14_06""
+]",,
+OS_PH_HS_14_01,OS_PH_HS_14,OS_PH_HS,"Speed of Sound, Frequency, and Wavelength","The speed of sound varies greatly depending upon the medium it is traveling through. The speed of sound in a medium is determined by a combination of the medium’s rigidity (or compressibility in gases) and its density. The more rigid (or less compressible) the medium, the faster the speed of sound. The greater the density of a medium, the slower the speed of sound. The speed of sound in air is low, because air is compressible. Because liquids and solids are relatively rigid and very difficult to compress, the speed of sound in such media is generally greater than in gases.Sound, like all waves, travels at certain speeds through different media and has the properties of frequency and wavelength.
+Wavelength is defined as the distance between adjacent identical parts of a wave. The wavelength of a sound, therefore, is the distance between adjacent identical parts of a sound wave. The frequency of a sound wave is the same as that of the source.","[
+{
+""objective"": ""Relate the characteristics of waves to properties of sound waves"",
+""dimensions"": {
+""cognitive"": [""cg_02"" , ""cg_04"" ],
+""knowledge"": [ ""kw_01"" , ""kw_02""]
+}
+},
+{
+""objective"": ""Describe the speed of sound and how it changes in various media"",
+""dimensions"": {
+""cognitive"": [""cg_02"" , ""cg_04""],
+""knowledge"": [""kw_01"" , ""kw_02""]
+}
+},
+{
+""objective"": ""Relate the speed of sound to frequency and wavelength of a sound wave"",
+""dimensions"": {
+""cognitive"": [""cg_02"" , ""cg_03"" , ""cg_04""],
+""knowledge"": [""kw_02"" , ""kw_03""]
+}
+}
+]",,,
+OS_PH_HS_14_02,OS_PH_HS_14,OS_PH_HS,Sound Intensity and Sound Level,"A useful quantity for describing the loudness of sounds is called sound intensity. The intensity of a wave is the power per unit area carried by the wave. Power is the rate at which energy is transferred by the wave. While sound intensity (in W/m^2) is the SI unit, the sound intensity level in decibels (dB) is more relevant for how humans perceive sounds. The way our ears perceive sound can be more accurately described by the logarithm of the intensity of a sound rather than the intensity of a sound directly. The
+Hearing is the perception of sound. It can give us plenty of information—such as pitch, loudness, and direction. Humans can normally hear frequencies ranging from approximately 20 to 20,000 Hz.
+Sounds below 20 Hz are called infrasound, whereas those above 20,000 Hz are ultrasound. The perception of frequency is called pitch, and the perception of intensity is called loudness.
+The outer ear, or ear canal, carries sound to the eardrum protected inside of the ear. The middle ear converts sound into mechanical vibrations and applies these vibrations to the cochlea. The lever system of the middle ear takes the force exerted on the eardrum by sound pressure variations, amplifies it and transmits it to the inner ear via the oval window. Two muscles in the middle ear protect the inner ear from very intense sounds. They react to intense sound in a few milliseconds and reduce the force transmitted to the cochlea. This protective reaction can also be triggered by your own voice, so that humming during a fireworks display, for example, can reduce noise damage.
+As the middle ear bones vibrate, they vibrate the cochlea, which contains fluid. This creates pressure waves in the fluid that cause the tectorial membrane to vibrate. The motion of the tectorial membrane stimulates tiny cilia on specialized cells called hair cells. These hair cells, and their attached neurons, transform the motion of the tectorial membrane into electrical signals that are sent to the brain.
+The tectorial membrane vibrates at different positions based on the frequency of the incoming sound. This allows us to detect the pitch of sound. Additional processing in the brain also allows us to determine which direction the sound is coming from (based on comparison of the sound’s arrival time and intensity between our two ears).","[
+{
+""objective"": ""Relate amplitude of a wave to loudness and energy of a sound wave"",
+""dimensions"": {
+""cognitive"": [""cg_02"" , ""cg_03"" , ""cg_04"" ],
+""knowledge"": [ ""kw_02"" , ""kw_03""]
+}
+},
+{
+""objective"": ""Describe the decibel scale for measuring sound intensity"",
+""dimensions"": {
+""cognitive"": [""cg_02"" , ""cg_04""],
+""knowledge"": [""kw_01"" , ""kw_02""]
+}
+},
+{
+""objective"": ""Solve problems involving the intensity of a sound wave"",
+""dimensions"": {
+""cognitive"": [""cg_02"" , ""cg_03"" , ""cg_04""],
+""knowledge"": [""kw_02"" , ""kw_03""]
+}
+},
+{
+""objective"": ""Describe how humans produce and hear sounds"",
+""dimensions"": {
+""cognitive"": [""cg_02"" , ""cg_04""],
+""knowledge"": [""kw_01"" , ""kw_02""]
+}
+}
+]",,,
+OS_PH_HS_14_03,OS_PH_HS_14,OS_PH_HS,Doppler Effect and Sonic Booms,"The Doppler effect is a change in the observed pitch of a sound, due to relative motion between the source and the observer. Three different scenarios where Doppler's effect can be observed: Sound waves emitted by a stationary source, sound waves emitted by a moving source, and sound waves emitted by a stationary source but heard by moving observers. In each case, the sound spreads out from the point where it was emitted. 
+If the source exceeds the speed of sound, no sound is received by the observer until the source has passed, so that the sounds from the source when it was approaching are stacked up with those from it when receding, creating a sonic boom. A sonic boom is a constructive interference of sound created by an object moving faster than sound.","[
+{
+""objective"": ""Describe the Doppler effect of sound waves"",
+""dimensions"": {
+""cognitive"": [""cg_02"" , ""cg_04"" ],
+""knowledge"": [ ""kw_01"" , ""kw_02""]
+}
+},
+{
+""objective"": ""Explain a sonic boom"",
+""dimensions"": {
+""cognitive"": [""cg_02"" , ""cg_04""],
+""knowledge"": [""kw_01"" , ""kw_02""]
+}
+},
+{
+""objective"": ""Calculate the frequency shift of sound from a moving object by the Doppler shift formula, and calculate the speed of an object by the Doppler shift formula"",
+""dimensions"": {
+""cognitive"": [""cg_02"" , ""cg_03"" , ""cg_04""],
+""knowledge"": [""kw_02"" , ""kw_03""]
+}
+}
+]",,,
+OS_PH_HS_14_04,OS_PH_HS_14,OS_PH_HS,Sound Interference and Resonance,"A driving force (such as our voice in the example) puts energy into a system at a certain frequency, which is not necessarily the same as the natural frequency of the system. Over time the energy dissipates, and the amplitude gradually reduces to zero- this is called damping. The natural frequency is the frequency at which a system would oscillate if there were no driving and no damping force. The phenomenon of driving a system with a frequency equal to its natural frequency is called resonance, and a system being driven at its natural frequency is said to resonate. 
+The superposition of waves can also create beats. Beats are produced by the superposition of two waves with slightly different frequencies but the same amplitude. The waves alternate in time between constructive interference and destructive interference, giving the resultant wave an amplitude that varies over time. This wave fluctuates in amplitude, or beats, with a frequency called the beat frequency.
+The lowest resonant frequency is called the fundamental, while all higher resonant frequencies are called overtones. All resonant frequencies are multiples of the fundamental, and are called harmonics. The fundamental is the first harmonic, the first overtone is the second harmonic, and so on.","[
+{
+""objective"": ""Describe resonance and beats"",
+""dimensions"": {
+""cognitive"": [""cg_02"" , ""cg_04"" ],
+""knowledge"": [ ""kw_01"" , ""kw_02""]
+}
+},
+{
+""objective"": ""Define fundamental frequency and harmonic series"",
+""dimensions"": {
+""cognitive"": [""cg_02"" , ""cg_04""],
+""knowledge"": [""kw_01"" , ""kw_02""]
+}
+},
+{
+""objective"": ""Contrast an open-pipe and closed-pipe resonator"",
+""dimensions"": {
+""cognitive"": [""cg_02"" , ""cg_04""],
+""knowledge"": [""kw_01"" , ""kw_02""]
+}
+},
+{
+""objective"": ""Solve problems involving harmonic series and beat frequency"",
+""dimensions"": {
+""cognitive"": [""cg_02"" , ""cg_03"" , ""cg_04""],
+""knowledge"": [""kw_02"" , ""kw_03""]
+}
+}
+]",,,
+OS_PH_HS_15_01,OS_PH_HS_15,OS_PH_HS,The Electromagnetic Spectrum,"The electromagnetic spectrum encompasses all forms of electromagnetic radiation, ranging from low-energy radio waves to high-energy gamma rays. These waves, created by oscillating electric and magnetic fields, travel at the speed of light and differ in wavelength, frequency, and energy.
+
+At the low-frequency end, radio waves and microwaves are used in communication, broadcasting, and radar. Infrared radiation is associated with heat and finds applications in thermal imaging and remote sensing. The visible light spectrum, the only part detectable by the human eye, enables vision and drives photosynthesis.
+
+Beyond visible light, ultraviolet (UV) radiation has higher energy, aiding in sterilization and vitamin D production but also posing risks such as skin damage. X-rays penetrate soft tissues, making them valuable for medical imaging, while gamma rays, the most energetic, are used in cancer treatment and nuclear research.
+
+Despite their differences, all electromagnetic waves share fundamental properties, traveling at the same speed in a vacuum and interacting with matter in diverse ways. The electromagnetic spectrum is essential in technology, medicine, and scientific discovery, shaping modern life and expanding our understanding of the universe.","[
+{
+""objective"": ""Define the electromagnetic spectrum and describe it in terms of frequencies and wavelengths"",
+""dimensions"": {
+""cognitive"": [""cg_02""],
+""knowledge"": [""kw_02""]
+}
+},
+{
+""objective"": ""Describe and explain the differences and similarities of each section of the electromagnetic spectrum and the applications of radiation from those sections"",
+""dimensions"": {
+""cognitive"": [""cg_04""],
+""knowledge"": [""kw_02""]
+}
+}
+]","[
+""NCERT_SC_12_08_03"",
+""NCERT_SC_12_08_04""
+]",,
+OS_PH_HS_15_02,OS_PH_HS_15,OS_PH_HS,The Behavior of Electromagnetic Radiation,"Electromagnetic radiation travels at the speed of light in a vacuum, given by the fundamental constant $ c = 3.00 \times 10^8 , \text{m/s} $. When passing through a medium, its speed decreases, causing refraction. The relationship between speed, frequency, and wavelength is expressed as $ c = f\lambda $, indicating that wavelength ($\lambda$) and frequency ($f$) are inversely proportional. Higher-frequency waves (X-rays, gamma rays) carry more energy and penetrate matter more effectively, while lower-frequency waves (radio waves) are longer and used in communication.
+
+Interference occurs when waves overlap, producing patterns seen in thin films like soap bubbles. Polarization filters light, reducing glare by blocking specific wave orientations. The inverse square law, given by $ I \propto \frac{1}{r^2} $, states that light intensity decreases with distance, impacting illumination and astronomy. Electromagnetic waves interact with matter through absorption, reflection, transmission, and scattering, leading to applications in imaging, communication, and energy transfer.","[
+{
+""objective"": ""Describe the behavior of electromagnetic radiation"",
+""dimensions"": {
+""cognitive"": [""cg_02""],
+""knowledge"": [""kw_02""]
+}
+},
+{
+""objective"": ""Solve quantitative problems involving the behavior of electromagnetic radiation"",
+""dimensions"": {
+""cognitive"": [""cg_03""],
+""knowledge"": [""kw_03""]
+}
+}
+]","[
+""NCERT_SC_12_08_03"",
+""NCERT_SC_12_08_04""
+]",,
+OS_PH_HS_16_01,OS_PH_HS_16,OS_PH_HS,Reflection,"Light can travel to an object through various media, such as air and glass. Light can also arrive at an object after being reflected, such as by a mirror. In all these cases, light is modeled as traveling in a straight line, called a ray. Light may change direction when it encounters the surface of a different material (such as a mirror) or when it passes from one material to another (such as when passing from air into glass). It then continues in a straight line—that is, as a ray.
+
+The law of reflection states: The angle of reflection, (theta r) , equals the angle of incidence, (theta i). This law governs the behavior of all waves when they interact with a smooth surface, and therefore describe the behavior of light waves as well. The reflection of light is simplified when light is treated as a ray.","[
+{
+""objective"": ""Explain reflection from mirrors, describe image formation as a consequence of reflection from mirrors, apply ray diagrams to predict and interpret image and object locations, and describe applications of mirrors"",
+""dimensions"": {
+""cognitive"": [""cg_02"" , ""cg_03"" , ""cg_04"" ],
+""knowledge"": [ ""kw_02"" , ""kw_03""]
+}
+},
+{
+""objective"": ""Perform calculations based on the law of reflection and the equations for curved mirrors"",
+""dimensions"": {
+""cognitive"": [""cg_02"" , ""cg_03"" , ""cg_04""],
+""knowledge"": [""kw_02"" , ""kw_03""]
+}
+}
+]",,,
+OS_PH_HS_16_02,OS_PH_HS_16,OS_PH_HS,Refraction,"The changing of a light ray’s direction (loosely called bending) when it passes a boundary between materials of different composition, or between layers in single material where there are changes in temperature and density, is called refraction. Refraction is responsible for a tremendous range of optical phenomena, from the action of lenses to voice transmission through optical fibers.
+
+The light changes speed when going from one material to another, therefore light change direction when passing from one material (medium) to another.","[
+{
+""objective"": ""Explain refraction at media boundaries, predict the path of light after passing through a boundary (Snell’s law), describe the index of refraction of materials, explain total internal reflection, and describe applications of refraction and total internal reflection"",
+""dimensions"": {
+""cognitive"": [""cg_02"" , ""cg_03"" , ""cg_04"" ],
+""knowledge"": [ ""kw_02"" , ""kw_03""]
+}
+},
+{
+""objective"": ""Perform calculations based on the law of refraction, Snell’s law, and the conditions for total internal reflection"",
+""dimensions"": {
+""cognitive"": [""cg_02"" , ""cg_03"" , ""cg_04""],
+""knowledge"": [""kw_02"" , ""kw_03""]
+}
+}
+]",,,
+OS_PH_HS_16_03,OS_PH_HS_16,OS_PH_HS,Lenses,"The convex lens is shaped so that all light rays that enter it parallel to its central axis cross one another at a single point on the opposite side of the lens. The central axis, or axis, is defined to be a line normal to the lens at its center. Such a lens is called a converging lens because of the converging effect it has on light rays.
+
+The concave lens is a diverging lens because it causes the light rays to bend away (diverge) from its axis. In this case, the lens has been shaped so all light rays entering it parallel to its axis appear to originate from the same point, F, defined to be the focal point of a diverging lens.
+
+","[
+{
+""objective"": ""Describe and predict image formation and magnification as a consequence of refraction through convex and concave lenses, use ray diagrams to confirm image formation, and discuss how these properties of lenses determine their applications"",
+""dimensions"": {
+""cognitive"": [""cg_02"" , ""cg_03"" , ""cg_04"" ],
+""knowledge"": [ ""kw_02"" , ""kw_03""]
+}
+},
+{
+""objective"": ""Explain how the human eye works in terms of geometric optics"",
+""dimensions"": {
+""cognitive"": [""cg_02"" , ""cg_04""],
+""knowledge"": [""kw_01"" , ""kw_02""]
+}
+},
+{
+""objective"": ""Perform calculations, based on the thin-lens equation, to determine image and object distances, focal length, and image magnification, and use these calculations to confirm values determined from ray diagrams"",
+""dimensions"": {
+""cognitive"": [""cg_02"" , ""cg_03"" , ""cg_04"" , ""cg_06""],
+""knowledge"": [""kw_02"" , ""kw_03""]
+}
+} 
+]",,,
+OS_PH_HS_17_01,OS_PH_HS_17,OS_PH_HS,Understanding Diffraction and Interference,"If light passes through smaller openings, often called slits, we can use Huygens’s principle to show that light bends as sound does. The bending of a wave around the edges of an opening or an obstacle is called diffraction. Diffraction is a wave characteristic that occurs for all types of waves. If diffraction is observed for a phenomenon, it is evidence that the phenomenon is produced by waves. Thus, the horizontal diffraction of the laser beam after it passes through slits is evidence that light has the properties of a wave.
+
+When light passes through narrow slits, it is diffracted into semicircular waves. Pure constructive interference occurs where the waves line up crest to crest or trough to trough. Pure destructive interference occurs where they line up crest to trough. The light must fall on a screen and be scattered into our eyes for the pattern to be visible. An analogous pattern for water waves. Note that regions of constructive and destructive interference move out from the slits at well-defined angles to the original beam. Those angles depend on wavelength and the distance between the slits.","[
+{
+""objective"": ""Explain wave behavior of light, including diffraction and interference, including the role of constructive and destructive interference in Young’s single-slit and double-slit experiments"",
+""dimensions"": {
+""cognitive"": [""cg_02"" , ""cg_04"" ],
+""knowledge"": [ ""kw_01"" , ""kw_02""]
+}
+},
+{
+""objective"": Perform calculations involving diffraction and interference, in particular the wavelength of light using data from a two-slit interference pattern"",
+""dimensions"": {
+""cognitive"": [""cg_02"" , ""cg_03"" , ""cg_04""],
+""knowledge"": [""kw_02"" , ""kw_03""]
+}
+}
+]",,,
+OS_PH_HS_17_02,OS_PH_HS_17,OS_PH_HS,"Applications of Diffraction, Interference, and Coherence","Application in a process called, light amplification by stimulated emission of radiation i.e. laser. Laser beams are directional, very intense, and narrow (only about 0.5 mm in diameter). These properties lead to a number of applications in industry and medicine.
+
+If we pass light through a large number of evenly-spaced parallel slits. Such an arrangement of slits is called a diffraction grating. A diffraction grating can be manufactured by scratching glass with a sharp tool to form a number of precisely positioned parallel lines, which act like slits. Diffraction gratings work both for transmission of light and for reflection of light, as on the butterfly wings or the Australian opal or the CD pictured in the opening illustration. In addition to their use as novelty items, diffraction gratings are commonly used for spectroscopic dispersion and analysis of light.
+
+","[
+{
+""objective"": ""Explain behaviors of waves, including reflection, refraction, diffraction, interference, and coherence, and describe applications based on these behaviors"",
+""dimensions"": {
+""cognitive"": [""cg_02"" , ""cg_03"" , ""cg_04"" ],
+""knowledge"": [ ""kw_01"" , ""kw_02"" , ""kw_03""]
+}
+},
+{
+""objective"": ""Perform calculations related to applications based on wave properties of light"",
+""dimensions"": {
+""cognitive"": [""cg_02"" , ""cg_03"" , ""cg_04""],
+""knowledge"": [""kw_02"" , ""kw_03""]
+}
+}
+]",,,
+OS_PH_HS_18_01,OS_PH_HS_18,OS_PH_HS,"Electrical Charges, Conservation of Charge, and Transfer of Charge","Electric charge is a fundamental physical property that exists in positive and negative forms, following the principle of conservation where it cannot be created or destroyed. Charges of the same sign repel while opposite charges attract, and they can move freely through conductors but not insulators. Objects can acquire charge through contact, conduction, or induction, and while polarized objects maintain overall neutrality, they exhibit unbalanced charge distribution.","[
+{
+""objective"": ""Describe and apply the work-energy theorem"",
+""dimensions"": {
+""cognitive"": [
+""cg_02"",
+""cg_03""
+],
+""knowledge"": [
+""kw_02"",
+""kw_03"",
+""kw_04""
+]
+}
+},
+{
+""objective"": ""Use conservation of charge to calculate quantities of charge transferred between objects"",
+""dimensions"": {
+""cognitive"": [
+""cg_02"",
+""cg_03""
+],
+""knowledge"": [
+""kw_02"",
+""kw_03"",
+""kw_04""
+]
+}
+},
+{
+""objective"": ""Characterize materials as conductors or insulators based on their electrical properties"",
+""dimensions"": {
+""cognitive"": [
+""cg_02"",
+""cg_03"",
+""cg_04""
+],
+""knowledge"": [
+""kw_02"",
+""kw_03""
+]
+}
+},
+{
+""objective"": ""Describe electric polarization and charging by induction"",
+""dimensions"": {
+""cognitive"": [
+""cg_01"",
+""cg_02""
+],
+""knowledge"": [
+""kw_02"",
+""kw_03""
+]
+}
+}
+]","[
+""NCERT_PH_12_01_01"",
+""NCERT_PH_12_01_02"",
+""NCERT_PH_12_01_03"",
+""NCERT_PH_12_01_04""
+]",,
+OS_PH_HS_18_02,OS_PH_HS_18,OS_PH_HS,Coulomb's law,"Coulomb's law quantifies the electrostatic force between charged particles as an inverse square relationship, where the force is proportional to the product of the charges and inversely proportional to the square of the distance between them. The sign of the calculated force indicates whether it is attractive (negative) or repulsive (positive).","[
+{
+""objective"": ""Describe Coulomb’s law verbally and mathematically"",
+""dimensions"": {
+""cognitive"": [
+""cg_02"",
+""cg_03""
+],
+""knowledge"": [
+""kw_02"",
+""kw_03"",
+""kw_04""
+]
+}
+},
+{
+""objective"": ""Solve problems involving Coulomb’s law"",
+""dimensions"": {
+""cognitive"": [
+""cg_03"",
+""cg_04""
+],
+""knowledge"": [
+""kw_02"",
+""kw_03"",
+""kw_04""
+]
+}
+}
+]","[
+""NCERT_PH_12_01_05"",
+""NCERT_PH_12_01_06""
+]",,
+OS_PH_HS_18_03,OS_PH_HS_18,OS_PH_HS,Electric Field,"The electric field represents the force per unit charge in space around a charge distribution, decreasing inversely with distance for point charges or uniform spheres. Electric field lines never intersect, with their density indicating field strength. These lines originate from positive charges and terminate at negative charges.","[
+{
+""objective"": ""Calculate the strength of an electric field"",
+""dimensions"": {
+""cognitive"": [
+""cg_03"",
+""cg_04""
+],
+""knowledge"": [
+""kw_02"",
+""kw_03"",
+""kw_04""
+]
+}
+},
+{
+""objective"": ""Create and interpret drawings of electric fields"",
+""dimensions"": {
+""cognitive"": [
+""cg_04"",
+""cg_05"",
+""cg_06""
+],
+""knowledge"": [
+""kw_02"",
+""kw_03"",
+""kw_04""
+]
+}
+}
+]","[
+""NCERT_PH_12_01_07"",
+""NCERT_PH_12_01_08"",
+""NCERT_PH_12_01_09"",
+""NCERT_PH_12_01_10"",
+""NCERT_PH_12_01_12""
+]",,
+OS_PH_HS_18_04,OS_PH_HS_18,OS_PH_HS,Electric Potential,"Electric potential is analogous to gravitational potential energy, representing the potential energy per unit charge. It is measured between two points, with positive charges naturally moving from high to low potential regions and negative charges moving in the opposite direction.","[
+{
+""objective"": ""Explain the similarities and differences between electric potential energy and gravitational potential energy"",
+""dimensions"": {
+""cognitive"": [
+""cg_01"",
+""cg_02"",
+],
+""knowledge"": [
+""kw_01"",
+""kw_02"",
+]
+}
+},
+{
+""objective"": ""Calculate the electric potential difference between two point charges and in a uniform electric field"",
+""dimensions"": {
+""cognitive"": [
+""cg_03"",
+""cg_04""
+],
+""knowledge"": [
+""kw_02"",
+""kw_03"",
+""kw_04""
+]
+}
+}
+]","[
+""NCERT_PH_12_02_02"",
+""NCERT_PH_12_02_03"",
+""NCERT_PH_12_02_05"",
+""NCERT_PH_12_02_07""
+]",,
+OS_PH_HS_18_05,OS_PH_HS_18,OS_PH_HS,Capacitors and Dielectrics,"Capacitors are devices whose capacitance depends solely on their geometry and material composition, independent of voltage. They store electrical energy in the electric field between their plates. The introduction of a dielectric material, an insulator that becomes polarized in an electric field, between the plates increases the capacitor's capacitance.","[
+{
+""objective"": ""Calculate the energy stored in a charged capacitor and the capacitance of a capacitor"",
+""dimensions"": {
+""cognitive"": [
+""cg_03"",
+""cg_04""
+],
+""knowledge"": [
+""kw_02"",
+""kw_03"",
+""kw_04""
+]
+}
+},
+{
+""objective"": ""Explain the properties of capacitors and dielectrics"",
+""dimensions"": {
+""cognitive"": [
+""cg_01"",
+""cg_02"",
+],
+""knowledge"": [
+""kw_01"",
+""kw_02"",
+]
+}
+}
+]","[
+""NCERT_PH_12_02_10"",
+""NCERT_PH_12_02_11"",
+""NCERT_PH_12_02_13""
+]",,
+OS_PH_HS_19_01,OS_PH_HS_19,OS_PH_HS,Ohm's Law,"Resistance is a description of how much a wire or other electrical component opposes the flow of charge through it. In the 19th century, the German physicist Georg Simon Ohm (1787–1854) found experimentally that current through a conductor is proportional to the voltage drop across a current-carrying conductor.
+The constant of proportionality is the resistance R of the material, which leads to V= RI
+This relationship is called Ohm’s law. It can be viewed as a cause-and-effect relationship, with voltage being the cause and the current being the effect. Ohm’s law is an empirical law like that for friction, which means that it is an experimentally observed phenomenon. The units of resistance are volts per ampere, or V/A. We call a V/A an ohm, which is represented by the uppercase Greek letter omega.","[
+{
+""objective"": ""Describe how current is related to charge and time, and distinguish between direct current and alternating current"",
+""dimensions"": {
+""cognitive"": [""cg_02"" , ""cg_04"" ],
+""knowledge"": [ ""kw_01"" , ""kw_02""]
+}
+},
+{
+""objective"": ""Define resistance and verbally describe Ohm’s law"",
+""dimensions"": {
+""cognitive"": [""cg_02"" , ""cg_04""],
+""knowledge"": [""kw_01"" , ""kw_02""]
+}
+},
+{
+""objective"": ""Calculate current and solve problems involving Ohm’s law"",
+""dimensions"": {
+""cognitive"": [""cg_02"" , ""cg_03"" , ""cg_04""],
+""knowledge"": [""kw_02"" , ""kw_03""]
+}
+} 
+]",,,
+OS_PH_HS_19_02,OS_PH_HS_19,OS_PH_HS,Series Circuits,"Components connected in series are connected one after the other in the same branch of a circuit. An equivalent resistor is a resistor that has the same resistance as the combined resistance of a set of other resistors. According to Ohm’s law, the voltage drop V across a resistor when a current flows through it is V=IR where I is the current in amperes (A) and R is the resistance in ohms.","[
+{
+""objective"": ""Interpret circuit diagrams and diagram basic circuit elements"",
+""dimensions"": {
+""cognitive"": [""cg_02"" , ""cg_04"" , ""cg_06"" ],
+""knowledge"": [ ""kw_01"" , ""kw_02""]
+}
+},
+{
+""objective"": ""Calculate equivalent resistance of resistors in series and apply Ohm’s law to resistors in series and apply Ohm’s law to resistors in series"",
+""dimensions"": {
+""cognitive"": [""cg_02"" , ""cg_03"" , ""cg_04""],
+""knowledge"": [""kw_02"" , ""kw_03""]
+}
+}
+]",,,
+OS_PH_HS_19_03,OS_PH_HS_19,OS_PH_HS,Parallel Circuits,"Resistors are in parallel when both ends of each resistor are connected directly together. The tops of the resistors are all connected to the same wire, so the voltage at the top of the each resistor is the same. Likewise, the bottoms of the resistors are all connected to the same wire, so the voltage at the bottom of each resistor is the same. This means that the voltage drop across each resistor is the same. In this case, the voltage drop is the voltage rating V of the battery, because the top and bottom wires connect to the positive and negative terminals of the battery, respectively. Although the voltage drop across each resistor is the same, we cannot say the same for the current running through each resistor. 
+
+The equivalent resistance for these three resistors must be less than the smallest of the three resistors. To understand this, imagine that the smallest resistor is the only path through which the current can flow. Now add on the alternate paths by connecting other resistors in parallel. Because the current has more paths to go through, the overall resistance (i.e., the equivalent resistance) will decrease. Therefore, the equivalent resistance must be less than the smallest resistance of the parallel resistors.","[
+{
+""objective"": ""Interpret circuit diagrams with parallel resistors"",
+""dimensions"": {
+""cognitive"": [""cg_02"" , ""cg_04"" ],
+""knowledge"": [ ""kw_01"" , ""kw_02""]
+}
+},
+{
+""objective"": ""Calculate equivalent resistance of resistor combinations containing series and parallel resistors"",
+""dimensions"": {
+""cognitive"": [""cg_02"" , ""cg_03"" , ""cg_04""],
+""knowledge"": [""kw_02"" , ""kw_03""]
+}
+}
+]",,,
+OS_PH_HS_19_04,OS_PH_HS_19,OS_PH_HS,Electric Power,"Power is the rate at which energy of any type is transferred; electric power is the rate at which electric energy is transferred in a circuit. The electric power is voltage times current. Ohm’s law gives the current: I= V/R , which we can insert into the equation for electric power to obtain P= VI = V(squared)/R
+This gives the power in terms of only the voltage and the resistance.
+We can also use Ohm’s law to eliminate the voltage in the equation for electric power and obtain an expression for power in terms of just the current and the resistance. If we write Ohm’s law as V=IR and use this to eliminate V in the equation P=IV , we obtain
+P=IV= I(squared)R.
+","[
+{
+""objective"": ""Define electric power and describe the electric power equation"",
+""dimensions"": {
+""cognitive"": [""cg_02"" , ""cg_04"" ],
+""knowledge"": [ ""kw_01"" , ""kw_02""]
+}
+},
+{
+""objective"": ""Calculate electric power in circuits of resistors in series, parallel, and complex arrangements"",
+""dimensions"": {
+""cognitive"": [""cg_02"" , ""cg_03"" , ""cg_04""],
+""knowledge"": [""kw_02"" , ""kw_03""]
+}
+}
+]",,,
+OS_PH_HS_20_01,OS_PH_HS_20,OS_PH_HS,"Magnetic Fields, Field Lines, and Force","Magnetic fields are regions around magnets where magnetic forces are exerted. They have field lines that represent the direction of the magnetic force, with lines emanating from the north pole and curving toward the south pole. When two magnets interact, like poles repel, while opposite poles attract. Moving charged particles in a magnetic field experience a force, determined by the right-hand rule. Electric currents generate magnetic fields, and electromagnets are created by passing current through wire loops.","[
+{
+""objective"": ""Summarize properties of magnets and describe how some nonmagnetic materials can become magnetized"",
+""dimensions"": {
+""cognitive"": [
+""cg_01"",
+""cg_02""
+],
+""knowledge"": [
+""kw_01"",
+""kw_02"",
+""kw_03""
+]
+}
+},
+{
+""objective"": ""Describe and interpret drawings of magnetic fields around permanent magnets and current-carrying wires"",
+""dimensions"": {
+""cognitive"": [
+""cg_02"",
+""cg_03"",
+""cg_04""
+],
+""knowledge"": [
+""kw_02"",
+""kw_03""
+]
+}
+},
+{
+""objective"": ""Calculate the magnitude and direction of magnetic force in a magnetic field and the force on a current-carrying wire in a magnetic field"",
+""dimensions"": {
+""cognitive"": [
+""cg_03"",
+""cg_04""
+],
+""knowledge"": [
+""kw_02"",
+""kw_03"",
+""kw_04""
+]
+}
+}
+]",,,
+OS_PH_HS_20_02,OS_PH_HS_20,OS_PH_HS,"Motors, Generators, and Transformers","Electric motors use wire loops in a magnetic field, where current induces rotation. The current direction is reversed every half rotation to maintain consistent torque. Electric generators convert mechanical energy into electrical energy by rotating wire loops in a magnetic field, generating AC voltage. Transformers consist of two wire windings around a magnetic ring. A changing current in one winding induces voltage in the second winding, with the voltage ratio determined by the number of loops. Transformers step up or step down voltage for efficient power transmission.","[
+{
+""objective"": ""Explain how electric motors, generators, and transformers work"",
+""dimensions"": {
+""cognitive"": [
+""cg_01"",
+""cg_02"",
+],
+""knowledge"": [
+""kw_01"",
+""kw_02"",
+]
+}
+},
+{
+""objective"": ""Explain how commercial electric power is produced, transmitted, and distributed"",
+""dimensions"": {
+""cognitive"": [
+""cg_01"",
+""cg_02"",
+],
+""knowledge"": [
+""kw_01"",
+""kw_02"",
+]
+}
+}
+]",,,
+OS_PH_HS_20_03,OS_PH_HS_20,OS_PH_HS,Electromagnetic Induction,"Electromagnetic induction is the process where a changing magnetic flux through a conducting loop induces an electric current. Faraday’s law of induction explains this phenomenon, stating that the change in magnetic flux within the loop generates the current. Lenz's law further explains that the induced current flows in a direction that opposes the change in magnetic flux, effectively resisting the cause of its induction. These principles are fundamental to technologies like electric generators and transformers.","[
+{
+""objective"": ""Explain how a changing magnetic field produces a current in a wire"",
+""dimensions"": {
+""cognitive"": [
+""cg_01"",
+""cg_02"",
+],
+""knowledge"": [
+""kw_01"",
+""kw_02"",
+]
+}
+},
+{
+""objective"": ""Calculate induced electromotive force and current"",
+""dimensions"": {
+""cognitive"": [
+""cg_03"",
+""cg_04""
+],
+""knowledge"": [
+""kw_02"",
+""kw_03"",
+""kw_04""
+]
+}
+}
+]",,,

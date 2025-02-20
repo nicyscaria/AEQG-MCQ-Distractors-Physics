@@ -1966,3 +1966,79 @@ OS_PH_HS_09_03_10,OS_PH_HS_09_03,OS_PH_HS_09,OS_PH_HS,Efficiency of Simple Machi
     ""Using sandpaper to reduce a plank's roughness is like improving machine efficiencyâ€”it smooths surfaces for better performance."",
     ""A well-maintained sewing machine is like a sharp knifeâ€”it does the job efficiently with minimal effort.""
 ]",,
+OS_PH_HS_20_03_02,OS_PH_HS_20_03,OS_PH_HS_20,OS_PH_HS,Induced Electromotive Force,"Electromagnetic induction involves the generation of electromotive force (emf) in a conductor when exposed to changing magnetic fields. While initially misinterpreted as a force, emf actually represents the energy per unit charge added by a source, distinct from voltage which is the energy released per unit charge in a circuit. This phenomenon occurs when there's a change in the magnetic flux - the product of the magnetic field strength, area, and the cosine of the angle between the field and the surface normal vector.
+
+The induced emf follows Faraday's law of induction, which states that the magnitude of emf is proportional to the rate of change of magnetic flux through a conductor, with Lenz's law determining its direction. For a coil with N loops, the emf is proportional to the number of loops and the rate of change of the magnetic flux. According to Lenz's law, the induced current flows in a direction that creates a magnetic field opposing the change in magnetic flux, following the principle of energy conservation.","{
+""internal"": [
+""Electric Fields"",
+""Electric Current"",
+""Magnetism and Magnetic Fields"",
+""Conservation of Energy""
+],
+""external"": {
+""mathematics"": [
+""Differentiation"",
+""Vector Products"",
+""Trigonometry""
+],
+""chemistry"": [
+""Electron Configuration"",
+""Metallic Bonding""
+]
+}
+}","{
+""emf_definition"": {
+""equation"": ""$$\epsilon = \frac{\text{energy per unit charge}}{\text{current}}$$"",
+""variables"": {
+""_"": ""electromotive force (Volts)"",
+""energy"": ""energy drawn from source (Joules)"",
+""charge"": ""electric charge (Coulombs)"",
+""current"": ""current flowing through circuit (Amperes)""
+}
+},
+""magnetic_change"": {
+""equation"": ""$$\epsilon _ \frac{ÆB}{Æt}$$"",
+""variables"": {
+""_"": ""induced electromotive force (Volts)"",
+""ÆB"": ""change in magnetic field strength (Tesla)"",
+""Æt"": ""change in time (seconds)""
+}
+},
+""faraday_law"": {
+""equation"": ""$$\epsilon = -N\frac{Æ_}{Æt}$$"",
+""variables"": {
+""_"": ""induced electromotive force (Volts)"",
+""N"": ""number of turns in coil"",
+""Æ_"": ""change in magnetic flux (Weber)"",
+""Æt"": ""change in time (seconds)""
+}
+}
+}","[
+""Only moving magnets can create electricity"",
+""Bigger magnets always produce more electricity"",
+""Electricity is created instantly when a magnet moves"",
+""The wire must be touching the magnet to generate electricity"",
+""Only copper wires can generate induced EMF"",
+""The faster you move the magnet, the more voltage you'll always get""
+]","[
+""Electric generators"",
+""Bicycle dynamo lights"",
+""Electric guitar pickups"",
+""Wireless phone chargers"",
+""Kitchen induction stoves"",
+""Credit card readers""
+]","[
+""Energy conversion in daily life"",
+""Renewable energy generation"",
+""Simple machines and movement"",
+""Magnetic effects in nature"",
+""Basic electrical circuits"",
+""Motion and energy relationships""
+]","[
+""Like pedaling a bike to power its light, moving a magnet near a wire creates electrical energy"",
+""Just as wind turns a windmill to make energy, moving magnets near coils generates electricity"",
+""Similar to pushing someone on a swing, the energy you put into moving a magnet becomes electrical energy"",
+""Like a water wheel converting flowing water to mechanical energy, moving magnets convert motion to electrical energy"",
+""Just as rubbing hands together creates heat, relative motion between magnets and coils creates electricity"",
+""Like a seesaw converting up and down motion to rotating motion, changing magnetic fields convert motion to electricity""
+]",,

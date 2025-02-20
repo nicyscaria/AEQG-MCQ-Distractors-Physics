@@ -1,0 +1,160 @@
+prompts:
+  topic_identifier_prompt: |
+          Analyze user input and identify the physics topic mentioned in the input. Do not return the input text.
+          For example:
+          - "Create questions about velocity" -> "velocity"
+          - "Explain displacement" -> "displacement"
+          
+          Return only the identified physics topic name as given in the input.
+          
+          Make sure not to add anything extra to the output.
+
+
+  topic_identification_conceptmap_prompt: |
+          You are a hierarchical topic matching expert. Find the most relevant topic from the available list.
+
+          Topic to match: {topic_of_interest}
+
+          Available topics:
+          {topics}
+
+          Instructions:
+          
+          Match the topic by considering:
+              - Exact matches
+              - Parent concepts that encompass the given topic
+              - Fundamental principles that explain or govern the topic
+              - Related physical phenomena or laws that include this topic
+              
+              For example:
+                  - "inertia" should match with "Newton's First Law of Motion"
+                  - "weight" should match with "Newton's Second Law of Motion"
+                  - "action-reaction" should match with "Newton's Third Law of Motion"
+          
+          Return ONLY the exact matching topic_ID as it is without adding additional space without any additional information.
+
+          If you find more than one matching topic, return the one that comes first.
+
+          If none match well, return 'NO_MATCH'.
+
+
+  llm_prompt: |
+          Create one multiple choice question for {skill} level of Bloom's taxonomy for a {grade}th grade Physics student in India on {topic}.
+
+          Requirements:
+          Student should only be able to answer if they've mastered the concept
+          Each distractor must address either: A specific misconception about {topic} 
+          or A prerequisite knowledge gap
+          Language and complexity suitable for {grade}th grade student
+          Physics context and application
+
+          Format as the output as a JSON: 
+          
+          {output_format_generation}
+
+          For {skill} level, ensure: {skill_requirement}
+
+          Make sure there are no additional information being other than the output in the format that is asked for.
+
+          Since you are not capable of creating images, ensure the question does not reference any image. The question should be fully self-contained
+
+
+  rag_prompt: |
+          Create one multiple choice question for {skill} level of Bloom's taxonomy for a {grade}th grade Physics student in India on {topic}.
+
+          Requirements:
+          Student should only be able to answer if they've mastered the concept
+          Each distractor must address either: A specific misconception about {topic} 
+          or A prerequisite knowledge gap
+          Language and complexity suitable for {grade}th grade student
+          Physics context and application
+          
+          Use {context} for accuracy in creating the questions and distractors.
+
+          Format as the output as a JSON:
+          
+          {output_format_generation}
+
+          For {skill} level, ensure: {skill_requirement}
+
+          Make sure there are no additional information being other than the output in the format that is asked for.
+
+          Since you are not capable of creating images, ensure the question does not reference any image. The question should be fully self-contained.
+
+
+  conceptmap_prompt: |
+          Create one multiple choice question for {skill} level of Bloom's taxonomy for a 9th grade Physics student in India on {topic}. 
+
+          Use {context} for accuracy in creating the questions and distractors. 
+
+          Specifically use information from the prerequisites, misconceptions, engineering_applications, cross_cutting_topics, analogies for the generation.
+          
+          Make sure you don't specify the topic in the question, like 'according to Newton's first law of motion' or 'according to work-energy theorem'.
+
+          Requirements:
+
+          - Student should only be able to answer if they've mastered the concept"
+          - Each distractor must address either: 
+              - A specific misconception about {topic} 
+              - A prerequisite knowledge gap"
+          - Language and complexity suitable for {grade}th grade student
+          - Unique question, don't generate questions that are in or similar to questions in question history - {question_history}
+          - Accurate answer and not ambiguous
+          - Physics context and application
+
+          Make sure to include the question, answer, distractors, misconceptions, and explanation in the output in a JSON format.
+          
+          Output format:
+          
+          {output_format_generation}
+          
+          For {skill} level, ensure that the question meets the skill requirement: {skill_requirement}.
+
+          Make sure there are no additional information being other than the output in the format that is asked for.
+
+
+  conceptmap_evaluation_prompt: |
+          Evaluate the question meticulously:
+
+          Question to evaluate:
+          {question}
+
+          Evaluate the question based on the following criteria:
+          
+          1. Uniqueness Check:
+            - Compare with previous questions: {previous_questions}
+            - If there are no previous questions, mark as unique
+            - Check for similar concepts, context, or wording
+            - Verify different application/scenario
+            
+          2. Answer Check:
+              - Correct answer must be unique and accurate
+              - Explanation must be clear and concise
+              
+          If the question give a unique question that is not present before and the right answer for the question among the options, return a JSON object with "valid": true. 
+          
+          Otherwise, return a JSON object with "valid": false in the format:
+          
+          {output_format_evaluation}
+          
+          Make sure there are no additional information being other than the output in the format that is asked for.
+
+
+  conceptmap_fix_prompt: |
+          "uniqueness": """
+            Current question has uniqueness issue: {question}
+            Previous questions: {previous_questions}
+            
+            Create new {skill} level question about {topic} that is distinctly different.
+            Must use exact JSON format as current question.
+            """,
+            
+            "answer": """
+            Question with answer issue: {question}
+            
+            Modify only:
+            1. Correct answer option
+            2. Correct answer explanation
+            
+            Return in same JSON format with only these changes."""
+

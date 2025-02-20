@@ -227,9 +227,9 @@ def main():
     
     # Initialize generator
     generator = TestGenerator(
-        '/home/nicyscaria/mcq_distractors/datasets/Part3/ConceptMap_Part3.csv',
-        '/home/nicyscaria/mcq_distractors/datasets/Part3/LLM_Part3.csv',
-        '/home/nicyscaria/mcq_distractors/datasets/Part3/RAG_Part3.csv'
+        'path_to_csv',
+        'path_to_csv',
+        'path_to_csv'
     )
     
     # Generate tests

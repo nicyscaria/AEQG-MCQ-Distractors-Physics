@@ -1,0 +1,14 @@
+skills:
+  list:
+    - Remember
+    - Understand
+    - Apply
+    - Analyze
+    - Evaluate
+  
+  requirements:
+    Remember: "Question tests ability to retrieve relevant knowledge from long-term memory."
+    Understand: "Question tests ability to construct meaning from instructional messages."
+    Apply: "Question tests ability to carry out or use a procedure in a given situation."
+    Analyze: "Question tests ability to break material into foundational parts."
+    Evaluate: "Question tests ability to make judgments based on criteria and standards."

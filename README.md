@@ -22,9 +22,9 @@ Generating high-quality multiple choice questions (MCQs), especially those targe
 │   └── QS_RAG.ipynb
 ├── src/
 │   ├── constants/
-│   │   └── skill.py           # Skill-related constants
+│   │   └── skill.py            # Skill-related constants
 │   ├── question_generators/
-│   │   ├── base.py            # Abstract base class for generators
+│   │   ├── base.py             # Abstract base class for generators
 │   │   ├── conceptmap_generator.py
 │   │   ├── llm_generator.py
 │   │   └── rag_generator.py
@@ -35,8 +35,8 @@ Generating high-quality multiple choice questions (MCQs), especially those targe
 │       └── topic_identifier.py
 ├── LICENSE
 ├── README.md
-├── main.py                   # Main entry point
-└── requirements.txt          # Project dependencies
+├── main.py                    # Main entry point
+└── requirements.txt           # Project dependencies
 ```
 
 ## Setup

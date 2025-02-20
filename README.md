@@ -38,3 +38,50 @@ Generating high-quality multiple choice questions (MCQs), especially those targe
 ├── main.py                   # Main entry point
 └── requirements.txt          # Project dependencies
 ```
+
+## Setup
+
+1. **Clone the Repository**
+   ```bash
+   git clone [repository-url]
+   cd [repository-name]
+   ```
+
+2. **Install Dependencies**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. **Environment Setup**
+   - Create a `.env` file with:
+     ```
+     DB_NAME=your_db_name
+     DB_USER=your_db_user
+     DB_PASSWORD=your_db_password
+     DB_HOST=your_db_host
+     DB_PORT=your_db_port
+     TOGETHER_API_KEY=your_api_key
+     ```
+
+4. **Database Setup**
+   - Set up PostgreSQL database
+   - Import concept map data
+   - Run schema migrations
+
+5. **Vector Store Setup** (for RAG)
+   - OpenStax textbook embedding available in data
+
+## Usage
+
+Run the generation script:
+```bash
+python3 main.py #give the input when prompted
+```
+
+## Configuration
+
+Adjust settings in the config files:
+- `configs/model_config.yaml`: Model parameters
+- `configs/prompt_config.yaml`: Generation prompts
+- `configs/output_config.yaml`: Output formats
+- `configs/skill_config.yaml`: Skill requirements

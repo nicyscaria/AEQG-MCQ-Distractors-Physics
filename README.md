@@ -6,25 +6,25 @@ Generating high-quality multiple choice questions (MCQs), especially those targe
 ## Project Structure
 
 ```
-├── books/                      # Textbook used
-├── configs/                    # Configuration files
-│   ├── config.yaml             # General configuration
-│   ├── model_config.yaml       # Model-specific settings
-│   ├── output_config.yaml      # Output format specifications
-│   ├── prompt_config.yaml      # Prompt templates
-│   └── skill_config.yaml       # Bloom's taxonomy skill definitions
+├── books/                            # Textbook used
+├── configs/                          # Configuration files
+│   ├── config.yaml                   # General configuration
+│   ├── model_config.yaml             # Model-specific settings
+│   ├── output_config.yaml            # Output format specifications
+│   ├── prompt_config.yaml            # Prompt templates
+│   └── skill_config.yaml             # Bloom's taxonomy skill definitions
 ├── data/
-│   ├── chroma_db_huggingface/  # Vector store for RAG
-│   └── concept_map/            # Concept map database
-├── notebooks/                  # Jupyter notebooks for development and testing
+│   ├── chroma_db_huggingface/        # Vector store for RAG
+│   └── concept_map/                  # Concept map database
+├── notebooks/                        # Jupyter notebooks for MCQ generation and testing easily
 │   ├── QS_ConceptMap.ipynb
 │   ├── QS_LLM.ipynb
 │   └── QS_RAG.ipynb
 ├── src/
 │   ├── constants/
-│   │   └── skill.py            # Skill-related constants
+│   │   └── skill.py                  # Skill-related constants
 │   ├── question_generators/
-│   │   ├── base.py             # Abstract base class for generators
+│   │   ├── base.py                   # Abstract base class for generators
 │   │   ├── conceptmap_generator.py
 │   │   ├── llm_generator.py
 │   │   └── rag_generator.py
@@ -35,8 +35,8 @@ Generating high-quality multiple choice questions (MCQs), especially those targe
 │       └── topic_identifier.py
 ├── LICENSE
 ├── README.md
-├── main.py                    # Main entry point
-└── requirements.txt           # Project dependencies
+├── main.py                          # Main file to run all the experiments
+└── requirements.txt                 # Project dependencies
 ```
 
 ## Setup

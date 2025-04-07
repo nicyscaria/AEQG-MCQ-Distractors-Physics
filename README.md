@@ -95,7 +95,7 @@ These concept maps are derivative works based on material from the OpenStax Phys
 
 ### Source Attribution
 - **Original Material:** OpenStax Physics textbook
-- **URL:** https://openstax.org/books/physics/pages/1-introduction
+- **URL:** https://openstax.org/books/physics/
 - **Original Material Available at:** https://www.texasgateway.org/book/tea-physics
 - **License:** Creative Commons Attribution License
 - **Authors:** Paul Peter Urone, Roger Hinrichs

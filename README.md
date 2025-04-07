@@ -85,3 +85,32 @@ Adjust settings in the config files:
 - `configs/prompt_config.yaml`: Generation prompts
 - `configs/output_config.yaml`: Output formats
 - `configs/skill_config.yaml`: Skill requirements
+
+## Important Usage Restriction
+⚠️ **This material may not be used in the training of large language models or otherwise be ingested into large language models or generative AI offerings without OpenStax's permission.**
+
+## Attribution and Citation
+
+These concept maps are derivative works based on material from the OpenStax Physics textbook.
+
+### Source Attribution
+- **Original Material:** OpenStax Physics textbook
+- **URL:** https://openstax.org/books/physics/pages/1-introduction
+- **Original Material Available at:** https://www.texasgateway.org/book/tea-physics
+- **License:** Creative Commons Attribution License
+- **Authors:** Paul Peter Urone, Roger Hinrichs
+- **Publisher:** OpenStax
+- **Publication Date:** Mar 26, 2020
+
+### Academic Citation
+When citing our work in academic publications, please include the following citation too:
+
+**APA Format:**
+```
+Urone, P. P., & Hinrichs, R. (2020). Physics. OpenStax. https://openstax.org/books/physics/
+```
+
+### License Notice
+The concept maps and derivative works in this repository are licensed under the Creative Commons Attribution License. Changes and adaptations have been made to the original material.
+
+For complete license terms, please see the [LICENSE.md](LICENSE.md) file in this repository.

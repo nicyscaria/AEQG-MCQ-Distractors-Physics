@@ -113,4 +113,4 @@ Urone, P. P., & Hinrichs, R. (2020). Physics. OpenStax. https://openstax.org/boo
 ### License Notice
 The concept maps and derivative works in this repository are licensed under the Creative Commons Attribution License. Changes and adaptations have been made to the original material.
 
-For complete license terms, please see the [LICENSE.md](LICENSE.md) file in this repository.
+For complete license terms, please see the [LICENSE.md](https://github.com/nicyscaria/AEQG-MCQ-Distractors-Physics/blob/main/LICENSE) file in this repository.

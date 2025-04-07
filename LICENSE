@@ -1,21 +1,43 @@
-MIT License
-
 Copyright (c) 2025 Nicy Scaria
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+## Attribution and License Terms
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+These concept maps are derivative works based on the OpenStax Physics textbook, which is licensed under the Creative Commons Attribution License (CC BY 4.0).
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+### Original Source Information
+- **Title:** Physics
+- **Authors:** Paul Peter Urone, Roger Hinrichs
+- **Publisher:** OpenStax
+- **Publication Date:** Mar 26, 2020
+- **Location:** Houston, Texas
+- **Book URL:** https://openstax.org/books/physics/
+- **Original Material URL:** https://www.texasgateway.org/book/tea-physics
+
+### License Terms
+
+This repository are licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0), which means you are free to:
+
+- **Share** — copy and redistribute the material in any medium or format
+- **Adapt** — remix, transform, and build upon the material for any purpose, even commercially
+
+Under the following terms:
+
+- **Attribution** — You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
+
+### Required Attribution Format
+
+If you redistribute all or part of these concept maps in a print format, then you must include on every physical page the following attribution:
+> Based on OpenStax Physics. Access for free at https://openstax.org/books/physics/
+
+If you redistribute all or part of these concept maps in a digital format, then you must include on every digital page view the following attribution:
+> Based on OpenStax Physics. Access for free at https://openstax.org/books/physics/
+
+### Important Usage Restriction
+
+**This material may not be used in the training of large language models or otherwise be ingested into large language models or generative AI offerings without OpenStax's permission.** This restriction applies to both the original OpenStax content and any derivative works in this repository.
+
+If you intend to use this content for AI training purposes, you must obtain explicit permission directly from OpenStax.
+
+### For the full text of the Creative Commons Attribution 4.0 International License
+
+Please visit: https://creativecommons.org/licenses/by/4.0/legalcode

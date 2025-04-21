@@ -4,7 +4,6 @@ from sqlalchemy import create_engine, text
 from dotenv import load_dotenv
 import json
 
-# Load environment variables from .env file
 load_dotenv()
 
 # Database connection parameters
@@ -14,13 +13,11 @@ PASSWORD = os.getenv('DB_PASSWORD')
 HOST = os.getenv('DB_HOST')
 PORT = os.getenv('DB_PORT')
 
-# Create a connection string
 connection_string = f"postgresql://{USER}:{PASSWORD}@{HOST}:{PORT}/{DATABASE}"
 
 # Create a SQLAlchemy engine
 engine = create_engine(connection_string)
 
-# csv_path = os.getenv('CSV_PATH')
 csv_path = "path_to_csv_file"
 
 def get_table_structure(table_name):

@@ -53,20 +53,17 @@ class RAGQuestionGenerator(BaseQuestionGenerator):
             if not os.path.exists(persistent_directory):
                 print(f"Current working directory: {project_root}")
                 raise ValueError(f"Vector store directory {persistent_directory} does not exist")
-            
-            # Create vector store instance
+
             db = Chroma(
                 persist_directory=persistent_directory,
                 embedding_function=self.embedding_function,
             )
-            
-            # Get retriever with specific search parameters
+
             retriever = db.as_retriever(
                 search_type="similarity",
                 search_kwargs={"k": self.top_k}
             )
             
-            # Get documents
             documents = retriever.invoke(query)
             
             if not documents:
@@ -82,17 +79,6 @@ class RAGQuestionGenerator(BaseQuestionGenerator):
         except Exception as e:
             print(f"Error querying vector store: {str(e)}")
             return ""
-        
-        # retriever = db.as_retriever(
-        #     search_type="similarity",
-        #     search_kwargs={"k": self.top_k},
-        # )
-        
-        # documents = retriever.invoke(query)
-        # # Combine all retrieved documents into a single context string
-        # context = " ".join(doc.page_content for doc in documents)
-        
-        # return context
 
     def generate_question(self, topic: str, skill: str, output_format_generation: str, grade: int, context: Optional[str] = None) -> Optional[Dict]:
         """
@@ -100,7 +86,7 @@ class RAGQuestionGenerator(BaseQuestionGenerator):
         Uses retrieved context to enhance question generation.
         """
         try:
-            # If context wasn't provided, retrieve it
+
             if not context:
                 context = self._query_vector_store(topic)
                 print(f"Context retrieved for {skill}")

@@ -53,7 +53,7 @@ class LLMQuestionGenerator(BaseQuestionGenerator):
             print(f"Error generating question for {skill}: {str(e)}")
             return None
         
-
+# example generation directly here
 # if __name__ == "__main__":
     
 #     config_loader = ConfigLoader()
@@ -63,8 +63,4 @@ class LLMQuestionGenerator(BaseQuestionGenerator):
     
 #     # Each generator only needs to implement its specific parts
 #     llm_gen = LLMQuestionGenerator(config_loader)
-#     # rag_gen = RAGQuestionGenerator(config_loader)
-    
-#     # The common logic is handled by the base class
 #     llm_results = llm_gen.generate_all_questions(topic, grade = 9)
-#     # rag_results = rag_gen.generate_all_questions("work-energy theorem")

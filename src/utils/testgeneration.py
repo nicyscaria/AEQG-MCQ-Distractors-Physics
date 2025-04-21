@@ -7,7 +7,7 @@ from typing import List, Dict, Set, Tuple, Optional
 class TestGenerator:
     def __init__(self, method1_path: str, method2_path: str, method3_path: str, output_dir: str = 'generated_tests'):
         """Initialize the test generator with input files and output directory."""
-        # Read CSV files and add method information
+
         self.method1_df = pd.read_csv(method1_path)
         self.method1_df['method'] = 'Method 1'
         
@@ -23,10 +23,8 @@ class TestGenerator:
         self.tests: List[Dict] = []
         self.output_dir = output_dir
         
-        # Create output directory
         os.makedirs(output_dir, exist_ok=True)
         
-        # Skills
         self.bloom_levels = ['Remember', 'Understand', 'Apply', 'Analyze', 'Evaluate']
         
         # Dictionary to track used topic-skill combinations per test
@@ -129,10 +127,7 @@ class TestGenerator:
         for i, test in enumerate(self.tests, 1):
             test_df = self.convert_test_to_dataframe(test, i)
             
-            # Save individual test
             test_df.to_csv(os.path.join(self.output_dir, f'test_{i}.csv'), index=False)
-            
-            # Add to combined DataFrame
             all_tests_df = pd.concat([all_tests_df, test_df])
         
         # Save combined tests
@@ -225,20 +220,16 @@ def main():
     # Set random seed for reproducibility (optional)
     random.seed(42)
     
-    # Initialize generator
     generator = TestGenerator(
         'path_to_csv',
         'path_to_csv',
         'path_to_csv'
     )
     
-    # Generate tests
     generator.generate_all_tests(15)
     
-    # Save tests
     generator.save_tests()
     
-    # Save unused questions with statistics
     generator.save_unused_questions()
     
     print(f"\nSuccessfully generated {len(generator.tests)} tests")

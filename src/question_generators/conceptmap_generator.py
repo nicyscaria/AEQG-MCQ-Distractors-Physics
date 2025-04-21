@@ -73,7 +73,6 @@ class ConceptMapFixer:
                     skill=question["skill"]  # Added skill from question
                 )
             else:
-                # Other issues including answer problems
                 prompt = self.fix_prompt.format(
                     question=json.dumps(question),
                     evaluation=json.dumps(evaluation),
@@ -93,22 +92,18 @@ class ConceptMapQuestionGenerator(BaseQuestionGenerator):
     
     def _initialize_components(self):
         """Initialize all components."""
-        # Load environment variables
         load_dotenv()
         
-        # Initialize LLM
         self.llm = ChatTogether(
             model=self.model_config['model'],
             temperature=self.model_config['temperature']['generation_temperature']
         )
         
-        # Initialize database connection
         self.db = SQLDatabase.from_uri(
             f"postgresql://{os.getenv('DB_USER')}:{os.getenv('DB_PASSWORD')}@"
             f"{os.getenv('DB_HOST')}:{os.getenv('DB_PORT')}/{os.getenv('DB_NAME')}"
         )
         
-        # Initialize components
         self.generator = ConceptMapGenerator(
             self.llm,
             self.prompt_config['prompts']['conceptmap_prompt']
@@ -124,10 +119,8 @@ class ConceptMapQuestionGenerator(BaseQuestionGenerator):
             self.prompt_config['prompts']['conceptmap_fix_prompt']
         )
         
-        # Initialize topic matcher
         self.topic_matcher_template = self.prompt_config['prompts']['topic_identification_conceptmap_prompt']
-        
-        # Track generated questions
+
         self.generated_questions = []
     
     def needs_context(self) -> bool:

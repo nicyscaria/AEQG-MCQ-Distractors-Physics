@@ -53,6 +53,7 @@ class ConfigLoader:
                 f"Error parsing {filename}: {str(e)}"
             )
 
+# test case for direct implementation within the code
 # if __name__ == "__main__":
     
 #     config_loader = ConfigLoader()

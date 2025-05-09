@@ -114,9 +114,15 @@ These concept maps are derivative works based on material from the OpenStax Phys
 ```
 When citing our work in academic publications, please include the following citation too:
 
-**APA Format:**
-```
-Urone, P. P., & Hinrichs, R. (2020). Physics. OpenStax. https://openstax.org/books/physics
+```bibtex
+@book{urone_hinrichs_2020,
+  author    = {Urone, Paul Peter and Hinrichs, Roger},
+  title     = {Physics},
+  publisher = {OpenStax},
+  address   = {Houston, Texas},
+  year      = {2020},
+  url       = {https://openstax.org/books/physics}
+}
 ```
 
 ### License Notice

@@ -103,6 +103,15 @@ These concept maps are derivative works based on material from the OpenStax Phys
 - **Publication Date:** Mar 26, 2020
 
 ### Academic Citation
+
+```
+@article{scaria2025harnessing,
+  title={Harnessing Structured Knowledge: A Concept Map-Based Approach for High-Quality Multiple Choice Question Generation with Effective Distractors},
+  author={Scaria, Nicy and Kennedy, Silvester John Joseph and Seth, Diksha and Thakur, Ananya and Subramani, Deepak},
+  journal={arXiv preprint arXiv:2505.02850},
+  year={2025}
+}
+```
 When citing our work in academic publications, please include the following citation too:
 
 **APA Format:**

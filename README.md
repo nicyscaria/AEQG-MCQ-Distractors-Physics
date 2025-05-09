@@ -104,7 +104,7 @@ These concept maps are derivative works based on material from the OpenStax Phys
 
 ### Academic Citation
 
-```
+```bibtex
 @article{scaria2025harnessing,
   title={Harnessing Structured Knowledge: A Concept Map-Based Approach for High-Quality Multiple Choice Question Generation with Effective Distractors},
   author={Scaria, Nicy and Kennedy, Silvester John Joseph and Seth, Diksha and Thakur, Ananya and Subramani, Deepak},
